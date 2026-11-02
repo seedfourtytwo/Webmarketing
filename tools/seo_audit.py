@@ -63,7 +63,7 @@ def main():
         b = rk[d]
         res = audit(d)
         if not res: continue
-        rows.append(dict(name=b["name"], sector=b["sector"], domain=d, phone=b["phone"], email=b["email"], tier=b["tier"],
+        rows.append(dict(name=b["name"], sector=b["sector"], domain=d, tier=b["tier"],
                          reviews=b["reviews"], **res))
         print(len(rows), b["name"], res["seo_score"], flush=True)
     rows.sort(key=lambda x: -x["seo_score"])
@@ -71,10 +71,10 @@ def main():
     w.writeheader(); w.writerows(rows)
     with open("SEO.md", "w", encoding="utf-8") as f:
         f.write("# SEO quick-win leads (sites that are decent but under-optimised)\n\nPassive checks of public homepage, robots.txt, sitemap.xml.\n\n"
-                "| Score | Business | Sector | Site | Phone | Email | Suggested fixes |\n|---|---|---|---|---|---|---|\n")
+                "| Score | Business | Sector | Site | Suggested fixes |\n|---|---|---|---|---|\n")
         for x in rows:
             if x["seo_score"] >= 5:
-                f.write(f"| {x['seo_score']} | {x['name']} | {x['sector']} | {x['domain']} | {x['phone']} | {x['email'][:40]} | {x['fixes']} |\n")
+                f.write(f"| {x['seo_score']} | {x['name']} | {x['sector']} | {x['domain']} | {x['fixes']} |\n")
     print(len(rows), "audited;", sum(1 for x in rows if x["seo_score"] >= 5), "with score >= 5")
 
 

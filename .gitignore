@@ -1,0 +1,7 @@
+# contact details and raw API output stay local
+data/contacts_private.csv
+data/site_contacts.csv
+data/places.csv
+data/places_partial.jsonl
+data/businesses_v2.csv
+__pycache__/
