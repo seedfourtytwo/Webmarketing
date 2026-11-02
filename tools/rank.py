@@ -16,6 +16,7 @@ HIGH = ["accountant", "lawyer", "notary", "real estate", "dentist", "medical gro
 LOW = ["hair", "barber", "tattoo", "florist", "photograph", "bakery", "yoga", "gym", "dietitian", "pet",
        "jewel", "bookshop", "clothes", "gifts", "beauty", "ganterie", "charcut", "butcher", "wine", "painter"]
 LODGING = ["hotel", "gîte", "chambres", "camping", "spa/hotel", "auberge"]
+SCRUB = re.compile(r"(?:\+33|0)\s?[1-9](?:[\s.\-]?\d{2}){4}|[\w.+-]+@[\w-]+\.[\w.]+")
 RISK = re.compile(r"negative equity|acquired|struck off|call.?centre|lead.?gen|unrelated personal|not a real local", re.I)
 
 
@@ -43,7 +44,12 @@ def main():
         flags = []
         a = aud.get(d)
         if not d:
-            if src.startswith("platform-only"):
+            pt = r.get("presence_type", "")
+            if pt in ("social-only", "directory-only"):
+                need, status = 5, f"no own site ({pt.replace('-only', '')} presence only; deep-searched)"
+            elif pt == "none-found":
+                need, status = 6, "no site found after deep search (still verify by phone/visit)"
+            elif src.startswith("platform-only"):
                 need, status = 5, "no own site (" + src.split(":", 1)[1] + " only)"
             elif src == "none-on-google":
                 need, status = 6, "no website link on Google listing (NOT yet verified: check before claiming)"
@@ -52,7 +58,7 @@ def main():
             if lodging:
                 need = 2; flags.append("lodging w/o site: likely Booking-dependent by choice")
         elif a is None:
-            need, status = 3, "site not audited"
+            need, status = 3, "site found by deep search; not yet audited" if src == "verified-search" else "site not audited"
         elif a["bucket"] == "A-dead-site":
             need, status = 3, "site blocks research server (US IP); live but not auditable here"
         else:
@@ -66,6 +72,8 @@ def main():
         m = money(r)
         if r["franchise"].strip().lower() in ("yes", "true", "y"):
             m = min(m, 1); flags.append("franchise/chain")
+        if re.search(r"may have closed|liquidation|closed in", r.get("presence_notes", ""), re.I):
+            m = min(m, 1); flags.append("possible closure/liquidation: verify before outreach")
         if RISK.search(r["notes"] + " " + r["evidence"]):
             m = min(m, 1); flags.append("risk flag in notes")
         big = (r["size_hint"].lower().startswith("large") or
@@ -78,7 +86,7 @@ def main():
         c = con.get(d, {})
         out.append(dict(tier=tier, priority=m * 2 + need, name=r["name"], sector=r["sector"], address=r["address"],
                         phone=r["phone"], email=c.get("emails", ""), domain=d, money=m, need=need, status=status,
-                        rating=r["g_rating"], reviews=r["g_reviews"], issues="; ".join(flags), maps=r["g_maps"],
+                        presence=SCRUB.sub("[contact removed]", r.get("presence_notes", ""))[:300], rating=r["g_rating"], reviews=r["g_reviews"], issues="; ".join(flags), maps=r["g_maps"],
                         notes=re.sub(r"(?:\+33|0)\s?[1-9](?:[\s.\-]?\d{2}){4}|[\w.+-]+@[\w-]+\.[\w.]+", "[contact removed]", r["notes"])[:200]))
     out.sort(key=lambda x: (x["tier"], -x["priority"]))
     PRIV = ("phone", "email", "maps")

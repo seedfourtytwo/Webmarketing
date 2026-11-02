@@ -12,7 +12,7 @@ def get(host, path):
     bare = re.sub(r"^www\.", "", host)
     for base in (f"https://www.{bare}", f"https://{bare}"):
         try:
-            r = requests.get(base + path, headers=UA, timeout=8, verify=False)
+            r = requests.get(base + path, headers=UA, timeout=8)
             if r.status_code == 200 and "text/html" in r.headers.get("content-type", ""):
                 return r.text
         except Exception:

@@ -45,7 +45,7 @@ def audit(domain):
         try:
             t = time.time()
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=15, allow_redirects=True,
-                                verify=False)
+                                )
             r["load_s"] = round(time.time() - t, 2)
             break
         except Exception as e:

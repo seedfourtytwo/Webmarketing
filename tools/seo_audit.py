@@ -11,7 +11,7 @@ def fetch(host, path=""):
     bare = re.sub(r"^www\.", "", host)
     for base in (f"https://www.{bare}", f"https://{bare}"):
         try:
-            r = requests.get(base + path, headers=UA, timeout=12, verify=False)
+            r = requests.get(base + path, headers=UA, timeout=12)
             if r.status_code == 200:
                 return r
         except Exception:

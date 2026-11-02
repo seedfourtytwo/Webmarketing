@@ -5,3 +5,8 @@ data/places.csv
 data/places_partial.jsonl
 data/businesses_v2.csv
 __pycache__/
+data/shots/
+data/design_metrics.json
+data/verify_nosite_*.csv
+data/verify_input_*.csv
+data/verified_presence.csv
