@@ -1,127 +1,228 @@
 name,sector,domain,bucket,score,issues,generator,copyright_year,load_s
-Roy & Associés,accountant,royetassocies.com,OK-low-priority,4,missing security headers (5/5); outdated PHP 7.4 exposed,All in One SEO (AIOSEO) 4.5.2.1,,2.13
-Brengues Expertise,accountant,brenguesexpertise.fr,OK-low-priority,1,missing security headers (4/5),IONOS MyWebsite,,1.43
-Rubio & Associés,accountant,rubio-associes.fr,OK-low-priority,4,missing security headers (4/5); old WordPress 5.6.23,WordPress 5.6.23,,0.83
-Ô Conseils,accountant,oconseils.fr,C-design,4,missing security headers (5/5); legacy HTML (font/center/flash),WordPress 7.1.4,,1.28
-Underkult,it_web_comm,underkult.com,OK-low-priority,1,missing security headers (4/5),,,1.12
-Rif Informatique,it_web_comm,rif-informatique.fr,OK-low-priority,1,missing security headers (5/5),WebAcappellaFusion 4.1.5 SP4 PRO,,1.08
-Arnal Pompes Funèbres,funeral,pf-arnal-millau.fr,OK-low-priority,1,site alive (script false negative); acquired by Funecap 2024 per agent,,,
-Turbo 12 auto-école,driving_school,autoecole-millau-staffrique-turbo12.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.61
-École de Conduite Millavoise,driving_school,ecoledeconduitemillavoise.fr,OK-low-priority,0,,,2025,1.75
-Maison Fabre Ganterie,ganterie,maisonfabre.com,C-design,3,missing security headers (5/5); stale copyright 2021,,2021,2.72
-Causse Gantier,ganterie,causse-gantier.fr,A-dead-site,6,site unreachable,,,
-L'Atelier du Gantier,ganterie,atelierdugantier.fr,OK-low-priority,0,,"Powered by Creative Slider 6.6.9 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Module for PrestaShop.",2026,1.81
-Centre de santé dentaire mutualiste Millau (Altriane),dentist,altriane.fr,OK-low-priority,1,missing security headers (5/5),,,2.53
-Pharmacie du Viaduc,pharmacy,pharmacieduviaduc-millau.elsie-sante.fr,OK-low-priority,0,,,,1.73
-Roques Immobilier,real estate,roques-immobilier.com,OK-low-priority,1,missing security headers (5/5),levant,2026,2.06
-Arthurimmo Millau,real estate,millau-arthurimmo.com,OK-low-priority,3,outdated PHP 8.0 exposed,,,2.41
-JMB Immobilier,real estate,jmb-immobilier.com,OK-low-priority,1,missing security headers (4/5),,2026,1.79
-AGN Avocats Millau,lawyer,agn-avocats.fr,OK-low-priority,1,missing security headers (5/5),WordPress 7.1.4,,2.16
-Gan Assurances Millau - Cros Antoine et Mathieu,insurance,agence.gan.fr,OK-low-priority,0,,,,1.42
-Generali - Aurélie Lemoine,insurance,generali.fr,OK-low-priority,0,,,,1.6
-Hôtel du Commerce,hotel,hotelducommerce.fr,OK-low-priority,1,missing security headers (4/5),Web Thaïs,2026,0.86
-Hôtel des Causses,hotel,hoteldescausses.com,OK-low-priority,0,,,2026,0.9
-Hôtel La Capelle,hotel,hotel-millau-capelle.com,OK-low-priority,1,missing security headers (5/5),,,2.01
+Roy & Associés,accountant,royetassocies.com,OK-low-priority,4,missing security headers (5/5); outdated PHP 7.4 exposed,All in One SEO (AIOSEO) 4.5.2.1,,2.09
+Brengues Expertise,accountant,b-e.fr,A-dead-site,6,site unreachable,,,
+Rubio & Associés,accountant,rubio-associes.fr,OK-low-priority,4,missing security headers (4/5); old WordPress 5.6.23,WordPress 5.6.23,,0.9
+Ô Conseils,accountant,oconseils.fr,C-design,4,missing security headers (5/5); legacy HTML (font/center/flash),WordPress 7.1.4,,1.33
+LC2B,accountant,2b-construction-bois.com,B-tech/security,7,missing security headers (5/5); outdated PHP 7.4 exposed; legacy HTML (font/center/flash),WordPress 6.7.11,2026,2.08
+Barascud Expertise Comptable,accountant,barascud-expert.fr,A-dead-site,6,site unreachable,,,
+Conseil et Expertise du Sud,accountant,sec.li,OK-low-priority,4,missing security headers (5/5); outdated PHP 7.4 exposed,All in One SEO (AIOSEO) 4.5.2.1,,0.77
+Eric Bertrand architecte,architect,ebarchi.fr,C-design,9,missing security headers (5/5); no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page,,,0.61
+Malaval André Électricité,electrician,electricitemillau.fr,OK-low-priority,1,missing security headers (5/5),WordPress 7.0.8,,1.6
+SCP Fourcadier-Alves / GE Ingénierie,surveyor,geometre-expert-ingenierie-aveyron.fr,OK-low-priority,2,missing security headers (4/5); no meta description (SEO),,2026,2.43
+ACE Jaudon Sébastien (SAS),surveyor,geometre-expert-jaudon.fr,B-tech/security,5,outdated PHP 7.4 exposed; stale copyright 2020,WordPress 7.1.4,2020,0.98
+Ingéoc,engineering,ingeoc.com,OK-low-priority,0,,,2026,2.25
+Ouallet SARL,engineering,sarlouallet.com,OK-low-priority,0,,,2026,1.92
+Solianz,consulting,conseil-pilotage-entreprise.fr,OK-low-priority,2,missing security headers (4/5); no meta description (SEO),,2026,2.49
+Underkult,it_web_comm,underkult.com,OK-low-priority,1,missing security headers (4/5),,,1.04
+Well Comm',it_web_comm,wellcomm-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.58
+E2 communication,it_web_comm,e2-communication.com,OK-low-priority,0,,Wix.com Website Builder,,1.01
+Rif Informatique,it_web_comm,rif-informatique.fr,OK-low-priority,1,missing security headers (5/5),WebAcappellaFusion 4.1.5 SP4 PRO,,0.58
+Oui Informatique,it_web_comm,oui-informatique.fr,OK-low-priority,1,missing security headers (5/5),LWS SiteBuilder,,0.81
+Jubil Travail Temporaire,hr_temp,jubil.fr,OK-low-priority,0,,,,1.68
+Aquila RH Millau,hr_temp,aquila-rh.com,OK-low-priority,3,missing security headers (5/5); old jQuery 1.10,,,0.83
+Arnal Pompes Funèbres,funeral,arnal-pompes-funebres.fr,A-dead-site,6,site unreachable,,,
+Pompes Funèbres Ginesty,funeral,pf-ginesty.fr,OK-low-priority,1,missing security headers (5/5),,,0.75
+Pompes Funèbres Orts,funeral,pompes-funebres-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,2.05
+Funéraire Service,funeral,pf-arnal-millau.fr,A-dead-site,6,site unreachable,,,
+Nouvelles Frontières Millau,travel,voyagespassion.fr,OK-low-priority,0,,,,1.45
+Turbo 12 auto-école,driving_school,autoecole-millau-staffrique-turbo12.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.93
+École de Conduite Millavoise,driving_school,ecoledeconduitemillavoise.fr,OK-low-priority,0,,,2025,1.53
+Ecole de Conduite Eric Colrat,driving_school,ericcolrat.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.68
+C.E.R Millau,driving_school,cerfossemale.fr,OK-low-priority,0,,,2026,1.34
+Actions Formations,training,actionsevaluations.fr,OK-low-priority,0,,WordPress 7.1,,2.69
+Millau Enseignement Supérieur (CNAM),training,cnam-millau.fr,C-design,6,missing security headers (5/5); no mobile viewport (not responsive); no meta description (SEO),,2026,3.15
+Maison Fabre Ganterie,ganterie,maisonfabre.com,C-design,3,missing security headers (5/5); stale copyright 2021,,2021,1.65
+Causse Gantier,ganterie,caussegantier.com,OK-low-priority,0,,,2026,1.15
+L'Atelier du Gantier,ganterie,atelierdugantier.fr,OK-low-priority,0,,"Powered by Creative Slider 6.6.9 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Module for PrestaShop.",2026,1.82
+Julien d'Orcel Millau,jeweller,juliendorcel.com,B-tech/security,5,no meta description (SEO); HTTP 403,,,0.36
+Philippe Guibbal,jeweller,creationsbijouxmillau.fr,OK-low-priority,1,missing security headers (4/5),,2026,2.61
+Or-Aveyron,jeweller,aveyron-or.fr,C-design,4,missing security headers (5/5); legacy HTML (font/center/flash),WordPress 7.1.4,,1.42
+Excel Coiffure,hairdresser,salon.excel-coiffure.com,OK-low-priority,0,,,,1.34
+Jean Vallon,hairdresser,jeanvallon.com,C-design,4,missing security headers (5/5); stale copyright 2010; no meta description (SEO),,2010,2.44
+Antinella Esthétique et Spa,beauty institute/spa,antinella-esthetique-millau.com,OK-low-priority,0,,Wix.com Website Builder,,0.82
+Mill'eau Balnéo,spa,massage-millau.fr,OK-low-priority,1,missing security headers (5/5),MyWebsite NOW,,1.7
+Couvent de la Salette & Spa,spa/hotel,la-salette.fr,OK-low-priority,1,missing security headers (4/5),WordPress 7.1.4,,1.48
+L'Instant Beauté Zen,beauty institute,instantbeautezen.com,OK-low-priority,0,,,2026,2.04
+Centre Esthétique Karine,beauty institute,lisabrusque.com,OK-low-priority,0,,Wix.com Website Builder,2025,0.8
+Le Chardon / Tata Pik,tattoo,paradisdasie.com,B-tech/security,9,missing security headers (5/5); no meta description (SEO); very thin / placeholder page; HTTP 503,,,1.06
+Lion Fitness Club Millau,gym,lion-fitness-club.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),Divi v.4.9.2,,1.82
+Yoga Millau Ananda,yoga,yoga-millau.org,OK-low-priority,0,,,2026,1.34
+Grenouille Citrouille & Co,yoga,cocoricook-millau.com,OK-low-priority,0,,Wix.com Website Builder,,0.87
+Librairie Syllabes,bookshop,librairiesyllabes.com,OK-low-priority,1,missing security headers (5/5),,2026,2.84
+Catherine André,clothes,catherineandre.com,OK-low-priority,0,,,2026,1.33
+Larzac Boul'vard (Le Couteau du Larzac),gifts/cutlery,couteau-du-larzac.com,C-design,9,missing security headers (5/5); no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page,,,0.45
+La Ferme d'Ambias,charcuterie/cheese,ferme-ambias.fr,OK-low-priority,1,missing security headers (5/5),"Elementor 4.3.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto",,3.17
+Charcuterie du Viala,charcuterie,saucisse-seche.fr,OK-low-priority,0,,,2026,1.42
+La Côte Millavoise,butcher/charcuterie,boucherie-albat.com,OK-low-priority,1,missing security headers (4/5),,2026,1.91
+Inter Caves,wine shop,millau.intercaves.fr,OK-low-priority,0,,Wix.com Website Builder,,1.44
+Galzin - Les Pains du Larzac,bakery,galzin.fr,OK-low-priority,1,missing security headers (5/5),WordPress 7.1.3,,2.29
+Studio Martin,photographer,studiomartin.fr,OK-low-priority,4,missing security headers (5/5); outdated PHP 8.0 exposed,WordPress 7.1.4,,2.07
+Millau Activités Nature,"outdoor (climbing, rando-rappel)",millau-activites-nature.fr,C-design,4,missing security headers (5/5); legacy HTML (font/center/flash),"Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto",,1.06
+Camara Jamme,photographer,camara.net,OK-low-priority,0,,,,1.69
+Ambre et Compagnie,pet grooming,ambreetcie-toilettagemillau.com,OK-low-priority,1,missing security headers (5/5),,,0.61
+Centre de santé dentaire mutualiste Millau (Altriane),dentist,altriane.fr,OK-low-priority,1,missing security headers (5/5),,,2.43
+Cabinet dentaire Benoît Barthélemy,dentist,orthodontie-millau.fr,OK-low-priority,1,no meta description (SEO),,2026,0.36
+Cabinet dentaire Florent Assier,dentist,dr-assier-florent.chirurgiens-dentistes.fr,B-tech/security,7,missing security headers (5/5); outdated PHP 8.0 exposed; stale copyright 2015; no meta description (SEO),Divi v.4.21.0,2015,2.33
+Cabinet d'ostéopathie Michael Gauffre,osteopath,oosteo.com,B-tech/security,5,missing security headers (5/5); old jQuery 1.12; stale copyright 2014,,2014,0.63
+Cabinet kiné David Ricard,physio,kinenext.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),WordPress 7.1.3,,1.32
+Cabinet kiné Arnaud Vayssettes,physio,charmettesmillau.com,OK-low-priority,0,,Infomaniak Site Creator,2024,0.8
+Amandine Baptiste diététicienne,dietitian,madiet.net,OK-low-priority,1,missing security headers (5/5),,,0.89
+Sophrologues avenue de la République (Jouve / Combettes),sophrology/hypnosis,emiliecharrysophrologie.fr,B-tech/security,5,no meta description (SEO); HTTP 403,,,0.82
+Fanny Isolphe sophrologue,sophrology,sophrologue-isolphe-millau.fr,A-dead-site,6,site unreachable,,,
+Optic 2000 Millau,optician,optimium-opticien.jimdofree.com,OK-low-priority,1,missing security headers (4/5),Jimdo Creator,,0.72
+Atol Millau,optician,magasins.atol.fr,OK-low-priority,0,,,2026,0.83
+Optical Center Millau,optician/audio,opticien.optical-center.fr,OK-low-priority,0,,,2026,0.99
+Krys Audition Millau,audioprothésiste,krys.com,OK-low-priority,0,,Planet Unified Commerce,,1.46
+Amplifon Millau,audioprothésiste,amplifon.com,OK-low-priority,0,,,,1.71
+Audilab Millau,audioprothésiste,audilab.fr,OK-low-priority,0,,,,1.98
+Atelier Auditif Millau,audioprothésiste,atelier-auditif.fr,OK-low-priority,1,missing security headers (4/5),WordPress 6.8.12,2025,0.64
+Écouter Voir Audition Mutualiste,audioprothésiste,magasins.ecoutervoir.fr,OK-low-priority,0,,,,1.46
+Clinique vétérinaire Les Acanthes,veterinarian,sevetys.fr,OK-low-priority,0,,,,1.07
+Véto d'Oc,veterinarian (small ruminants),cliniquedesgrandscausses.fr,OK-low-priority,1,missing security headers (5/5),,,1.14
+Pharmacie du Viaduc,pharmacy,pharmacieduviaduc-millau.elsie-sante.fr,OK-low-priority,0,,,,1.63
+Pharmacie La Capelle,pharmacy,pharmacielacapelle.ceido.com,OK-low-priority,0,,,2026,1.56
+Roques Immobilier,real estate,roques-immobilier.com,OK-low-priority,1,missing security headers (5/5),levant,2026,2.05
+Agence Immo des Causses,real estate,millau-arthurimmo.com,OK-low-priority,3,outdated PHP 8.0 exposed,,,2.51
+Cabinet JL Immobilier des Grands Causses,real estate,jmb-immobilier.com,OK-low-priority,1,missing security headers (4/5),,2026,1.51
+Century 21 Foch Immobilier,real estate,century21fochimmobilier1.com,OK-low-priority,1,missing security headers (5/5),,,2.36
+Katia Angles Vaissettes (agent immobilier),real estate,angles-immobilier.com,A-dead-site,6,site unreachable,,,
+Immo de France Sud Massif Central,real estate,procivis.fr,OK-low-priority,0,,,,1.46
+SGA Immobilier,real estate,sga-immobilier.com,OK-low-priority,2,missing security headers (4/5); no meta description (SEO),,,2.13
+Agence Lieure,real estate,lieure.com,OK-low-priority,1,missing security headers (5/5),ventura,2026,1.74
+AGN Avocats Millau,lawyer,agn-avocats.fr,OK-low-priority,1,missing security headers (5/5),WordPress 7.1.4,,1.83
+Me Aymeric Boyer,lawyer,consultation.avocat.fr,OK-low-priority,3,missing security headers (4/5); old jQuery 1.10,,,1.04
+Lexiance Avocats,lawyer,lexelians.com,OK-low-priority,1,missing security headers (5/5),,2026,1.11
+Gan Assurances Millau - Cros Antoine et Mathieu,insurance,agence.gan.fr,OK-low-priority,0,,,,1.12
+Generali - Aurélie Lemoine,insurance,generali.fr,OK-low-priority,0,,,,1.36
+Allianz Millau (second agency),insurance,agence.allianz.fr,B-tech/security,16,missing security headers (5/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO); very thin / placeholder page; HTTP 404,,,0.89
+AXA Alain Fangeaud,insurance,agence.axa.fr,OK-low-priority,0,,,2026,0.54
+BRU Assurances (MMA),insurance,agence.mma.fr,C-design,5,no mobile viewport (not responsive); no meta description (SEO),,,0.53
+Aviva - agent général,insurance,agences.abeille-assurances.fr,OK-low-priority,0,,,,0.38
+BL Courtage Millau,broker,millau.blcourtage.fr,OK-low-priority,1,missing security headers (5/5),BL Courtage Millau 2.0 v.2.1,2026,2.5
+Hôtel du Commerce,hotel,hotelducommerce.fr,OK-low-priority,1,missing security headers (4/5),Web Thaïs,2026,1.34
+Hôtel des Causses,hotel,hoteldescausses.com,OK-low-priority,0,,,2026,1.15
+Hôtel La Capelle,hotel,hotel-millau-capelle.com,OK-low-priority,1,missing security headers (5/5),,,1.74
 Hôtel des Voyageurs,hotel,hotel-voyageurs-millau.com,A-dead-site,6,site unreachable,,,
-Cévenol Hôtel - Le Pot d'Etain,hotel+restaurant,cevenol-hotel.fr,OK-low-priority,4,missing security headers (5/5); outdated PHP 8.0 exposed,WordPress 7.1.4,,0.64
-"Le Point de Vue (restaurant, Domaine Saint Estève)",restaurant,dsemillau.com,OK-low-priority,1,missing security headers (4/5),,2026,2.01
-Château de Creissels,hotel+restaurant,chateau-de-creissels.com,OK-low-priority,1,missing security headers (5/5),,,1.83
-Bowling Hôtel Millau (Cit'Hôtel),hotel+restaurant+event,hotelbowlingdemillau.fr,C-design,2,stale copyright 2021,Joomla! - Open Source Content Management,2021,1.34
-Brit Hôtel Essentiel Millau,hotel,millau.brithotel.fr,OK-low-priority,1,missing security headers (4/5),,,0.74
-Hôtel de la Muse et du Rozier,hotel,hotel-delamuse.com,OK-low-priority,1,missing security headers (5/5),All in One SEO (AIOSEO) 4.6.3,,2.09
-Hôtel de la Poste (La Cavalerie),hotel+restaurant,hotel-larzac.com,C-design,3,missing security headers (4/5); stale copyright 2020,Joomla! - Open Source Content Management,2020,2.34
+Cévenol Hôtel - Le Pot d'Etain,hotel+restaurant,cevenol-hotel.fr,OK-low-priority,4,missing security headers (5/5); outdated PHP 8.0 exposed,WordPress 7.1.4,,1.73
+Domaine Saint Estève,hotel/event venue,dsemillau.com,OK-low-priority,1,missing security headers (4/5),,2026,1.62
+"Le Point de Vue (restaurant, Domaine Saint Estève)",restaurant,sejour-seminaire-aveyron.com,OK-low-priority,1,missing security headers (4/5),,2026,2.21
+Château de Creissels,hotel+restaurant,chateau-de-creissels.com,OK-low-priority,1,missing security headers (5/5),,,2.43
+Bowling Hôtel Millau (Cit'Hôtel),hotel+restaurant+event,hotelbowlingdemillau.fr,C-design,2,stale copyright 2021,Joomla! - Open Source Content Management,2021,1.23
+Brit Hôtel Essentiel Millau,hotel,millau.brithotel.fr,OK-low-priority,1,missing security headers (4/5),,,0.8
+Hôtel de la Muse et du Rozier,hotel,hotel-delamuse.com,OK-low-priority,1,missing security headers (5/5),All in One SEO (AIOSEO) 4.6.3,,2.13
+Hôtel de la Poste (La Cavalerie),hotel+restaurant,hotel-larzac.fr,C-design,3,missing security headers (4/5); stale copyright 2020,Joomla! - Open Source Content Management,2020,2.1
 Auberge Le Cévenol (La Cavalerie),hotel+restaurant,auberge-le-cevenol.com,B-tech/security,5,no meta description (SEO); HTTP 403,,,1.62
-Camping Le Millau Plage,camping,campingmillauplage.fr,C-design,2,stale copyright 2015,Divi Enfant par Incomm v.1.05,2015,1.86
-Restaurant 2 Rivières,restaurant,camping2rivieresmillau.fr,OK-low-priority,0,,,2026,2.27
-Camping Les Erables,camping,campingleserables.fr,OK-low-priority,0,,Divi Enfant par Incomm v.1.05,,1.85
-Camping Le Saint Lambert,camping,campingmillau.fr,OK-low-priority,0,,,2026,1.45
-Val Saint Georges (camping chalets + chambres d'hôtes),camping/chambre d'hôtes,valstgeorges.fr,OK-low-priority,1,missing security headers (4/5),performance-lab 4.2.0; plugins: ,2026,0.91
-Au Jeu de Paume,restaurant,aujeudepaume-millau.com,OK-low-priority,1,missing security headers (5/5),,,0.61
-Bistro Les Arcades,restaurant,restaurant-les-arcades.fr,C-design,2,stale copyright 2020,Wix.com Website Builder,2020,0.55
-Maison Seed,restaurant,maisonseed.fr,OK-low-priority,1,missing security headers (5/5),"Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",2024,2.81
-Le Phileas Fogg,restaurant,restaurantphileasfogg.fr,A-dead-site,6,domain redirects to unrelated personal site (geoffreysebille.fr),,,
-Le Sahuc (restaurant + chambres),restaurant/chambres,lesahuc-restaurant.fr,OK-low-priority,1,missing security headers (5/5),,,1.79
-Roc et Canyon,"outdoor (canoe, climbing, VTT)",roc-et-canyon.com,OK-low-priority,1,missing security headers (5/5),divi Child v.4.27.5.1770926291,,1.35
-Les Bateliers du Viaduc (Evolution 2 canoë),outdoor (canoe),bateliersduviaduc.com,OK-low-priority,0,,Wix.com Website Builder,,0.7
-Evolution 2 Millau - Parapente,outdoor (paragliding),evolution2.com,OK-low-priority,0,,,,1.15
-Horizon Millau,"outdoor (paragliding, canyon, via ferrata)",horizon-millau.com,OK-low-priority,0,,,2025,0.93
-Antipodes,"outdoor (via ferrata, climbing)",antipodes-millau.com,OK-low-priority,2,missing security headers (4/5); no meta description (SEO),,2026,2.09
+Camping Le Millau Plage,camping,campingmillauplage.fr,C-design,2,stale copyright 2015,Divi Enfant par Incomm v.1.05,2015,1.49
+Restaurant 2 Rivières,restaurant,camping2rivieresmillau.fr,OK-low-priority,0,,,2026,2.39
+Camping Les Erables,camping,campingleserables.fr,OK-low-priority,0,,Divi Enfant par Incomm v.1.05,,1.29
+Camping Le Saint Lambert,camping,campingmillau.fr,OK-low-priority,0,,,2026,1.17
+Val Saint Georges (camping chalets + chambres d'hôtes),camping/chambre d'hôtes,valstgeorges.fr,OK-low-priority,1,missing security headers (4/5),performance-lab 4.2.0; plugins: ,2026,1.1
+Au Jeu de Paume,restaurant,aujeudepaume-millau.com,OK-low-priority,1,missing security headers (5/5),,,0.7
+Bistro Les Arcades,restaurant,restaurant-les-arcades.fr,C-design,2,stale copyright 2020,Wix.com Website Builder,2020,0.61
+Maison Seed,restaurant,maisonseed.fr,OK-low-priority,1,missing security headers (5/5),"Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",2024,2.62
+Le Phileas Fogg,restaurant,restaurantphileasfogg.fr,A-dead-site,6,site unreachable,,,
+"Léonie, Cuisine Aveyronnaise",restaurant,leonie.restaurant,OK-low-priority,1,missing security headers (4/5),,2026,2.35
+Côté Marché,restaurant,cotemarche-millau.fr,C-design,5,missing security headers (4/5); no meta description (SEO); very thin / placeholder page,,,1.34
+Ferme Auberge La Tindelle,ferme-auberge,ferme-auberge-la-tindelle.frenchtravelescape.top,OK-low-priority,1,missing security headers (5/5),WordPress 7.1.4,2026,3.03
+Le Sahuc (restaurant + chambres),restaurant/chambres,lesahuc-restaurant.fr,OK-low-priority,1,missing security headers (5/5),,,1.92
+Roc et Canyon,"outdoor (canoe, climbing, VTT)",roc-et-canyon.com,OK-low-priority,1,missing security headers (5/5),divi Child v.4.27.5.1770926291,,1.13
+Les Bateliers du Viaduc (Evolution 2 canoë),outdoor (canoe),bateliersduviaduc.com,OK-low-priority,0,,Wix.com Website Builder,,0.9
+Evolution 2 Millau - Parapente,outdoor (paragliding),evolution2.com,OK-low-priority,0,,,,1.39
+Horizon Millau,"outdoor (paragliding, canyon, via ferrata)",horizon-millau.com,OK-low-priority,0,,,2025,0.78
+Antipodes,"outdoor (via ferrata, climbing)",activites-loisirs-millau.com,OK-low-priority,2,missing security headers (4/5); no meta description (SEO),,2026,2.32
 Nature et Sensations,"outdoor (via ferrata, climbing)",naturesensationsmillau.fr,OK-low-priority,1,missing security headers (5/5),Site Kit by Google 1.190.0,,0.92
-Millau Evasion Parapente,outdoor (paragliding),millau-evasion.com,OK-low-priority,1,missing security headers (5/5),All in One SEO (AIOSEO) 4.9.10,,1.12
-Airzone Parapente,outdoor (paragliding),airzone-parapente.com,OK-low-priority,1,missing security headers (5/5),WordPress 6.9.11,,3.26
-Acrobi Parapente,outdoor (paragliding),acrobi-parapente.com,OK-low-priority,1,missing security headers (5/5),Site Kit by Google 1.190.0,,0.9
-Air Magic Parapente,outdoor (paragliding),air-magic-parapente.com,OK-low-priority,1,missing security headers (5/5),Divi v.4.27.7,,0.89
-Fly Millau Parapente,outdoor (paragliding),flymillauparapente.com,B-tech/security,9,missing security headers (4/5); no meta description (SEO); very thin / placeholder page; HTTP 404,,,0.57
-Tête à l'Env'Air,outdoor (paragliding),tete-a-lenvair.com,OK-low-priority,0,,Wix.com Website Builder,2035,1.0
-Explo Nature Millau Canyoning,outdoor (canyoning),explonature.fr,OK-low-priority,1,missing security headers (5/5),WordPress 6.9.11,,2.43
-Béaba Sport Nature,"outdoor (climbing, canyon)",sportsnature-millau-gorgesdutarn.com,OK-low-priority,1,missing security headers (4/5),,2026,2.13
-Millau Activités Nature,"outdoor (climbing, rando-rappel)",millau-activites-nature.fr,C-design,4,missing security headers (5/5); legacy HTML (font/center/flash),"Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto",,1.07
+Millau Evasion Parapente,outdoor (paragliding),millau-evasion.com,OK-low-priority,1,missing security headers (5/5),All in One SEO (AIOSEO) 4.9.10,,1.0
+Airzone Parapente,outdoor (paragliding),airzone-parapente.com,OK-low-priority,1,missing security headers (5/5),WordPress 6.9.11,,1.56
+Acrobi Parapente,outdoor (paragliding),acrobi-parapente.com,OK-low-priority,1,missing security headers (5/5),Site Kit by Google 1.190.0,,1.07
+Air Magic Parapente,outdoor (paragliding),air-magic-parapente.com,OK-low-priority,1,missing security headers (5/5),Divi v.4.27.7,,1.09
+Fly Millau Parapente,outdoor (paragliding),fly-millau-parapente.com,OK-low-priority,0,,Wix.com Website Builder,,1.27
+Tête à l'Env'Air,outdoor (paragliding),tete-a-lenvair.com,OK-low-priority,0,,Wix.com Website Builder,2035,0.9
+Explo Nature Millau Canyoning,outdoor (canyoning),explonature.fr,OK-low-priority,1,missing security headers (5/5),WordPress 6.9.11,,2.99
+Béaba Sport Nature,"outdoor (climbing, canyon)",beaba-sport-nature.com,OK-low-priority,1,missing security headers (4/5),,2026,2.22
 Vertiguide,outdoor (climbing guide),vertiguide.fr,A-dead-site,6,site unreachable,,,
-Esprit Nature (Aguessac),"outdoor (canyon, climbing, via ferrata)",escapade-espritnature.com,OK-low-priority,1,missing security headers (5/5),WordPress 7.1.4,,1.13
-Deltalib,outdoor (paragliding/delta),deltalib.eu,OK-low-priority,1,missing security headers (5/5),WordPress 7.0.8,2022,2.99
-Les Arts du Vide,outdoor (climbing guide),lesartsduvide.com,OK-low-priority,0,,AccelerateWP 3.23.3.3-1.1-50,2022,1.75
-Causses Émotions,"outdoor (climbing, via ferrata)",causses-emotions.com,C-design,3,stale copyright 2020; no meta description (SEO),Wix.com Website Builder,2020,1.18
-La Belle Cordée,"outdoor (climbing, rando-rappel)",labellecordee.com,OK-low-priority,0,,Wix.com Website Builder,,1.11
-Escal'Adventure,"outdoor (climbing, via ferrata)",escal-adventure.fr,OK-low-priority,0,,,2026,0.59
-Emotion Nature,outdoor (climbing),emotion-nature.fr,C-design,3,missing security headers (5/5); stale copyright 2015,Divi v.4.27.9,2015,1.03
-Nömad Sport Nature,outdoor (via ferrata),nomad-sport-nature.com,OK-low-priority,0,,Wix.com Website Builder,,1.17
-Bureau des Moniteurs Cévennes,"outdoor (climbing, via ferrata)",bureau-des-moniteurs-cevennes.fr,C-design,4,missing security headers (5/5); stale copyright 2018; no meta description (SEO),Redux 4.5.8,2018,2.42
-Le Goût du Vélo,bike rental / tours,legoutduvelo.fr,OK-low-priority,1,missing security headers (5/5),WordPress 7.1.4,,1.71
-Sprocket (atelier vélo / location),bike rental,sprocket.fr,B-tech/security,5,missing security headers (5/5); outdated PHP 7.4 exposed; slow (5.21s),All in One SEO (AIOSEO) 4.7.2,2026,5.21
-Duverbike Bikepark,bike park / rental,bikepark-vtt-millau.com,OK-low-priority,1,missing security headers (4/5),,2026,1.67
-Stade d'Eaux Vives / Parc AquaVagues,outdoor leisure park,sev-millau.fr,OK-low-priority,1,missing security headers (5/5),Site Kit by Google 1.190.0,2026,0.79
-Musée de Millau et des Grands Causses (MuMiG),museum,mumig.fr,C-design,2,stale copyright 1998,TYPO3 CMS,1998,0.98
-Viaduc Expo,visit / exhibition,leviaducdemillau.com,OK-low-priority,1,no meta description (SEO),,,1.27
-La Maison de la Cerise,visit / producer,maisondelacerise.com,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),WordPress 6.9.4,,0.55
-La Maison de la Truffe,visit,syndicattrufficult.wixsite.com,B-tech/security,8,no meta description (SEO); very thin / placeholder page; HTTP 404,,,0.41
-Le Mas Rolland,chambres d'hôtes,le-mas-rolland.com,C-design,3,missing security headers (4/5); stale copyright 2020,Joomla! - Open Source Content Management,2020,1.12
-Les Fréjals,chambres d'hôtes,chambresdhotes-gorgesdutarn.com,OK-low-priority,1,missing security headers (4/5),,2026,1.99
-Chambre d'hôtes Chez Marie,chambres d'hôtes/gîte,gitechezmarie.com,OK-low-priority,3,missing security headers (5/5); old jQuery 2.2,,,1.65
-Les Hauts de Souloumiac,chambres d'hôtes,leshautsdesouloumiac.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),WordPress 7.1.3,2026,0.72
-Villa La Pomarède,chambres d'hôtes,villalapomarede.com,OK-low-priority,1,missing security headers (5/5),WebAcappellaFx (1.5.0) Windows,,0.81
-Le Soleilo,chambres d'hôtes/gîte/spa,lesoleilo.com,OK-low-priority,0,,,2023,2.4
-Les Falaises,chambres d'hôtes,lesfalaises.fr,B-tech/security,10,missing security headers (5/5); no mobile viewport (not responsive); old jQuery 1.9; legacy HTML (font/center/flash),IziSpot 4.60 (www.izispot.com),,0.82
-Domaine de la Cardabelle,gîtes/chambres,domaine-lacardabelle.eu,C-design,9,missing security headers (4/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO),,,0.55
-"La Cachette (cabanes, roulotte)",hébergement insolite,gites-cabanes-spa-aveyron.com,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,2026,2.48
+Esprit Nature (Aguessac),"outdoor (canyon, climbing, via ferrata)",escapade-espritnature.com,OK-low-priority,1,missing security headers (5/5),WordPress 7.1.4,,1.34
+Deltalib,outdoor (paragliding/delta),deltalib.eu,OK-low-priority,1,missing security headers (5/5),WordPress 7.0.8,2022,2.71
+Les Arts du Vide,outdoor (climbing guide),lesartsduvide.com,OK-low-priority,1,slow (4.71s),AccelerateWP 3.23.3.3-1.1-50,2022,4.71
+Causses Émotions,"outdoor (climbing, via ferrata)",causses-emotions.com,C-design,3,stale copyright 2020; no meta description (SEO),Wix.com Website Builder,2020,1.13
+La Belle Cordée,"outdoor (climbing, rando-rappel)",labellecordee.com,OK-low-priority,0,,Wix.com Website Builder,,1.1
+Escal'Adventure,"outdoor (climbing, via ferrata)",escal-adventure.fr,OK-low-priority,0,,,2026,0.45
+Emotion Nature,outdoor (climbing),emotion-nature.fr,C-design,3,missing security headers (5/5); stale copyright 2015,Divi v.4.27.9,2015,1.02
+Nömad Sport Nature,outdoor (via ferrata),nomad-sport-nature.com,OK-low-priority,0,,Wix.com Website Builder,,1.06
+Bureau des Moniteurs Cévennes,"outdoor (climbing, via ferrata)",bureau-des-moniteurs-cevennes.fr,C-design,4,missing security headers (5/5); stale copyright 2018; no meta description (SEO),Redux 4.5.8,2018,2.33
+La Place du Vélo,bike shop / rental,laplaceduvelo.com,OK-low-priority,1,no meta description (SEO),WordPress 7.1.4,,1.3
+Sprocket (atelier vélo / location),bike rental,sprocket.fr,OK-low-priority,4,missing security headers (5/5); outdated PHP 7.4 exposed,All in One SEO (AIOSEO) 4.7.2,2026,1.31
+Duverbike Bikepark,bike park / rental,duverbike.com,OK-low-priority,1,missing security headers (4/5),,2026,2.02
+Stade d'Eaux Vives / Parc AquaVagues,outdoor leisure park,parc-aquavagues-millau.fr,C-design,2,stale copyright 1998,TYPO3 CMS,1998,1.42
+Musée de Millau et des Grands Causses (MuMiG),museum,museedemillau.fr,C-design,2,stale copyright 1998,TYPO3 CMS,1998,1.38
+Viaduc Expo,visit / exhibition,leviaducdemillau.com,OK-low-priority,1,no meta description (SEO),,,1.32
+La Maison de la Cerise,visit / producer,maisondelacerise.com,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),WordPress 6.9.4,,0.64
+La Maison de la Truffe,visit,syndicattrufficult.wixsite.com,B-tech/security,8,no meta description (SEO); very thin / placeholder page; HTTP 404,,,0.37
+Le Mas Rolland,chambres d'hôtes,le-mas-rolland.com,C-design,3,missing security headers (4/5); stale copyright 2020,Joomla! - Open Source Content Management,2020,1.01
+Les Fréjals,chambres d'hôtes,chambresdhotes-gorgesdutarn.com,OK-low-priority,1,missing security headers (4/5),,2026,1.89
+Chambre d'hôtes Chez Marie,chambres d'hôtes/gîte,gitechezmarie.com,OK-low-priority,3,missing security headers (5/5); old jQuery 2.2,,,1.59
+Les Hauts de Souloumiac,chambres d'hôtes,leshautsdesouloumiac.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),WordPress 7.1.3,2026,0.64
+Villa La Pomarède,chambres d'hôtes,villalapomarede.com,OK-low-priority,1,missing security headers (5/5),WebAcappellaFx (1.5.0) Windows,,0.8
+Le Soleilo,chambres d'hôtes/gîte/spa,lesoleilo.com,OK-low-priority,0,,,2023,2.28
+Les Falaises,chambres d'hôtes,lesfalaises.fr,B-tech/security,10,missing security headers (5/5); no mobile viewport (not responsive); old jQuery 1.9; legacy HTML (font/center/flash),IziSpot 4.60 (www.izispot.com),,0.84
+Domaine de la Cardabelle,gîtes/chambres,domaine-lacardabelle.eu,C-design,9,missing security headers (4/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO),,,0.79
+"La Cachette (cabanes, roulotte)",hébergement insolite,gites-cabanes-spa-aveyron.com,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,2026,2.4
 La Ferme aux Ânes - Domaine des Combes,gîte,domainedescombeslafermeauxanes.ellohaweb.com,OK-low-priority,3,missing security headers (5/5); old jQuery 2.2,,,0.89
-Gîtes de la Martinerie,gîte,gitelamartinerie.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,2026,1.74
-Peugeot Maurel Aveyron Millau,car dealership,peugeot-millau.maurelauto.fr,OK-low-priority,0,,"Elementor 3.34.4; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",,2.08
-"Volkswagen / Skoda Millau (Autostrade, Groupe Fabre)",car dealership,volkswagen-millau.autotransac.fr,OK-low-priority,1,missing security headers (5/5),,,1.24
-Suzuki Millau - Car's Services,car dealership,suzuki-millau.autotransac.fr,OK-low-priority,1,missing security headers (5/5),,,1.05
-AR Cars Automobiles (Garage AD BMW),garage / body shop,ar-cars-automobiles.fr,C-design,3,missing security headers (5/5); stale copyright 2018,,2018,0.87
-Centre Motoculture Aveyronnais (CMC) Millau,agri/garden machinery dealer,c-m-c.fr,OK-low-priority,2,missing security headers (4/5); no meta description (SEO),WordPress 7.1.4,,0.63
-Aigouy Motoculture,motoculture dealer,motoculture-millau.fr,OK-low-priority,4,missing security headers (5/5); outdated PHP 5.6 exposed,,,2.37
-Cadauma,agricultural machinery,cadauma.net,C-design,3,missing security headers (5/5); stale copyright 2016,Site Kit by Google 1.190.0,2016,1.87
-Sud Aveyron Chauffage (Michel Verdier),plumbing / heating / HVAC,sudaveyronchauffage-millau.site-solocal.com,OK-low-priority,1,no meta description (SEO),,,0.64
-Plomberie Treillet (Nicolas Treillet),plumber / heating,plombierchauffagistemillau.fr,OK-low-priority,0,,,2026,1.55
-Dépann'Express,plumbing / electricity / locksmith,depannexpress12.fr,OK-low-priority,1,missing security headers (4/5),,2026,2.08
-Adim Groupe,electricity / solar / plumbing / HVAC,adimgroupe.com,OK-low-priority,4,missing security headers (5/5); outdated PHP 7.3 exposed,"Powered by LayerSlider 6.8.4 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress.",,1.21
-Menu Michaël SARL (Menu Électricité),electrician,electricien-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.48
-Equinoxe Energies SARL,solar / heat pumps / renovation,equinoxe-energies.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.12
-Aveyron Couverture,roofer,aveyron-couverture.fr,C-design,4,old jQuery 1.12; stale copyright 2015,Divi Enfant par Incomm v.1.0,2015,1.95
-CMT 12,roofer / mason,cmt-12.fr,C-design,6,missing security headers (5/5); legacy HTML (font/center/flash); stale copyright 2015,Divi v.5.17.0,2015,2.54
-Omont Couverture,roofer,omont-couverture.fr,OK-low-priority,3,outdated PHP 7.4 exposed,WordPress 7.1.4,2026,1.11
-DB Couverture,roofer / zinguerie,couvreur-db.fr,OK-low-priority,0,,WordPress 7.1.4,2025,0.99
-Austruy Charpentes,carpenter / timber frame,austruy-charpentes.fr,OK-low-priority,1,missing security headers (5/5),"Powered by Slider Revolution 6.7.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.",,1.36
-Servant Constructions,construction / mason,servant-constructions.fr,C-design,3,legacy HTML (font/center/flash),,,0.99
-Sud Aveyron Construction,construction / mason,maconnerie-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.32
-Romero Constructions,construction / mason,romeroconstructions.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,2026,1.43
-Socorebat (Millau),construction / renovation,socorebat-12.fr,C-design,5,missing security headers (5/5); legacy HTML (font/center/flash); no meta description (SEO),,,1.97
-Façadim,facade / ITE,facadim.fr,OK-low-priority,1,missing security headers (4/5),,2026,2.22
-Entreprise Masson et Fils,painter,millaupeinture.com,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),Divi Enfant - DiviKit v.,2026,2.08
-Luizo Peinture,painter,luizo-peinture.com,A-dead-site,6,site unreachable,,,
-Menuiseries Alu Aveyron (Grégory Mazet),joinery alu/PVC,menuiseries-alu-aveyron.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.86
+Gîtes de la Martinerie,gîte,gitelamartinerie.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,2026,1.57
+Peugeot Maurel Aveyron Millau,car dealership,peugeot-millau.maurelauto.fr,OK-low-priority,0,,"Elementor 3.34.4; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",,1.18
+Citroën Ets André Bousquet et Fils Millau,car dealership,bousquet-automobiles.com,OK-low-priority,1,missing security headers (5/5),WordPress 7.1.4,,2.32
+Etoile Service (Mercedes-Benz),car dealership / repairer,lafon.mercedes.fr,B-tech/security,16,missing security headers (5/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO); very thin / placeholder page; HTTP 502,,,0.64
+"Renault Millau (Groupe Bony, ex-Fabre/Cano)",car dealership,renault-millau.bonyauto-mobile.com,OK-low-priority,0,,"Elementor 3.34.4; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto",2026,1.89
+Aveyron Automobiles,garage / dealer / body shop,aveyron-automobiles-millau.reparateurs-toyota.fr,A-dead-site,6,site unreachable,,,
+AR Cars Automobiles (Garage AD BMW),garage / body shop,ar-cars-automobiles.fr,C-design,3,missing security headers (5/5); stale copyright 2018,,2018,0.84
+Garage Champion Guillaume,garage / Renault-Dacia agent,garage-champion-millau-trial.fr,OK-low-priority,1,missing security headers (4/5),,,1.32
+GGM 12 (Autofit),garage,ggm12.fr,OK-low-priority,1,missing security headers (5/5),,,2.11
+Carrosserie Centrale Millau,body shop,carrosserie.five-star.fr,OK-low-priority,0,,Divi v.4.27.9,2024,1.11
+Carrosserie Artières,body shop,carrosserie-artieres.com,C-design,3,missing security headers (4/5); stale copyright 2017,WP Rocket 3.18,2017,2.54
+Szoldra Carrosserie,body shop,carrosserie-szoldra-1.jimdosite.com,B-tech/security,5,no meta description (SEO); HTTP 403,,,0.28
+Garage Puech,garage,puechautomobiles.com,OK-low-priority,1,missing security headers (5/5),,2026,1.75
+Garage MD12 Auto,garage,md12auto.myautoconseil.com,B-tech/security,13,missing security headers (5/5); no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 403,,,0.72
+Millau Pneus,tyre centre,millau-pneus.eurotyre.fr,OK-low-priority,0,,WordPress 7.1.4,2026,1.08
+Pneus 2000 (Siligom),tyre centre / dépannage,siligom.fr,OK-low-priority,0,,,,1.67
+Lassale Pneus (First Stop),tyre centre,centres.firststop.fr,OK-low-priority,1,missing security headers (5/5),,2026,1.45
+Centre Motoculture Aveyronnais (CMC) Millau,agri/garden machinery dealer,c-m-c.fr,OK-low-priority,2,missing security headers (4/5); no meta description (SEO),WordPress 7.1.4,,0.64
+Aigouy Motoculture,motoculture dealer,motoculture-millau.fr,OK-low-priority,4,missing security headers (5/5); outdated PHP 5.6 exposed,,,2.03
+Millau Motoculture,motoculture dealer,cadauma.net,C-design,3,missing security headers (5/5); stale copyright 2016,Site Kit by Google 1.190.0,2016,1.28
+Sud Aveyron Chauffage (Michel Verdier),plumbing / heating / HVAC,sudaveyronchauffage-millau.site-solocal.com,OK-low-priority,1,no meta description (SEO),,,0.6
+Plomberie Treillet (Nicolas Treillet),plumber / heating,plombierchauffagistemillau.fr,OK-low-priority,0,,,2026,2.02
+Bouviala SARL,plumber / heating,sarlbouviala12.fr,C-design,3,missing security headers (5/5); stale copyright 2015,Divi v.4.27.9,2015,2.5
+Dépann'Express,plumbing / electricity / locksmith,depannexpress12.fr,OK-low-priority,1,missing security headers (4/5),,2026,2.23
+Adim Groupe,electricity / solar / plumbing / HVAC,adimgroupe.com,OK-low-priority,4,missing security headers (5/5); outdated PHP 7.3 exposed,"Powered by LayerSlider 6.8.4 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress.",,1.67
+Menu Michaël SARL (Menu Électricité),electrician,electricien-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.7
+Equinoxe Energies SARL,solar / heat pumps / renovation,equinoxe-energies.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.27
+2AE Aveyron Aménagement Electricité,electrician,2ae-millau.com,OK-low-priority,4,missing security headers (5/5); outdated PHP 8.0 exposed,WordPress 7.1.4,2026,1.67
+Ets Merlette,electrician,electricien-a-millau.fr,OK-low-priority,1,missing security headers (5/5),,2026,0.9
+Aveyron Couverture,roofer,aveyron-couverture.fr,C-design,4,old jQuery 1.12; stale copyright 2015,Divi Enfant par Incomm v.1.0,2015,1.46
+CMT 12,roofer / mason,cmt-12.fr,C-design,6,missing security headers (5/5); legacy HTML (font/center/flash); stale copyright 2015,Divi v.5.17.0,2015,1.89
+Omont Couverture,roofer,millauvisite.fr,OK-low-priority,1,missing security headers (4/5),WordPress 7.1.4,2026,0.98
+DB Couverture,roofer / zinguerie,couvreur-db.fr,OK-low-priority,0,,WordPress 7.1.4,2025,0.98
+Austruy Charpentes,carpenter / timber frame,austruy-charpentes.fr,OK-low-priority,1,missing security headers (5/5),"Powered by Slider Revolution 6.7.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.",,0.97
+Servant Constructions,construction / mason,servant-constructions.fr,C-design,3,legacy HTML (font/center/flash),,,0.79
+Sud Aveyron Construction,construction / mason,maconnerie-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.44
+Romero Constructions,construction / mason,qualiteohabitat.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,2026,1.66
+Socorebat (Millau),construction / renovation,socorebat-12.fr,C-design,5,missing security headers (5/5); legacy HTML (font/center/flash); no meta description (SEO),,,2.46
+Façadim,facade / ITE,facadim.fr,OK-low-priority,1,missing security headers (4/5),,2026,2.91
+Entreprise Masson et Fils,painter,millaupeinture.com,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),Divi Enfant - DiviKit v.,2026,2.18
+Luizo Peinture,painter,couleursetdeco-millau.fr,B-tech/security,12,no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 404,,,0.64
+Sud Aveyron Habitat,painter,sud-aveyron-habitat.fr,B-tech/security,12,no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 404,,,0.7
+Menuiseries Alu Aveyron (Grégory Mazet),joinery alu/PVC,menuiseries-alu-aveyron.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.58
 L'Atelier du Moulinau,joinery / cabinetmaking,latelierdumoulinau.fr,A-dead-site,6,site unreachable,,,
-Ets Brahic Menuiseries,joinery,stores-fenetres-aveyron.com,A-dead-site,6,site unreachable,,,
+Ets Brahic Menuiseries,joinery,batiman.fr,OK-low-priority,1,missing security headers (4/5),,2024,2.69
 Andral Menuiseries,joinery,andral-menuiseries.fr,A-dead-site,6,site unreachable,,,
-Rénov 12,kitchen & bathroom installer,renov12.fr,C-design,2,stale copyright 2015,Divi Enfant par Incomm v.2.00,2015,1.65
-Eric Verdonck - carreleur,tiler / bathrooms,carreleur-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.81
-Nexus Construction Millau,construction / renovation,nexus-construction.fr,OK-low-priority,1,no meta description (SEO),WordPress 7.1.4,,2.5
-Ladet TP et Transports,public works / earthworks,ladet.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,2026,2.23
-Agussol TP,earthworks / sanitation,agussol-tp.com,OK-low-priority,4,missing security headers (5/5); outdated PHP 5.6 exposed,,,2.39
-Vidal Concept (Piscines Desjoyaux Millau),pool builder,vidal-concept.fr,B-tech/security,7,missing security headers (5/5); outdated PHP 7.2 exposed; old WordPress 5.9.20,WordPress 5.9.20,2026,1.72
-Paysage Marc,landscaper / nursery,paysagemarc-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,2.18
-Boyer Paysagiste (GAEC Boyer),landscaper / nursery / florist,boyerpaysagiste.com,B-tech/security,16,missing security headers (5/5); outdated PHP 5.6 exposed; no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 500,,,1.32
-Pouget Paysagiste,landscaper,pougetpaysagiste.fr,OK-low-priority,0,,,2026,0.84
-Geoffrey Martin Paysagiste,landscaper,geoffreymartin.com,OK-low-priority,1,missing security headers (5/5),"Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",2026,0.96
-Dafilec,commercial HVAC / refrigeration,dafilec-aveyron.fr,OK-low-priority,1,missing security headers (5/5),Divi v.4.27.9,2026,0.7
+Rénov 12,kitchen & bathroom installer,euro12construction.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.42
+Eric Verdonck - carreleur,tiler / bathrooms,carreleur-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,1.27
+Nexus Construction Millau,construction / renovation,nexus-construction.fr,OK-low-priority,1,no meta description (SEO),WordPress 7.1.4,,2.62
+Ladet TP et Transports,public works / earthworks,ladet.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,2026,1.75
+Agussol TP,earthworks / sanitation,agussol-tp.com,OK-low-priority,4,missing security headers (5/5); outdated PHP 5.6 exposed,,,1.78
+Christophe Viala Travaux Publics,earthworks / sanitation,assainissement-terrassement-millau.fr,A-dead-site,6,site unreachable,,,
+Vidal Concept (Piscines Desjoyaux Millau),pool builder,desjoyaux.fr,OK-low-priority,1,missing security headers (5/5),WP Rocket 3.19.1.2,,2.85
+Paysage Marc,landscaper / nursery,paysagemarc-millau.fr,OK-low-priority,1,missing security headers (4/5),,2026,2.22
+Boyer Paysagiste (GAEC Boyer),landscaper / nursery / florist,boyerpaysagiste.com,B-tech/security,16,missing security headers (5/5); outdated PHP 5.6 exposed; no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 500,,,0.68
+Pouget Paysagiste,landscaper,pougetpaysagiste.fr,OK-low-priority,0,,,2026,0.78
+Geoffrey Martin Paysagiste,landscaper,geoffreymartin.com,OK-low-priority,1,missing security headers (5/5),"Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",2026,0.59
+Dafilec,commercial HVAC / refrigeration,dafilec-aveyron.fr,OK-low-priority,1,missing security headers (5/5),Divi v.4.27.9,2026,0.89
+AMIO / 2iSA (IT training),training,amio-millau.fr,OK-low-priority,2,missing security headers (5/5); no meta description (SEO),,,1.02
