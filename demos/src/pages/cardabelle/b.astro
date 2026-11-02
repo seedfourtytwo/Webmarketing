@@ -1,0 +1,258 @@
+---
+// Domaine de la Cardabelle, design B: "family holiday". Bright, white page; the fruit-named rooms carry the colour.
+import { Picture } from 'astro:assets';
+import '@fontsource-variable/bricolage-grotesque';
+import '@fontsource-variable/nunito-sans';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { cardabelle as bnb } from '../../data/cardabelle';
+import type { Highlight, Photo } from '../../data/types';
+import { mapsUrl, toE164FR } from '../../lib/seo';
+import '../../styles/cardabelle-b.css';
+
+const tel = `tel:${toE164FR(bnb.phone)}`;
+const mail = `mailto:${bnb.email}`;
+const rating = `${bnb.google.rating.toLocaleString('fr-FR', { minimumFractionDigits: 1 })}/5 sur Google, ${bnb.google.reviews} avis`;
+
+const highlight = (title: string): Highlight => {
+  const found = bnb.highlights.find((h) => h.title.startsWith(title));
+  if (!found) throw new Error(`cardabelle: no highlight "${title}"`);
+  return found;
+};
+const pool = highlight('La piscine');
+const table = highlight("La table d'hôtes");
+const vineyard = highlight('Le vignoble');
+const gites = highlight('Les gîtes');
+
+const [peyrelade] = bnb.heroPhotos.filter((p) => p.src.src.includes('vue-chateau-comp'));
+const heroPhoto = peyrelade ?? bnb.heroPhotos[0]!;
+const poolPhoto = pool.photos[0]!;
+
+// Room colours: the farm's fruit for the named rooms, pool blue and sunshine for the other two.
+const roomTones = ['cerise', 'figue', 'mirabelle', 'pool', 'sun'] as const;
+
+// Owners' photos are small: never ask for a width above the native one.
+const native = (photo: Photo, max = photo.src.width) => [Math.min(max, photo.src.width)];
+
+const menu = [
+  ['piscine', 'Piscine'],
+  ['chambres', 'Chambres'],
+  ['table', 'Table'],
+  ['vignoble', 'Vignoble'],
+  ['gites', 'Gîtes'],
+  ['tarifs', 'Tarifs'],
+  ['infos', 'Infos'],
+  ['acces', 'Accès'],
+] as const;
+---
+
+<BaseLayout bnb={bnb} themeColor="#1B7FA0">
+  <header class="hero">
+    <div class="hero-text">
+      <h1>{bnb.name}</h1>
+      <p class="hero-line">Piscine, vignes et table d'hôtes en famille, à l'entrée des gorges du Tarn.</p>
+      <div class="actions" data-hero-cta>
+        <a class="btn btn-main" href={tel}>Appeler le {bnb.phone}</a>
+        <a class="btn btn-soft" href={mail}>Écrire un e-mail</a>
+      </div>
+    </div>
+    <div class="hero-photos">
+      <Picture
+        class="hero-main"
+        src={heroPhoto.src}
+        alt={heroPhoto.alt}
+        widths={[480, 800, 1200, 1600]}
+        sizes="(min-width: 64rem) 38rem, 100vw"
+        formats={['avif', 'webp']}
+        loading="eager"
+        fetchpriority="high"
+      />
+      <a class="hero-pool" data-lightbox="piscine" href={poolPhoto.src.src}>
+        <Picture src={poolPhoto.src} alt={poolPhoto.alt} widths={native(poolPhoto)} formats={['avif', 'webp']} loading="lazy" />
+      </a>
+      <p class="hero-pool-caption">La piscine, ouverte du 15 juin au 15 septembre.</p>
+    </div>
+  </header>
+
+  <nav class="menu" data-spy aria-label="Sections de la page">
+    <ul>
+      {menu.map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro" aria-label="Présentation">
+      <p class="intro-text">{bnb.intro}</p>
+      <p class="rating">{rating}. Labels {bnb.labels.join(' et ')}.</p>
+    </section>
+
+    <section id="piscine" class="band pool">
+      <h2>La piscine et les jeux</h2>
+      <p class="pool-body">{pool.text}</p>
+      <div class="pool-photos">
+        {
+          pool.photos.map((photo) => (
+            <a data-lightbox="piscine" href={photo.src.src}>
+              <Picture src={photo.src} alt={photo.alt} widths={native(photo)} formats={['avif', 'webp']} loading="lazy" />
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <section id="chambres" class="rooms-section">
+      <h2>Les chambres</h2>
+      <p class="lead">5 chambres à l'étage, avec escalier indépendant. Chacune a sa salle d'eau avec douche et WC privés.</p>
+      <ul class="rooms">
+        {
+          bnb.rooms.map((room, i) => (
+            <li class={`room room-${roomTones[i % roomTones.length]}`}>
+              <h3>{room.name}</h3>
+              <p>{room.summary}</p>
+              {room.photos.map((photo) => (
+                <a data-lightbox="chambres" href={photo.src.src}>
+                  <Picture
+                    src={photo.src}
+                    alt={photo.alt}
+                    widths={native(photo)}
+                    sizes="(min-width: 64rem) 13rem, (min-width: 48rem) 20rem, 90vw"
+                    formats={['avif', 'webp']}
+                    loading="lazy"
+                  />
+                </a>
+              ))}
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section id="table" class="story table">
+      <div class="story-text">
+        <h2>{table.title}</h2>
+        <p>{table.text}</p>
+      </div>
+      <div class="scatter">
+        {
+          table.photos.map((photo) => (
+            <a data-lightbox="table" href={photo.src.src}>
+              <Picture src={photo.src} alt={photo.alt} widths={native(photo, 300)} formats={['avif', 'webp']} loading="lazy" />
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <section id="vignoble" class="story vineyard">
+      <div class="story-text">
+        <h2>{vineyard.title}</h2>
+        <p>{vineyard.text}</p>
+      </div>
+      <div class="scatter">
+        {
+          vineyard.photos.map((photo) => (
+            <a data-lightbox="vignoble" href={photo.src.src}>
+              <Picture src={photo.src} alt={photo.alt} widths={native(photo, 300)} formats={['avif', 'webp']} loading="lazy" />
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <section id="gites" class="band gites">
+      <h2>{gites.title}</h2>
+      <p>{gites.text}</p>
+      <div class="strip" tabindex="0" aria-label="Photos des gîtes, faire défiler">
+        {
+          gites.photos.map((photo) => (
+            <a data-lightbox="gites" href={photo.src.src}>
+              <Picture src={photo.src} alt={photo.alt} widths={native(photo)} formats={['avif', 'webp']} loading="lazy" />
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <section id="tarifs" class="prices">
+      <h2>Tarifs</h2>
+      <div class="price-grid">
+        {
+          bnb.prices.map((table) => (
+            <div>
+              <table>
+                <caption>{table.title}</caption>
+                <thead>
+                  <tr>
+                    <td />
+                    {table.columns.map((c) => <th scope="col">{c}</th>)}
+                  </tr>
+                </thead>
+                <tbody>
+                  {table.rows.map((row) => (
+                    <tr>
+                      <th scope="row">{row.label}</th>
+                      {row.values.map((v) => <td>{v}</td>)}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              {table.notes.length > 0 && (
+                <ul class="notes">
+                  {table.notes.map((n) => <li>{n}</li>)}
+                </ul>
+              )}
+            </div>
+          ))
+        }
+      </div>
+      <div class="book">
+        <p>Pour réserver, appelez {bnb.hosts} ou envoyez un e-mail.</p>
+        <div class="actions">
+          <a class="btn btn-main" href={tel}>Appeler le {bnb.phone}</a>
+          <a class="btn btn-soft" href={mail}>Écrire un e-mail</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="infos" class="infos">
+      <h2>Bon à savoir</h2>
+      <ul class="practical">
+        {bnb.practical.map((item) => <li>{item}</li>)}
+      </ul>
+    </section>
+
+    <section id="acces" class="access">
+      <h2>Venir au domaine</h2>
+      <address>
+        {bnb.address.street}<br />
+        {bnb.address.postalCode} {bnb.address.locality}
+      </address>
+      <a class="btn btn-main" href={mapsUrl(bnb.address)} target="_blank" rel="noopener">Ouvrir l'itinéraire</a>
+      <dl class="directions">
+        {
+          bnb.directions.map((d) => (
+            <div>
+              <dt>{d.from}</dt>
+              <dd>{d.steps}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-name">{bnb.name}</p>
+    <p>{bnb.hosts}</p>
+    <address>
+      {bnb.address.street}, {bnb.address.postalCode} {bnb.address.locality}<br />
+      <a href={tel}>{bnb.phone}</a><br />
+      <a href={mail}>{bnb.email}</a>
+    </address>
+    <p class="demo-note">Maquette de démonstration</p>
+  </footer>
+
+  <div class="callbar" data-callbar>
+    <a href={tel}>Appeler</a>
+    <a href={mail}>E-mail</a>
+  </div>
+</BaseLayout>

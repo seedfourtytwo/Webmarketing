@@ -1,0 +1,288 @@
+---
+// Les Falaises, design A: "spa retreat" for couples. Dark, quiet, photo-led; the spa is the one loud moment.
+import { Picture } from 'astro:assets';
+import '@fontsource/marcellus';
+import '@fontsource-variable/manrope';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { lesFalaises as bnb } from '../../data/lesfalaises';
+import { mapsUrl, toE164FR } from '../../lib/seo';
+import '../../styles/les-falaises-a.css';
+
+const [spa, matin, commune, jardin, village] = bnb.highlights;
+const hero = bnb.heroPhotos[0];
+if (!spa || !matin || !commune || !jardin || !village || !hero) {
+  throw new Error('les-falaises: data no longer matches design A (expects 5 highlights and a hero photo)');
+}
+const spaHero = spa.photos[0]!;
+
+const tel = `tel:${toE164FR(bnb.phone)}`;
+const mail = `mailto:${bnb.email}`;
+const rating = bnb.google.rating.toLocaleString('fr-FR', { minimumFractionDigits: 1 });
+const itinerary = mapsUrl(bnb.address);
+
+const menu = [
+  ['chambres', 'Chambres'],
+  ['spa', 'Spa'],
+  ['matin', 'Matin'],
+  ['jardin', 'Jardin'],
+  ['village', 'Village'],
+  ['tarifs', 'Tarifs'],
+  ['reserver', 'Réserver'],
+  ['acces', 'Accès'],
+] as const;
+
+const photo: { formats: ('avif' | 'webp')[]; loading: 'lazy' } = { formats: ['avif', 'webp'], loading: 'lazy' };
+---
+
+<BaseLayout bnb={bnb} themeColor="#12282A">
+  <header class="hero">
+    <Picture
+      class="hero-img"
+      src={hero.src}
+      alt={hero.alt}
+      widths={[480, 800, 1024]}
+      sizes="(min-width: 64rem) 64rem, 100vw"
+      formats={['avif', 'webp']}
+      loading="eager"
+      fetchpriority="high"
+    />
+    <div class="hero-text">
+      <div class="hero-title">
+        <h1>{bnb.name}</h1>
+        <p class="tagline">{bnb.tagline}</p>
+        <p class="rating">{rating}/5 sur Google, {bnb.google.reviews} avis</p>
+      </div>
+      <div class="actions" data-hero-cta>
+        <a class="slab slab-solid" href={tel}><span>Appeler</span><span class="slab-num">{bnb.phone}</span></a>
+        <a class="slab slab-line" href={mail}><span>Écrire un e-mail</span></a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="menu" data-spy aria-label="Sections de la page">
+    <div class="menu-track">
+      {menu.map(([id, label]) => <a href={`#${id}`}>{label}</a>)}
+      <a class="menu-call" href={tel}>{bnb.phone}</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="intro wrap" aria-label="La maison">
+      <p class="lead">{bnb.intro}</p>
+      <p class="hosts">Vos hôtes : {bnb.hosts}</p>
+    </section>
+
+    <section id="chambres" class="block">
+      <div class="wrap head">
+        <h2>Les chambres</h2>
+        <p>Trois chambres de 18 m², chacune avec sa salle de bain.</p>
+      </div>
+      <ul class="rooms" role="list">
+        {
+          bnb.rooms.map((room) => {
+            const [main, ...rest] = room.photos;
+            return (
+              <li class="room">
+                {main && (
+                  <a class="room-main" data-lightbox={room.name} href={main.src.src}>
+                    <Picture src={main.src} alt={main.alt} widths={[400, 800]} sizes="(min-width: 64rem) 22rem, 82vw" {...photo} />
+                  </a>
+                )}
+                <div class="room-thumbs">
+                  {rest.map((p) => (
+                    <a data-lightbox={room.name} href={p.src.src}>
+                      <Picture src={p.src} alt={p.alt} widths={[200, 400]} sizes="8rem" {...photo} />
+                    </a>
+                  ))}
+                </div>
+                <h3>{room.name}</h3>
+                <p>{room.summary}</p>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </section>
+
+    <section id="spa" class="spa">
+      <a class="spa-photo" data-lightbox="spa" href={spaHero.src.src}>
+        <Picture src={spaHero.src} alt={spaHero.alt} widths={[480, 800]} sizes="(min-width: 64rem) 60vw, 100vw" {...photo} />
+      </a>
+      <div class="spa-text">
+        <h2>{spa.title}</h2>
+        <p>{spa.text}</p>
+        <div class="spa-thumbs">
+          {
+            spa.photos.slice(1).map((p) => (
+              <a data-lightbox="spa" href={p.src.src}>
+                <Picture src={p.src} alt={p.alt} widths={[300, 600]} sizes="(min-width: 64rem) 12rem, 45vw" {...photo} />
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <section id="matin" class="block">
+      <div class="wrap split">
+        <div class="split-text">
+          <h2>{matin.title}</h2>
+          <p>{matin.text}</p>
+        </div>
+        <div class="mosaic">
+          {
+            matin.photos.map((p, i) => (
+              <a data-lightbox="matin" href={p.src.src} class:list={[{ more: i > 2 }]}>
+                <Picture src={p.src} alt={p.alt} widths={[400, 800]} sizes="(min-width: 64rem) 30rem, 90vw" {...photo} />
+              </a>
+            ))
+          }
+        </div>
+      </div>
+      <div class="wrap split split-flip">
+        <div class="split-text">
+          <h3>{commune.title}</h3>
+          <p>{commune.text}</p>
+        </div>
+        <div class="mosaic">
+          {
+            commune.photos.map((p) => (
+              <a data-lightbox="commune" href={p.src.src}>
+                <Picture src={p.src} alt={p.alt} widths={[400, 800]} sizes="(min-width: 64rem) 30rem, 90vw" {...photo} />
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    {
+      [
+        { id: 'jardin', h: jardin },
+        { id: 'village', h: village },
+      ].map(({ id, h }) => (
+        <section id={id} class="block">
+          <div class:list={['wrap split', { 'split-flip': id === 'village' }]}>
+            <div class="split-text">
+              <h2>{h.title}</h2>
+              <p>{h.text}</p>
+            </div>
+            <div class="mosaic">
+              {h.photos.map((p, i) => (
+                <a data-lightbox={id} href={p.src.src} class:list={[{ more: i > 2 }]}>
+                  <Picture src={p.src} alt={p.alt} widths={[400, 800]} sizes="(min-width: 64rem) 30rem, 90vw" {...photo} />
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      ))
+    }
+
+    <section class="album" aria-labelledby="album-title">
+      <h2 id="album-title" class="wrap">En images</h2>
+      <ul class="strip" role="list">
+        {
+          bnb.gallery.map((p) => (
+            <li>
+              <a data-lightbox="album" href={p.src.src}>
+                <Picture src={p.src} alt={p.alt} widths={[300, 600]} sizes="16rem" {...photo} />
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section id="tarifs" class="block wrap">
+      <h2>Tarifs</h2>
+      {
+        bnb.prices.map((table) => (
+          <div class="prices">
+            <table>
+              <caption>{table.title}</caption>
+              <thead>
+                <tr>
+                  <td />
+                  {table.columns.map((c) => (
+                    <th scope="col">{c}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {table.rows.map((row) => (
+                  <tr>
+                    <th scope="row">{row.label}</th>
+                    {row.values.map((v) => (
+                      <td>{v}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <ul class="notes" role="list">
+              {table.notes.map((n) => (
+                <li>{n}</li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </section>
+
+    <section id="reserver" class="block wrap reserve">
+      <div>
+        <h2>Réserver</h2>
+        <p class="reserve-lead">Appelez-nous ou écrivez-nous pour connaître les disponibilités.</p>
+        <a class="phone-big" href={tel}>{bnb.phone}</a>
+        <a class="mail-link" href={mail}>{bnb.email}</a>
+        <p class="hosts">{bnb.hosts}</p>
+      </div>
+      <div>
+        <h3>Arrivées et départs</h3>
+        <ul class="plain" role="list">
+          {bnb.practical.map((p) => <li>{p}</li>)}
+        </ul>
+        <h3>Conditions</h3>
+        <ul class="plain" role="list">
+          {bnb.bookingTerms.map((t) => <li>{t}</li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section id="acces" class="block wrap access">
+      <h2>Accès</h2>
+      <address>
+        {bnb.name}<br />
+        {bnb.address.street}<br />
+        {bnb.address.postalCode} {bnb.address.locality}
+      </address>
+      <dl>
+        {
+          bnb.directions.map((d) => (
+            <div>
+              <dt>{d.from}</dt>
+              <dd>{d.steps}</dd>
+            </div>
+          ))
+        }
+      </dl>
+      {bnb.geo && <p class="gps">Coordonnées GPS : {bnb.geo.latitude.toFixed(4)} N, {bnb.geo.longitude.toFixed(4)} E</p>}
+      <a class="slab slab-line" href={itinerary} target="_blank" rel="noopener"><span>Ouvrir l’itinéraire</span></a>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p class="footer-name">{bnb.name}</p>
+    <p>{bnb.address.street}, {bnb.address.postalCode} {bnb.address.locality}</p>
+    <p><a href={tel}>{bnb.phone}</a></p>
+    <p><a href={mail}>{bnb.email}</a></p>
+    <p>Labels : {bnb.labels.join(', ')}</p>
+    <p class="demo">Maquette de démonstration</p>
+  </footer>
+
+  <div class="callbar" data-callbar>
+    <a class="slab slab-solid" href={tel}><span>Appeler</span><span class="slab-num">{bnb.phone}</span></a>
+    <a class="slab slab-line" href={mail}><span>E-mail</span></a>
+  </div>
+</BaseLayout>

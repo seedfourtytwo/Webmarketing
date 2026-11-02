@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.work/
+.wrangler/
+# Owners' photos: not ours to publish in a public repo
+src/assets/
+shots/
+# Pitch emails name the owners and their addresses: keep out of the public repo, like data/contacts_private.csv
+outreach/

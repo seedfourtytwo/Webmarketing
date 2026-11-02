@@ -1,0 +1,25 @@
+---
+// Internal index of the demos; not part of any client site.
+const demos = [
+  { href: '/les-falaises/a/', label: 'Les Falaises, design A (spa retreat)' },
+  { href: '/les-falaises/b/', label: 'Les Falaises, design B (village charm)' },
+  { href: '/cardabelle/a/', label: 'Domaine de la Cardabelle, design A (vineyard farmhouse)' },
+  { href: '/cardabelle/b/', label: 'Domaine de la Cardabelle, design B (family holiday)' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>B&B demos</title>
+  </head>
+  <body style="font-family: system-ui, sans-serif; padding: 2rem; line-height: 1.6;">
+    <h1>B&B rebuild demos</h1>
+    <ul>
+      {demos.map((d) => <li><a href={d.href}>{d.label}</a></li>)}
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+/* Shared floor for every design: reset, motion preferences, menu highlighting hook, photo viewer skeleton.
+   Look and feel (colours, type, spacing) belongs to each design's own stylesheet. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: var(--nav-height, 4rem); }
+body { margin: 0; }
+img { display: block; max-width: 100%; height: auto; }
+h1, h2, h3, p, figure, ul, ol, dl, dd { margin: 0; }
+button { font: inherit; color: inherit; }
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+[data-spy] { scroll-target-group: auto; }
+
+[data-callbar][data-tucked] { translate: 0 110%; visibility: hidden; }
+@media (prefers-reduced-motion: no-preference) {
+  [data-callbar] { transition: translate 0.25s ease, visibility 0.25s; }
+}
+
+:focus-visible { outline: 3px solid var(--focus, currentColor); outline-offset: 3px; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.lightbox {
+  border: 0; padding: 0; background: transparent; max-width: 100vw; max-height: 100dvh;
+  width: 100vw; height: 100dvh; overscroll-behavior: contain;
+}
+.lightbox::backdrop { background: rgb(0 0 0 / 0.88); }
+.lightbox figure {
+  height: 100%; display: grid; grid-template-rows: 1fr auto; place-items: center; gap: 0.75rem;
+  padding: 3.5rem 0.75rem 1.25rem;
+}
+.lightbox figure img { max-height: 100%; width: auto; object-fit: contain; min-height: 0; }
+.lightbox figcaption { color: #fff; font-size: 0.95rem; text-align: center; max-width: 60ch; }
+.lightbox button {
+  position: absolute; border: 0; background: rgb(0 0 0 / 0.45); color: #fff; cursor: pointer;
+  width: 3rem; height: 3rem; font-size: 1.75rem; line-height: 1;
+}
+.lightbox-close { top: 0.75rem; right: 0.75rem; }
+.lightbox-prev, .lightbox-next { top: 50%; translate: 0 -50%; }
+.lightbox-prev { left: 0.5rem; }
+.lightbox-next { right: 0.5rem; }
+.lightbox[data-single] :is(.lightbox-prev, .lightbox-next) { display: none; }

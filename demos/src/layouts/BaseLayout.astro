@@ -1,0 +1,29 @@
+---
+import SeoHead from '../components/SeoHead.astro';
+import Lightbox from '../components/Lightbox.astro';
+import type { Bnb } from '../data/types';
+import '../styles/base.css';
+
+interface Props {
+  bnb: Bnb;
+  themeColor: string;
+}
+
+const { bnb, themeColor } = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <SeoHead bnb={bnb} themeColor={themeColor} />
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+    <Lightbox />
+    <script>
+      import '../scripts/scrollspy';
+      import '../scripts/callbar';
+    </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+---
+/**
+ * One shared photo viewer. Any <a data-lightbox="group" href="large.jpg"> wrapping an <img alt="...">
+ * opens here; arrows (or swipe) move within the same group. Designs style `.lightbox` from their own CSS.
+ */
+---
+
+<dialog class="lightbox" closedby="any" aria-label="Photo agrandie">
+  <figure>
+    <img alt="" />
+    <figcaption></figcaption>
+  </figure>
+  <button type="button" class="lightbox-prev" aria-label="Photo précédente">‹</button>
+  <button type="button" class="lightbox-next" aria-label="Photo suivante">›</button>
+  <form method="dialog"><button class="lightbox-close" aria-label="Fermer">×</button></form>
+</dialog>
+
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('dialog.lightbox');
+  if (dialog) {
+    const img = dialog.querySelector('img')!;
+    const caption = dialog.querySelector('figcaption')!;
+    let group: HTMLAnchorElement[] = [];
+    let index = 0;
+
+    const show = (i: number) => {
+      index = (i + group.length) % group.length;
+      const link = group[index]!;
+      img.src = link.href;
+      img.alt = link.querySelector('img')?.alt ?? '';
+      caption.textContent = img.alt;
+      dialog.toggleAttribute('data-single', group.length < 2);
+    };
+
+    document.addEventListener('click', (event) => {
+      const link = (event.target as Element).closest<HTMLAnchorElement>('a[data-lightbox]');
+      if (!link || event.defaultPrevented || event.metaKey || event.ctrlKey) return;
+      event.preventDefault();
+      group = [...document.querySelectorAll<HTMLAnchorElement>(`a[data-lightbox="${link.dataset.lightbox}"]`)];
+      show(group.indexOf(link));
+      dialog.showModal();
+    });
+
+    dialog.querySelector('.lightbox-prev')!.addEventListener('click', () => show(index - 1));
+    dialog.querySelector('.lightbox-next')!.addEventListener('click', () => show(index + 1));
+    dialog.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowLeft') show(index - 1);
+      if (event.key === 'ArrowRight') show(index + 1);
+    });
+
+    let touchX = 0;
+    dialog.addEventListener('touchstart', (e) => { touchX = e.touches[0]!.clientX; }, { passive: true });
+    dialog.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0]!.clientX - touchX;
+      if (Math.abs(dx) > 50) show(index + (dx < 0 ? 1 : -1));
+    });
+
+    // Safari has no `closedby` yet: close when the backdrop (outside the dialog box) is tapped.
+    if (!('closedBy' in HTMLDialogElement.prototype)) {
+      dialog.addEventListener('click', (event) => {
+        if (event.target !== dialog) return;
+        const r = dialog.getBoundingClientRect();
+        const inside = r.top <= event.clientY && event.clientY <= r.bottom && r.left <= event.clientX && event.clientX <= r.right;
+        if (!inside) dialog.close();
+      });
+    }
+  }
+</script>

@@ -1,0 +1,213 @@
+/* Les Falaises, design A: "spa retreat". Mobile first; the spa section is the only bright moment.
+   Rules: no tracking, no caps, no gradients, no hairlines, no decoration without information. */
+:root {
+  --ink: #12282a;          /* night in the gorge: page background */
+  --spa: #0e3b3e;          /* deeper teal: spa section only */
+  --stone: #e8e1d2;        /* limestone: main text */
+  --ochre: #c8a25f;        /* cliff ochre: call slab, active menu */
+  --ochre-hover: #d8b673;
+  --sage: #8fa39a;         /* lichen: secondary text */
+  --aqua: #5fc4c8;         /* spa heading only (5.9:1 on --spa) */
+
+  --font-display: 'Marcellus', 'Times New Roman', serif;
+  --font-body: 'Manrope Variable', system-ui, sans-serif;
+
+  --gutter: 1.25rem;
+  --nav-height: 3.25rem;
+  --focus: var(--ochre);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--ink);
+  color: var(--stone);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  padding-bottom: 4.75rem; /* room for the phone call bar */
+}
+
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.12; text-wrap: balance; }
+h2 { font-size: clamp(2.1rem, 8vw, 3.4rem); }
+h3 { font-size: 1.6rem; }
+p { max-width: 62ch; text-wrap: pretty; }
+a { color: inherit; }
+
+.wrap { padding-inline: var(--gutter); max-width: 72rem; margin-inline: auto; }
+
+/* Stone slabs: square blocks, label left, the useful detail (the number) right. */
+.slab {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  width: 100%; min-height: 3.25rem; padding: 0.7rem 1.1rem;
+  font-weight: 600; text-decoration: none; line-height: 1.3;
+}
+.slab-num { font-variant-numeric: tabular-nums; font-weight: 700; white-space: nowrap; }
+.slab-solid { background: var(--ochre); color: var(--ink); }
+.slab-line { border: 3px solid var(--stone); color: var(--stone); }
+@media (hover: hover) {
+  .slab-solid:hover { background: var(--ochre-hover); }
+  .slab-line:hover { background: var(--stone); color: var(--ink); }
+}
+
+/* Hero: the photo clean, the words on solid ink below it. */
+.hero-img img, img.hero-img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.hero-text { padding: 1.75rem var(--gutter) 2.5rem; }
+.hero h1 { font-size: clamp(3.2rem, 15vw, 6.5rem); line-height: 0.95; }
+.tagline { margin-top: 0.9rem; font-size: 1.1875rem; line-height: 1.5; max-width: 32ch; }
+.rating { margin-top: 0.6rem; color: var(--sage); }
+.actions { display: grid; gap: 0.75rem; margin-top: 1.75rem; max-width: 26rem; }
+
+/* Sticky menu */
+.menu { position: sticky; top: 0; z-index: 10; background: var(--ink); }
+.menu-track {
+  display: flex; gap: 0.25rem; overflow-x: auto; scrollbar-width: none;
+  height: var(--nav-height); align-items: stretch; padding-inline: calc(var(--gutter) - 0.6rem);
+  max-width: 72rem; margin-inline: auto;
+}
+.menu-track::-webkit-scrollbar { display: none; }
+.menu a {
+  display: flex; align-items: center; padding: 3px 0.6rem 0; white-space: nowrap;
+  text-decoration: none; color: var(--sage); font-size: 1rem; font-weight: 500;
+  border-bottom: 3px solid transparent; min-height: 44px;
+}
+.menu a:is(:target-current, .\:target-current) { color: var(--ochre); border-bottom-color: var(--ochre); font-weight: 700; }
+.menu .menu-call { display: none; }
+
+/* Intro */
+.intro { padding-block: 3.5rem 1rem; }
+.lead { font-family: var(--font-display); font-size: clamp(1.45rem, 5.5vw, 2.1rem); line-height: 1.4; max-width: 34ch; }
+.hosts { margin-top: 1.25rem; color: var(--sage); }
+
+/* Sections */
+.block { padding-block: 4rem; }
+.head p, .split-text p { margin-top: 1rem; }
+.head p { color: var(--sage); }
+
+/* Rooms: swipe row on phones */
+.rooms {
+  list-style: none; padding: 1.75rem var(--gutter) 0.5rem; margin: 0;
+  display: grid; grid-auto-flow: column; grid-auto-columns: 82%; gap: 1rem;
+  overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter);
+  scrollbar-color: var(--ochre) transparent;
+}
+.room { scroll-snap-align: start; }
+.room-main img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.room-thumbs { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+.room-thumbs a { flex: 1; }
+.room-thumbs img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.room h3 { margin-top: 1rem; }
+.room p { margin-top: 0.35rem; color: var(--sage); }
+
+/* Spa: the signature moment, carried by its own deeper water colour. */
+.spa { background: var(--spa); }
+.spa-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.spa-text { padding: 2.5rem var(--gutter) 4.5rem; }
+.spa h2 { color: var(--aqua); font-size: clamp(2.4rem, 10vw, 4.2rem); }
+.spa-text > p { margin-top: 1.1rem; }
+.spa-thumbs { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-top: 1.75rem; }
+.spa-thumbs img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.spa :focus-visible { outline-color: var(--aqua); }
+
+/* Text + photo mosaics */
+.split + .split { margin-top: 3.5rem; }
+.mosaic { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-top: 1.75rem; }
+.mosaic a:first-child { grid-column: 1 / -1; }
+.mosaic img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.mosaic a:first-child img { aspect-ratio: 16 / 10; }
+.mosaic .more { display: none; }
+
+/* Album strip */
+.album { padding-block: 1rem 3rem; }
+.strip {
+  list-style: none; margin: 1.5rem 0 0; padding: 0 var(--gutter) 0.5rem;
+  padding-inline: max(var(--gutter), calc((100% - 72rem) / 2 + var(--gutter)));
+  scroll-padding-inline: max(var(--gutter), calc((100% - 72rem) / 2 + var(--gutter)));
+  display: flex; gap: 0.6rem; overflow-x: auto; scroll-snap-type: x proximity;
+  scrollbar-color: var(--ochre) transparent;
+}
+.strip li { flex: 0 0 13rem; scroll-snap-align: start; }
+.strip img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+
+/* Prices: whitespace rows, one rule under the header, numbers aligned right. */
+.prices { margin-top: 1.75rem; max-width: 40rem; }
+table { width: 100%; border-collapse: collapse; }
+caption { text-align: left; color: var(--sage); padding-bottom: 0.9rem; }
+th, td { padding: 0.7rem 0.5rem; text-align: left; vertical-align: top; }
+thead th { font-weight: 600; color: var(--ochre); border-bottom: 3px solid var(--ochre); text-align: right; }
+tbody th { font-weight: 500; }
+tbody td { font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+.notes { list-style: none; padding: 0; margin: 1.5rem 0 0; color: var(--sage); display: grid; gap: 0.5rem; }
+
+/* Booking */
+.reserve { display: grid; gap: 2.5rem; }
+.reserve-lead { margin-top: 1rem; }
+.phone-big {
+  display: inline-block; margin-top: 1.25rem; font-family: var(--font-display);
+  font-size: clamp(2.2rem, 10vw, 3.2rem); color: var(--ochre); text-decoration: none; line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.mail-link { display: block; margin-top: 0.5rem; color: var(--stone); word-break: break-word; min-height: 44px; padding-block: 0.6rem; }
+.reserve h3 + .plain { margin-top: 0.75rem; }
+.plain + h3 { margin-top: 2rem; }
+.plain { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+
+/* Access */
+.access address { font-style: normal; margin-top: 1.25rem; font-size: 1.125rem; }
+.access dl { margin: 1.75rem 0 0; display: grid; gap: 1.25rem; }
+.access dt { font-family: var(--font-display); font-size: 1.3rem; }
+.access dd { margin: 0.35rem 0 0; max-width: 62ch; }
+.gps { margin-top: 1.25rem; color: var(--sage); font-variant-numeric: tabular-nums; }
+.access .slab { margin-top: 1.75rem; max-width: 22rem; }
+
+/* Footer */
+.footer { padding-block: 4rem 2rem; color: var(--sage); display: grid; gap: 0.35rem; }
+.footer-name { font-family: var(--font-display); color: var(--stone); font-size: 1.5rem; }
+.footer a { color: var(--stone); }
+.demo { margin-top: 1rem; font-size: 0.875rem; }
+
+/* Phone call bar: the same slabs, on solid ink. */
+.callbar {
+  position: fixed; inset: auto 0 0; z-index: 20; display: grid; grid-template-columns: 1fr auto; gap: 0.5rem;
+  padding: 0.6rem 0.75rem calc(0.6rem + env(safe-area-inset-bottom));
+  background: var(--ink);
+}
+.callbar .slab { min-height: 3rem; padding-inline: 0.9rem; }
+
+@media (min-width: 48rem) {
+  :root { --gutter: 2.5rem; }
+  body { padding-bottom: 0; }
+  .callbar { display: none; }
+  .menu .menu-call { display: flex; margin-left: auto; color: var(--ochre); font-variant-numeric: tabular-nums; }
+  .rooms { grid-auto-columns: 45%; }
+  .spa-thumbs { grid-template-columns: repeat(2, minmax(0, 14rem)); }
+  .reserve { grid-template-columns: 1fr 1fr; align-items: start; }
+}
+
+@media (min-width: 64rem) {
+  /* The drone photo is 1024 px wide: shown at its own size, centred like a print on the wall. */
+  .hero { padding-top: 2.5rem; }
+  .hero-img { display: block; max-width: 64rem; margin-inline: auto; }
+  .hero-img img, img.hero-img { aspect-ratio: 16 / 9; }
+  .hero-text {
+    max-width: 64rem; margin-inline: auto; padding: 2.25rem 0 4rem;
+    display: grid; grid-template-columns: 1fr 22rem; gap: 3rem; align-items: end;
+  }
+  .actions { margin-top: 0; }
+  .tagline { font-size: 1.375rem; }
+
+  .block { padding-block: 6rem; }
+  .intro { padding-block: 5rem 2rem; }
+  .rooms {
+    grid-auto-flow: row; grid-template-columns: repeat(3, 1fr); overflow: visible;
+    max-width: 72rem; margin-inline: auto; padding-inline: var(--gutter);
+  }
+  .split { display: grid; grid-template-columns: 5fr 7fr; gap: 4rem; align-items: center; }
+  .split-flip { grid-template-columns: 7fr 5fr; }
+  .split-flip .split-text { order: 2; }
+  .split .mosaic { margin-top: 0; }
+  .split + .split { margin-top: 6rem; }
+
+  .spa { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
+  .spa-photo img { aspect-ratio: 4 / 3.4; }
+  .spa-text { padding: 6rem 3rem; }
+}

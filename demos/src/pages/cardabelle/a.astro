@@ -1,0 +1,309 @@
+---
+// Domaine de la Cardabelle, design A: "vineyard farmhouse". Signature: the table d'hôtes as a farm menu card.
+import { Picture } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { cardabelle as bnb } from '../../data/cardabelle';
+import type { Photo } from '../../data/types';
+import { mapsUrl, toE164FR } from '../../lib/seo';
+import '@fontsource-variable/alegreya/wght.css';
+import '@fontsource-variable/alegreya/wght-italic.css';
+import '@fontsource/alegreya-sans/400.css';
+import '@fontsource/alegreya-sans/500.css';
+import '@fontsource/alegreya-sans/700.css';
+import '../../styles/cardabelle-a.css';
+
+const byTitle = (title: string) => {
+  const found = bnb.highlights.find((h) => h.title.toLowerCase().includes(title));
+  if (!found) throw new Error(`cardabelle: no highlight matching "${title}"`);
+  return found;
+};
+const pool = byTitle('piscine');
+const table = byTitle('table');
+const vineyard = byTitle('vignoble');
+const gites = byTitle('gîtes');
+const [roomPrices, gitePrices] = bnb.prices;
+const hero = bnb.heroPhotos[0]!;
+
+const tel = `tel:${toE164FR(bnb.phone)}`;
+const mail = `mailto:${bnb.email}`;
+const rating = bnb.google.rating.toLocaleString('fr-FR', { minimumFractionDigits: 1 });
+
+/** Widths for small owner photos: never ask for more pixels than the original has. */
+const smallWidths = (p: Photo) => [...new Set([Math.min(240, p.src.width), p.src.width])];
+
+const menu = [
+  { label: 'Les plats', items: ['Grillades et légumes du jardin', 'Civet de lapin', 'Volailles', 'Gigot de mouton'] },
+  { label: 'Les desserts', items: ['Tartes', 'Clafoutis', 'Flaune'] },
+];
+
+const nav = [
+  ['table', 'Table'],
+  ['vignoble', 'Vignoble'],
+  ['chambres', 'Chambres'],
+  ['piscine', 'Piscine'],
+  ['gites', 'Gîtes'],
+  ['tarifs', 'Tarifs'],
+  ['infos', 'Infos'],
+  ['acces', 'Accès'],
+] as const;
+---
+
+<BaseLayout bnb={bnb} themeColor="#2F4A2E">
+  <header class="hero">
+    <div class="hero-photo">
+      <Picture
+        src={hero.src}
+        alt={hero.alt}
+        widths={[480, 800, 1200, 1600]}
+        sizes="100vw"
+        formats={['avif', 'webp']}
+        loading="eager"
+        fetchpriority="high"
+      />
+    </div>
+    <div class="hero-panel">
+      <h1>{bnb.name}</h1>
+      <p class="tagline">{bnb.tagline}</p>
+      <div class="hero-actions" data-hero-cta>
+        <a class="btn btn-wine" href={tel}>Appeler le {bnb.phone}</a>
+        <a class="btn btn-paper" href={mail}>Écrire un e-mail</a>
+      </div>
+    </div>
+  </header>
+
+  <nav data-spy class="menu" aria-label="Sections de la page">
+    <ul>
+      {nav.map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="wrap intro-grid">
+        <div>
+          <h2 id="intro-title">Bienvenue chez {bnb.hosts}</h2>
+          <p class="lead">{bnb.intro}</p>
+        </div>
+        <div>
+          <p class="rating"><strong>{rating}/5</strong> sur Google, {bnb.google.reviews} avis</p>
+          <p class="labels">{bnb.labels.join(', ')}</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="table" class="table-section" aria-labelledby="table-title">
+      <div class="wrap table-grid">
+        <div class="menu-card">
+          <h2 id="table-title">La table d'hôtes</h2>
+          <p class="menu-sub">Cuisine de la maîtresse de maison, légumes du jardin</p>
+          {
+            menu.map((course) => (
+              <div class="course">
+                <h3>{course.label}</h3>
+                <ul>
+                  {course.items.map((item) => <li>{item}</li>)}
+                </ul>
+              </div>
+            ))
+          }
+          <p class="menu-price"><span>Dîner, apéritif offert</span> <strong>19,80 €</strong></p>
+          <p class="menu-note">Vin du domaine en supplément. Pas de table d'hôtes le dimanche.</p>
+          <p class="menu-cherry">À la saison des cerises, on prend le dessert sous l'arbre.</p>
+        </div>
+        <div class="table-side">
+          <p>
+            Le dîner est servi sur la terrasse ou dans la salle à manger. Au petit déjeuner, selon la saison : confitures
+            maison, miel, amandes et noix.
+          </p>
+          <ul class="frames">
+            {
+              table.photos.map((p) => (
+                <li>
+                  <a data-lightbox="table" href={p.src.src}>
+                    <Picture src={p.src} alt={p.alt} widths={smallWidths(p)} sizes="(min-width: 48rem) 200px, 45vw" formats={['avif', 'webp']} loading="lazy" />
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="vignoble" aria-labelledby="vignoble-title">
+      <div class="wrap two-col">
+        <div>
+          <h2 id="vignoble-title">{vineyard.title}</h2>
+          <p>{vineyard.text}</p>
+        </div>
+        <ul class="frames">
+          {
+            vineyard.photos.map((p) => (
+              <li>
+                <a data-lightbox="vignoble" href={p.src.src}>
+                  <Picture src={p.src} alt={p.alt} widths={smallWidths(p)} sizes="(min-width: 48rem) 240px, 45vw" formats={['avif', 'webp']} loading="lazy" />
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section id="chambres" class="rooms-section" aria-labelledby="chambres-title">
+      <div class="wrap">
+        <h2 id="chambres-title">Les chambres</h2>
+        <p class="section-lead">
+          Cinq chambres à l'étage, avec escalier indépendant, chacune avec salle d'eau et WC privés.
+        </p>
+        <ul class="rooms">
+          {
+            bnb.rooms.map((room) => (
+              <li class="room">
+                {room.photos.map((p) => (
+                  <a data-lightbox="chambres" href={p.src.src} class="frame">
+                    <Picture src={p.src} alt={p.alt} widths={smallWidths(p)} sizes="(min-width: 48rem) 300px, 90vw" formats={['avif', 'webp']} loading="lazy" />
+                  </a>
+                ))}
+                <h3>{room.name}</h3>
+                <p>{room.summary}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section id="piscine" aria-labelledby="piscine-title">
+      <div class="wrap two-col">
+        <div>
+          <h2 id="piscine-title">{pool.title}</h2>
+          <p>{pool.text}</p>
+        </div>
+        <ul class="frames">
+          {
+            pool.photos.map((p) => (
+              <li>
+                <a data-lightbox="piscine" href={p.src.src}>
+                  <Picture src={p.src} alt={p.alt} widths={smallWidths(p)} sizes="(min-width: 48rem) 300px, 45vw" formats={['avif', 'webp']} loading="lazy" />
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section id="gites" class="gites-section" aria-labelledby="gites-title">
+      <div class="wrap">
+        <h2 id="gites-title">{gites.title}</h2>
+        <p class="section-lead">{gites.text}</p>
+        <ul class="frames frames-4">
+          {
+            gites.photos.map((p) => (
+              <li>
+                <a data-lightbox="gites" href={p.src.src}>
+                  <Picture src={p.src} alt={p.alt} widths={smallWidths(p)} sizes="(min-width: 64rem) 220px, (min-width: 48rem) 25vw, 45vw" formats={['avif', 'webp']} loading="lazy" />
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section id="tarifs" aria-labelledby="tarifs-title">
+      <div class="wrap">
+        <h2 id="tarifs-title">Tarifs</h2>
+        <div class="prices">
+          {
+            [roomPrices, gitePrices].filter((t) => t !== undefined).map((t) => (
+              <div class="price-block">
+                <table>
+                  <caption>{t.title}</caption>
+                  <thead>
+                    <tr>
+                      <td />
+                      {t.columns.map((c) => <th scope="col">{c}</th>)}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {t.rows.map((row) => (
+                      <tr>
+                        <th scope="row">{row.label}</th>
+                        {row.values.map((v) => <td>{v}</td>)}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                {t.notes.length > 0 && (
+                  <ul class="notes">
+                    {t.notes.map((n) => <li>{n}</li>)}
+                  </ul>
+                )}
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <section id="infos" class="infos-section" aria-labelledby="infos-title">
+      <div class="wrap two-col">
+        <div>
+          <h2 id="infos-title">Bon à savoir</h2>
+          <ul class="plain">
+            {bnb.practical.map((p) => <li>{p}</li>)}
+          </ul>
+        </div>
+        <div class="book">
+          <h3>Réserver</h3>
+          <p>Par téléphone ou par e-mail, auprès de {bnb.hosts}.</p>
+          <a class="btn btn-wine" href={tel}>{bnb.phone}</a>
+          <a class="btn btn-vine" href={mail}>{bnb.email}</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="acces" aria-labelledby="acces-title">
+      <div class="wrap two-col">
+        <div>
+          <h2 id="acces-title">Venir au domaine</h2>
+          <address>
+            {bnb.address.street}<br />
+            {bnb.address.postalCode} {bnb.address.locality}
+          </address>
+          <a class="btn btn-vine" href={mapsUrl(bnb.address)} target="_blank" rel="noopener">Ouvrir l'itinéraire</a>
+        </div>
+        <dl class="directions">
+          {
+            bnb.directions.map((d) => (
+              <div>
+                <dt>{d.from}</dt>
+                <dd>{d.steps}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="footer-name">{bnb.name}</p>
+      <address>
+        {bnb.hosts}<br />
+        {bnb.address.street}, {bnb.address.postalCode} {bnb.address.locality}<br />
+        <a href={tel}>{bnb.phone}</a><br />
+        <a href={mail}>{bnb.email}</a>
+      </address>
+      <p class="demo-note">Maquette de démonstration</p>
+    </div>
+  </footer>
+
+  <aside class="callbar" data-callbar aria-label="Contact rapide">
+    <a class="btn btn-wine" href={tel}>Appeler</a>
+    <a class="btn btn-paper" href={mail}>E-mail</a>
+  </aside>
+</BaseLayout>

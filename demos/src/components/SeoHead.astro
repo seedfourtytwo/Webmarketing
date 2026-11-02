@@ -1,0 +1,36 @@
+---
+import { getImage } from 'astro:assets';
+import type { Bnb } from '../data/types';
+import { buildLodgingJsonLd } from '../lib/seo';
+
+interface Props {
+  bnb: Bnb;
+  /** Browser UI colour on phones; each design passes its own. */
+  themeColor: string;
+}
+
+const { bnb, themeColor } = Astro.props;
+const hero = bnb.heroPhotos[0];
+if (!hero) throw new Error(`${bnb.slug}: heroPhotos is empty`);
+// Absolute URLs point at the business's own domain: that is where the page would live.
+const og = await getImage({ src: hero.src, width: 1200, format: 'jpeg' });
+const ogUrl = new URL(og.src, bnb.url).href;
+const jsonLd = JSON.stringify(buildLodgingJsonLd(bnb, ogUrl));
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{bnb.seo.title}</title>
+<meta name="description" content={bnb.seo.description} />
+<link rel="canonical" href={bnb.url} />
+<meta name="theme-color" content={themeColor} />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:site_name" content={bnb.name} />
+<meta property="og:title" content={bnb.seo.title} />
+<meta property="og:description" content={bnb.seo.description} />
+<meta property="og:url" content={bnb.url} />
+<meta property="og:image" content={ogUrl} />
+<meta property="og:image:alt" content={hero.alt} />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" set:html={jsonLd} />
