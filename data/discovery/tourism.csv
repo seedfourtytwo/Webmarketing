@@ -1,0 +1,83 @@
+name,sector,address,phone,domain,evidence,size_hint,franchise,notes
+Hôtel du Commerce,hotel,"8 Place du Mandarous, 12100 Millau",+33565600056,hotelducommerce.fr,tourisme-aveyron.com listing (own contact),small (16 rooms),no,
+Hôtel des Causses,hotel,"2 rue Mathieu Prévot, 12100 Millau",+33565600319,hoteldescausses.com,tourisme-aveyron.com listing (own contact),small (18 rooms),no,
+Hôtel Le Patio,hotel,"91 Avenue Jean Jaurès, 12100 Millau",+33565611643,,tourisme-aveyron listing; only a Facebook page (Restaurant LE PATIO) found,small,no,no own website found; facebook only
+Hôtel La Capelle,hotel,"7 Place de la Capelle, 12100 Millau",+33565601472,hotel-millau-capelle.com,tourisme-aveyron.com listing (own contact),medium (40 rooms),no,
+Hôtel des Voyageurs,hotel,"110 Avenue Jean Jaurès, 12100 Millau",+33565601034,hotel-voyageurs-millau.com,tourisme-aveyron.com listing (own contact); curl connection fails (000),small,no,listed domain does not respond: dead/expired site = strong lead
+Cévenol Hôtel - Le Pot d'Etain,hotel+restaurant,"115 Rue du Rajol, 12100 Millau",+33565607444,cevenol-hotel.fr,tourisme-aveyron.com listing (own contact),medium (42 rooms),no,"viaduct view, pool"
+Domaine Saint Estève,hotel/event venue,"Avenue de Millau Plage, 12100 Millau",+33565691212,dsemillau.com,tourisme-aveyron.com listing (own contact); redirects to sejour-seminaire-aveyron.com,"medium (chalets, restaurant, wedding/seminar venue)",no,also restaurant Le Point de Vue; weddings/seminars
+"Le Point de Vue (restaurant, Domaine Saint Estève)",restaurant,"Avenue de Millau Plage, 12100 Millau",+33565691212,dsemillau.com,tourisme-aveyron.com listing (own contact),small,no,same owner/site as Domaine Saint Estève
+Château de Creissels,hotel+restaurant,"Place du Prieur, 12100 Creissels",+33565601659,chateau-de-creissels.com,tourisme-aveyron.com listing (own contact),medium,no,"castle hotel, Creissels"
+Bowling Hôtel Millau (Cit'Hôtel),hotel+restaurant+event,"33 chemin de Sallèles, Cap du Crès, 12100 Millau",+33565600555,hotelbowlingdemillau.fr,tourisme-aveyron.com listing (own contact),medium (seats 200 for events),yes,"Cit'Hôtel franchise, local operator; wedding venue"
+Brit Hôtel Essentiel Millau,hotel,"Chemin de Salelles, Cap du Crès, 12100 Millau",+33565608525,millau.brithotel.fr,tourisme-aveyron.com listing (own contact),medium,yes,Brit Hotel franchise on chain subdomain (millau.brithotel.fr) - little site control
+Hôtel de la Muse et du Rozier,hotel,"La Muse, 12720 Mostuéjouls",+33565626001,hotel-delamuse.com,tourisme-aveyron.com listing (own contact) (hotel-delamuse.fr redirects to .com),medium,no,"Gorges du Tarn, outside core radius"
+Hôtel de la Poste (La Cavalerie),hotel+restaurant,"668 avenue Simone Veil, 12230 La Cavalerie",+33565627066,hotel-larzac.com,tourisme-aveyron.com listing (own contact),small,no,
+Auberge Le Cévenol (La Cavalerie),hotel+restaurant,"394 avenue du 122e RI, 12230 La Cavalerie",+33565627014,auberge-le-cevenol.com,tourisme-aveyron.com listing (own contact); curl returns 403 (bot block),small,no,
+Camping Le Millau Plage,camping,"Avenue de Millau Plage, 12100 Millau",+33565721277,campingmillauplage.fr,tourisme-aveyron.com listing (own contact),"large (4 stars, 5 ha)",no,
+Camping 2 Rivières,camping,"61 Avenue de l'Aigoual, 12100 Millau",+33565600027,camping2rivieresmillau.fr,tourisme-aveyron.com listing (own contact),medium (3 stars),no,also runs Restaurant 2 Rivières
+Camping Les Erables,camping,"283 Avenue de Millau Plage, 12100 Millau",+33565591513,campingleserables.fr,tourisme-aveyron.com listing (own contact),medium (3 stars),no,
+Camping Le Saint Lambert,camping,"2050 Avenue de l'Aigoual, 12100 Millau",+33565600048,campingmillau.fr,tourisme-aveyron.com listing (own contact),medium (141 pitches),no,
+Val Saint Georges (camping chalets + chambres d'hôtes),camping/chambre d'hôtes,"6 Avenue Bernard Pottier, 12100 St-Georges-de-Luzençon",+33565624212,valstgeorges.fr,tourisme-aveyron.com listing (own contact); curl fails (000),medium (21 chalets),no,listed domain does not respond: dead site = strong lead
+Restaurant 2 Rivières,restaurant,"61 Avenue de l'Aigoual, 12100 Millau",+33565600027,camping2rivieresmillau.fr,tourisme-aveyron.com listing (own contact),small,no,part of Camping 2 Rivières
+Au Jeu de Paume,restaurant,"4 rue Saint Antoine, 12100 Millau",+33565602512,aujeudepaume-millau.com,tourisme-aveyron.com listing (own contact),small,no,"grill au feu de bois, old town"
+Bistro Les Arcades,restaurant,"3 Place Foch, 12100 Millau",+33565605452,restaurant-les-arcades.fr,tourisme-aveyron.com listing (own contact),small,no,
+Maison Seed,restaurant,"2 Rue Peyssière, 12100 Millau",+33757638141,maisonseed.fr,"tourisme-aveyron.com listing (own contact); Gault&Millau listed, Google 5/5 (94 reviews per Rankeat)",small,no,"gastronomic, chef Rémi Cazottes"
+Le Phileas Fogg,restaurant,"Avenue de Millau Plage (Camping Millau Plage), 12100 Millau",+33565597699,restaurantphileasfogg.fr,tourisme-aveyron.com listing (own contact); domain redirects to unrelated site geoffreysebille.fr,small,no,listed domain now redirects to an unrelated personal site: lapsed domain = strong lead
+"Léonie, Cuisine Aveyronnaise",restaurant,"80 Bd du Cardinal François Marty, Rond-point du Crès, 12100 Millau",+33565464646,,tourisme-aveyron listing; Facebook page leonie.millau,medium (150 covers),no,facebook only; Relais Millau Larzac
+Restaurant du Plaisir des Mets,restaurant,"23 Rue du Pont de Fer, 12100 Millau",+33565770163,,tourisme-aveyron listing; Gault&Millau 11.5/20; no site seen,small (50 seats),no,no own website found
+Côté Marché,restaurant,"10 Place Foch, 12100 Millau",+33565612107,,tourisme-aveyron listing; Facebook page cotemarche,small,no,facebook only
+Restaurant Umami,restaurant,"7 Place Maréchal Foch, 12100 Millau",+33565475309,,tourisme-aveyron listing; no site seen,small (30 covers),no,no own website found
+Le Chien à la Fenêtre,restaurant,"10 rue Peyrollerie, 12100 Millau",+33565604922,,tourisme-aveyron listing; Facebook page,small (44 seats),no,facebook only
+Il Cafetino,cafe/salon de thé,"4 rue du Mandarous, 12100 Millau",+33565425615,,tourisme-aveyron listing; Facebook page IlCafetino.Millau,solo,no,facebook only
+Atelier Pizza La Toscane,restaurant,"5 Place Foch, 12100 Millau",+33772437460,,tourisme-aveyron listing; Facebook page pizzerialatoscanemillau,solo,no,facebook only
+Le Bastringue,bar/restaurant,"1000 Avenue de Millau Plage, 12100 Millau",+33682415007,,tourisme-aveyron listing; Facebook page lebastringueboireetmanger,small,no,facebook only
+Auberge de Saint-Rome,restaurant,"Place du Terral, 12490 St-Rome-de-Tarn",+33565625307,,tourisme-aveyron listing; no site seen,small,no,no own website found
+Ferme Auberge La Tindelle,ferme-auberge,"Puech Margue, 12640 La Cresse",+33641334044,,tourisme-aveyron listing; Facebook page,small,no,facebook only; outside core radius
+Le Sahuc (restaurant + chambres),restaurant/chambres,"Peyrelade, 12640 Rivière-sur-Tarn",+33565691347,lesahuc-restaurant.fr,tourisme-aveyron.com listing (own contact),small,no,
+Roc et Canyon,"outdoor (canoe, climbing, VTT)","155 Avenue de l'Aigoual, 12100 Millau",+33565611777,roc-et-canyon.com,tourisme-aveyron.com listing (own contact),medium,no,also canoë/SUP base and bike rental
+Les Bateliers du Viaduc (Evolution 2 canoë),outdoor (canoe),"Place du 19 mars 1962, 12100 Creissels",+33565591241,bateliersduviaduc.com,tourisme-aveyron.com listing (own contact),small,no,
+Evolution 2 Millau - Parapente,outdoor (paragliding),"Atterrissage du Golf Café, 12100 Millau",+33679331578,evolution2.com,tourisme-aveyron.com listing (own contact) (evolution2.com/millau),small,yes,Evolution 2 is a national network; local franchise page
+Horizon Millau,"outdoor (paragliding, canyon, via ferrata)","6 place Lucien Grégoire, Place Foch, 12100 Millau",+33565597860,horizon-millau.com,tourisme-aveyron.com listing (own contact),medium,no,school labelled since 1995
+Antipodes,"outdoor (via ferrata, climbing)","173 bis avenue de Calès, 12100 Millau",+33565607203,antipodes-millau.com,tourisme-aveyron.com listing (own contact); redirects to activites-loisirs-millau.com (shared platform),small,no,site hosted on a shared booking platform template
+Nature et Sensations,"outdoor (via ferrata, climbing)",12100 Millau,+33771003972,naturesensationsmillau.fr,tourisme-aveyron.com listing (own contact),small,no,
+Millau Evasion Parapente,outdoor (paragliding),"Giratoire du Confluent, 12100 Millau",+33609144694,millau-evasion.com,tourisme-aveyron.com listing (own contact); curl fails (000),solo,no,listed domain does not respond: dead site = strong lead
+Airzone Parapente,outdoor (paragliding),"Parking Golf Café, Avenue de Millau Plage, 12100 Millau",+33660847623,airzone-parapente.com,tourisme-aveyron.com listing (own contact),solo,no,
+Acrobi Parapente,outdoor (paragliding),"1226 Avenue de Millau Plage, 12100 Millau",+33673460573,acrobi-parapente.com,tourisme-aveyron.com listing (own contact),solo,no,
+Air Magic Parapente,outdoor (paragliding),"1207 B avenue de l'Aigoual, 12100 Millau",+33664805004,air-magic-parapente.com,tourisme-aveyron.com listing (own contact); curl fails (000),solo,no,listed domain does not respond: dead site = strong lead
+Fly Millau Parapente,outdoor (paragliding),"1369 Avenue de Millau Plage, 12100 Millau",+33669596822,flymillauparapente.com,tourisme-aveyron.com listing (own contact); curl returns 404 on root,solo,no,site root 404: possibly broken
+Tête à l'Env'Air,outdoor (paragliding),"Avenue de Millau Plage (Golf Café landing), 12100 Millau",+33671050792,tete-a-lenvair.com,tourisme-aveyron.com listing (own contact),solo,no,
+Explo Nature Millau Canyoning,outdoor (canyoning),12490 St-Rome-de-Cernon,+33614693154,explonature.fr,tourisme-aveyron.com listing (own contact),small,no,
+Béaba Sport Nature,"outdoor (climbing, canyon)",12100 Millau,+33630246740,sportsnature-millau-gorgesdutarn.com,tourisme-aveyron.com listing (own contact); beaba-sport-nature.com redirects there,solo,no,shared platform template site
+Millau Activités Nature,"outdoor (climbing, rando-rappel)",12100 Millau,+33673947348,millau-activites-nature.fr,tourisme-aveyron.com listing (own contact),solo,no,
+Vertiguide,outdoor (climbing guide),12100 Millau,+33423500512,vertiguide.fr,tourisme-aveyron.com listing (own contact); curl fails (000),solo,no,listed domain did not respond to curl; recheck
+Esprit Nature (Aguessac),"outdoor (canyon, climbing, via ferrata)","Route des Gorges du Tarn, 12520 Aguessac",+33565597203,escapade-espritnature.com,tourisme-aveyron.com listing (own contact),small,no,
+Deltalib,outdoor (paragliding/delta),"59 Avenue des Causses, 12520 Aguessac",+33632800112,deltalib.eu,tourisme-aveyron.com listing (own contact),solo,no,
+Les Arts du Vide,outdoor (climbing guide),12520 Aguessac,+33681063496,lesartsduvide.com,tourisme-aveyron.com listing (own contact),solo,no,
+Causses Émotions,"outdoor (climbing, via ferrata)","Subremur, 12620 St-Beauzély",+33622970267,causses-emotions.com,tourisme-aveyron.com listing (own contact),solo,no,outside core radius
+La Belle Cordée,"outdoor (climbing, rando-rappel)","5 lot des gorges du Tarn, 12640 Rivière-sur-Tarn",+33695966746,labellecordee.com,tourisme-aveyron.com listing (own contact),solo,no,
+Escal'Adventure,"outdoor (climbing, via ferrata)","Liaucous, 12720 Mostuéjouls",+33643583127,escal-adventure.fr,tourisme-aveyron.com listing (own contact),solo,no,
+Emotion Nature,outdoor (climbing),"4066 route des Gorges du Tarn, 12720 Mostuéjouls",+33675182609,emotion-nature.fr,tourisme-aveyron.com listing (own contact),solo,no,curl timed out in check; unverified
+Nömad Sport Nature,outdoor (via ferrata),"St-Pal, 12720 Mostuéjouls",+33627554423,nomad-sport-nature.com,tourisme-aveyron.com listing (own contact),solo,no,not curl-checked
+Bureau des Moniteurs Cévennes,"outdoor (climbing, via ferrata)",12720 Mostuéjouls,+33669065196,bureau-des-moniteurs-cevennes.fr,tourisme-aveyron.com listing (own contact),small,no,not curl-checked
+Le Goût du Vélo,bike rental / tours,12100 Millau,+33672474606,legoutduvelo.fr,tourisme-aveyron.com listing (own contact),solo,no,
+Sprocket (atelier vélo / location),bike rental,"3 rue Peyssière, 12100 Millau",+33767683885,sprocket.fr,tourisme-aveyron.com listing (own contact),solo,no,
+Duverbike Bikepark,bike park / rental,"403 Avenue de Millau Plage, 12100 Millau",+33623638866,bikepark-vtt-millau.com,tourisme-aveyron.com listing (own contact),small,no,
+La Place du Vélo,bike shop / rental,"1B rue du Barry, 12100 Millau",+33565602823,,tourisme-aveyron listing; no site seen,solo,no,no own website found
+Stade d'Eaux Vives / Parc AquaVagues,outdoor leisure park,"Parc AquaVagues, 12100 Millau",+33630174880,sev-millau.fr,tourisme-aveyron.com listing (own contact),medium,no,
+Musée de Millau et des Grands Causses (MuMiG),museum,"Place Foch, 12100 Millau",+33565590108,mumig.fr,tourisme-aveyron.com listing (own contact),medium (public),no,municipal; also Graufesenque site
+Viaduc Expo,visit / exhibition,"Aire du Viaduc de Millau, 12100 Millau",+33565616154,leviaducdemillau.com,tourisme-aveyron.com listing (own contact),large (Eiffage concession),no,corporate-run; low priority
+La Maison de la Cerise,visit / producer,"Place de l'Escaras, 12520 Paulhe",+33565590098,maisondelacerise.com,tourisme-aveyron.com listing (own contact); curl fails (000),small,no,listed domain does not respond: dead site = strong lead
+La Maison de la Truffe,visit,"Rue du Château, 12100 Comprégnac",+33671884427,syndicattrufficult.wixsite.com/aveyron-truffe,tourisme-aveyron.com listing (own contact),small,no,Wix site; association
+Le Mas Rolland,chambres d'hôtes,"Pailhas, 12520 Compeyre",+33682101674,le-mas-rolland.com,tourisme-aveyron.com listing (own contact),small,no,5 épis
+Les Fréjals,chambres d'hôtes,"Pailhas, 12520 Compeyre",+33626057747,chambresdhotes-gorgesdutarn.com,tourisme-aveyron.com listing (own contact); lesfrejals.com redirects there,small,no,shared-platform site
+Chambre d'hôtes Chez Marie,chambres d'hôtes/gîte,"216 Camp Redon, 12520 Compeyre",+33684456974,gitechezmarie.com,tourisme-aveyron.com listing (own contact),solo,no,
+Les Hauts de Souloumiac,chambres d'hôtes,"97 Impasse Les Hauts de Souloumiac, 12100 Millau",+33688755038,leshautsdesouloumiac.fr,tourisme-aveyron.com listing (own contact),small,no,
+Villa La Pomarède,chambres d'hôtes,"60 Impasse de la Gaité, 12100 Millau",+33677047284,villalapomarede.com,tourisme-aveyron.com listing (own contact); curl fails (000),small (4 rooms),no,listed domain does not respond: dead site = strong lead
+Le Soleilo,chambres d'hôtes/gîte/spa,"218 Chemin du Valat, 12720 Mostuéjouls",+33622846100,lesoleilo.com,tourisme-aveyron.com listing (own contact),small,no,
+Les Falaises,chambres d'hôtes,"Liaucous, 12720 Mostuéjouls",+33616703620,lesfalaises.fr,tourisme-aveyron.com listing (own contact),small,no,
+Domaine de la Cardabelle,gîtes/chambres,"5 chemin du roc de Peyrelade, 12640 Rivière-sur-Tarn",+33565598578,domaine-lacardabelle.eu,tourisme-aveyron.com listing (own contact),small,no,
+"La Cachette (cabanes, roulotte)",hébergement insolite,"Boyne, 12640 Rivière-sur-Tarn",+33565626106,gites-cabanes-spa-aveyron.com,tourisme-aveyron.com listing (own contact),small,no,not curl-checked
+La Ferme aux Ânes - Domaine des Combes,gîte,"Les Combes Hautes, 12100 Creissels",+33607163379,domainedescombeslafermeauxanes.ellohaweb.com,tourisme-aveyron.com listing (own contact),solo,no,site on a subdomain of a builder (ellohaweb)
+Gîtes de la Martinerie,gîte,"La Martinerie, 12100 Millau",+33681047246,gitelamartinerie.fr,tourisme-aveyron.com listing (own contact),solo,no,not curl-checked
+Gîte La Maison Vieille,gîte,"Soulobres, 12100 Millau",+33783831834,,tourisme-aveyron listing; no site seen,solo,no,no own website found
+La Brasserie du Larzac,brasserie / producer,"La Blaquière, 12100 Millau",+33781126901,,tourisme-aveyron listing; Facebook page brasserie.larzac,solo,no,facebook only

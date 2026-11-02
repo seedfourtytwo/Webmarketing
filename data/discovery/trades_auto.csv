@@ -1,0 +1,66 @@
+name,sector,address,phone,domain,evidence,size_hint,franchise,notes
+Peugeot Maurel Aveyron Millau,car dealership,85 avenue Jean Jaurès 12100 Millau,,peugeot-millau.maurelauto.fr,"domain in directory entry; fetched 200, ~1100 Millau mentions",large,no,"Regional group (SAS, 50-99 staff); site is a subdomain of group site maurelauto.fr, so decision-maker likely at group level"
+Citroën Ets André Bousquet et Fils Millau,car dealership,avenue de Calès 12100 Millau,05 65 61 47 00,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,medium,no,Family-named group also in Saint-Affrique; no site found
+Etoile Service (Mercedes-Benz),car dealership / repairer,160 rue François Arago 12100 Millau,05 65 60 11 07,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,Agréé Mercedes repairer per directory
+"Renault Millau (Groupe Bony, ex-Fabre/Cano)",car dealership,boulevard Jean Gabriac 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results; trade press: Fabre Renault sites sold to Bony in 2025,large,yes (Renault network),"Multi-site group; ownership changed 2025, low priority"
+"Volkswagen / Skoda Millau (Autostrade, Groupe Fabre)",car dealership,boulevard Jean Gabriac 12100 Millau,05 65 60 00 60,volkswagen-millau.autotransac.fr,"search result; fetched 200, Millau-specific",medium,yes (VW network),Site is on Autotransac vendor platform; group Fabre mobilite (fabre-mobilite.com) is multi-site; low fit
+Suzuki Millau - Car's Services,car dealership,boulevard Jean Gabriac 12100 Millau,05 65 60 41 44,suzuki-millau.autotransac.fr,search result; fetched 200,small,yes (Suzuki network),Same Autotransac platform; directory attributes it to Centre Auto Tarnais
+Aveyron Automobiles,garage / dealer / body shop,rue Croix de Gaven 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,"Agréé assurances, carrosserie, self-garage per 118712"
+AR Cars Automobiles (Garage AD BMW),garage / body shop,3 avenue Jean Monnet 12100 Creissels,05 65 61 26 02,ar-cars-automobiles.fr,"search result; fetched 200, 160+ Millau mentions",small,yes (AD network),Creissels (adjacent to Millau)
+Garage Champion Guillaume,garage / Renault-Dacia agent,Creissels 12100,,,Office du Commerce Millau member profile only (directory); no own site seen,small,yes (Renault agent),Creissels
+GGM 12 (Autofit),garage,"rue Jean Cottereau Viala, Millau",07 87 15 37 13,,"autofit network page only (garage-autofit.com is the network, not own site)",small,yes (Autofit),Mechanics + carrosserie
+Carrosserie Centrale Millau,body shop,impasse Boris Vian 12100 Millau,,,"directory listings (mygarages, my-procar); carrosserie-centrale.fr is an unrelated national directory, rejected",small,possible (franchise mentioned in reviews),Mixed reviews
+Carrosserie Artières,body shop,rue de Vinnac 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,
+Szoldra Carrosserie,body shop,rue François Arago 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,
+Garage Puech,garage,116 avenue Jean Jaurès 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,
+Garage MD12 Auto,garage,61 avenue Jean Jaurès 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results (mappy lists Daouadji Mounir at same address),solo,no,"Vidange, freinage, pneus"
+Millau Pneus,tyre centre,50 avenue Jean Jaurès 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,
+Pneus 2000 (Siligom),tyre centre / dépannage,8 avenue Edouard Alfred Martel 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,possible,Check if Pneus 2000 is a network
+Lassale Pneus (First Stop),tyre centre,275 rue Etienne Delmas 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,yes (First Stop),
+Centre Motoculture Aveyronnais (CMC) Millau,agri/garden machinery dealer,"ZAC du Cap du Crès, bd Georges Brassens 12100 Millau",05 65 60 30 40,c-m-c.fr,domain in search result; fetched 200 but only 6 Millau mentions (multi-site group),medium,no,"Parent in Rodez, ~31 staff, 28 MEUR revenue (Xerfi); group-level site"
+Aigouy Motoculture,motoculture dealer,5 avenue Jean Monnet 12100 Creissels,05 65 61 16 85,motoculture-millau.fr,"search result; fetched 200 (title Aigouy Motoculture, 52 Millau mentions)",small,no,"Domain differs from other URL seen (aigouy-motoculture-mp.fr, unreachable)"
+Cadauma,agricultural machinery,avenue des Fialets 12100 Millau,,cadauma.net,directory lists Cadauma matériel agricole Millau; cadauma.fr redirected to cadauma.net which brands Aveyron/Lozère/Tarn,medium,no,"Regional dealer, Millau is one site; check it is the same entity"
+Millau Motoculture,motoculture dealer,avenue des Fialets 12100 Millau,05 65 60 42 55,,magasinsenfrance listing only,small,no,May be inactive
+Sud Aveyron Chauffage (Michel Verdier),plumbing / heating / HVAC,300 rue Etienne Delmas 12100 Millau,05 65 59 18 00,sudaveyronchauffage-millau.site-solocal.com,site listed in directory; fetched 200 (Solocal template site); sud-aveyron-chauffage.com listed but unreachable,medium,no,"10-19 staff, since 2000, Daikin partner, Qualibat; Solocal-hosted site is likely generic template, good target"
+Plomberie Treillet (Nicolas Treillet),plumber / heating,avenue Alfred Martel 12100 Millau,05 65 59 11 81,plombierchauffagistemillau.fr,"search result; fetched 200, 34 Millau mentions",solo,no,Since 2011; Qualibat/QualiPAC
+Bouviala SARL,plumber / heating,13 rue Louis Blanc 12100 Millau,,,directories/job offers only; no own site seen,small,no,"Created 1973, 3-5 staff, 4.9 on Effy, hiring"
+Thermi Sud,plumber / heating / zinguerie,Millau,,,obat/kompass listings only,small,no,No address or site found
+Dépann'Express,plumbing / electricity / locksmith,7 avenue Alfred Merle 12100 Millau,06 61 22 01 96,depannexpress12.fr,search result; fetched 200,small,no,
+Adim Groupe,electricity / solar / plumbing / HVAC,Millau,05 65 59 48 13,adimgroupe.com,search result; fetched 200,small,no,"Qualifelec, QualiPAC; page reported to be ~5 years old"
+Menu Michaël SARL (Menu Électricité),electrician,Millau / Saint-Beauzely area,05 65 60 62 29,electricien-millau.fr,"fetched 200; legal footer 'Menu Michaël SARL', 11 collaborators",medium,no,"Created 2003; also AC, alarms, PV; Facebook page also exists"
+Equinoxe Energies SARL,solar / heat pumps / renovation,ZAC de Vergonhac 12100 Saint-Georges-de-Luzençon,05 65 62 34 81,equinoxe-energies.fr,search result; fetched 200 (legal footer),small,no,"RGE; only 2 Millau mentions, based in neighbouring commune"
+2AE Aveyron Aménagement Electricité,electrician,819 rue des Hauts du Vivier 12100 Millau,,,Legrand 'Electriciens Certifiés' directory and obat only,small,possible (Legrand network member),Same address as Aveyron Couverture
+100 000 Volts,electrician,587 rue Auguste Monjols 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,solo,no,Address conflicts across listings
+Malaval André Électricité,electrician,Allée de la Sérénité 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,solo,no,
+Ets Merlette,electrician,10 rue de Strasbourg 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,
+Aveyron Couverture,roofer,819 rue des Hauts du Vivier 12100 Millau,,aveyron-couverture.fr,domain in directory entry; fetched 200 ('Pose fenêtres de toit Velux Millau'),small,no,
+CMT 12,roofer / mason,avenue du Languedoc 12100 Millau,05 65 59 47 20,cmt-12.fr,search result; fetched 200,small,no,
+Omont Couverture,roofer,Millau,06 17 95 57 53,omont-couverture.fr,"search result; fetched 200, 117 Millau mentions",solo,no,Title/content look SEO-template; possibly a lead-gen style site
+DB Couverture,roofer / zinguerie,550 rue de la Rode 12100 Millau,05 65 59 50 00,couvreur-db.fr,search result; fetched 200,small,no,Service pages repetitive (SEO-style)
+Austruy Charpentes,carpenter / timber frame,"P.A. Millau-Viaduc, 148 bd de Roullens 12100 Millau",,austruy-charpentes.fr,"guessed domain, fetched 200, title 'Austruy Charpentes à Millau'; pappers confirms SARL",small,no,Pappers: negative equity -572K EUR 2024; financial risk
+Servant Constructions,construction / mason,rue Alfred Guibert 12100 Millau,05 65 60 39 48,servant-constructions.fr,search result; fetched 200,medium,no,
+Sud Aveyron Construction,construction / mason,431 chemin de Salelles 12100 Millau,05 65 62 85 36,maconnerie-millau.fr,"search result; fetched 200, phone matches directory",medium,no,"Neuf, rénovation, bâtiments agricoles/industriels"
+Romero Constructions,construction / mason,Saint-Georges-de-Luzençon,,romeroconstructions.fr,search result; fetched 200,small,no,Neighbouring commune
+Socorebat (Millau),construction / renovation,Millau area,,socorebat-12.fr,"search result; fetched 200, only 7 Millau mentions",small,yes (Socorebat network),"Network site, local agency"
+Façadim,facade / ITE,Millau,06 83 41 61 20,facadim.fr,search result; fetched 200,small,no,"Since 2007, RGE"
+Entreprise Masson et Fils,painter,Millau,05 65 59 74 63,millaupeinture.com,"search result; fetched 200, 646 Millau mentions",small,no,Family firm 15+ yrs
+Luizo Peinture,painter,Millau area,,luizo-peinture.com,domain in search result; fetch failed (timeout/000) from here,small,no,Retry fetch before outreach
+Sud Aveyron Habitat,painter,169A impasse Marcel Fontaneilles 12100 Millau,,,mappy listing only,small,no,Since 2010
+Menuiseries Alu Aveyron (Grégory Mazet),joinery alu/PVC,Millau,,menuiseries-alu-aveyron.fr,search result; fetched 200,solo,no,"Since 2018, RGE"
+L'Atelier du Moulinau,joinery / cabinetmaking,Saint-Léons (near Millau),,latelierdumoulinau.fr,domain in search result; fetch failed (000),small,no,Retry fetch
+Ets Brahic Menuiseries,joinery,avenue Jean Jaurès 12100 Millau,,stores-fenetres-aveyron.com,domain in search result; fetch failed (000),small,no,Since 2005; RGE Qualibat; retry fetch
+Andral Menuiseries,joinery,Millau,,andral-menuiseries.fr,domain in search result; fetch failed (000),small,no,60 m2 showroom; retry fetch
+Rénov 12,kitchen & bathroom installer,Millau,06 45 70 15 88,renov12.fr,"search result; fetched 200, 39 Millau mentions",small,no,
+Eric Verdonck - carreleur,tiler / bathrooms,Millau,06 11 91 94 89,carreleur-millau.fr,search result; fetched 200,solo,no,
+Nexus Construction Millau,construction / renovation,Millau,,nexus-construction.fr,search result; fetched 200 (/millau/ page),small,yes (Nexus network),Franchise agency page
+Ladet TP et Transports,public works / earthworks,1250 avenue de l'Aigoual 12100 Millau,05 65 59 47 32,ladet.fr,"search result; fetched 200, address in footer",medium,no,Since 1992; TP plus transport
+Agussol TP,earthworks / sanitation,La Cavalerie 12230 (near Millau),,agussol-tp.com,"search result; fetched 200, 48 Millau mentions",small,no,"La Cavalerie, 15 km"
+Christophe Viala Travaux Publics,earthworks / sanitation,Millau,,,directory/pro page only,solo,no,
+Hernan TP SARL,public works,414 avenue des Fialets 12100 Millau,,,mappy listing only,small,no,
+Vidal Concept (Piscines Desjoyaux Millau),pool builder,Millau area,,vidal-concept.fr,search result; fetched 200,small,yes (Desjoyaux licensee),Network site template
+Belliteau Pisciniste,pool builder,Millau,,,listed on constructeurs-piscine-pro.fr (directory); no own site seen,small,no,
+Paysage Marc,landscaper / nursery,Route de Cahors 12100 Millau,05 65 60 18 69,paysagemarc-millau.fr,search result; fetched 200,medium,no,"30+ yrs, 10,000 m2 nursery"
+Boyer Paysagiste (GAEC Boyer),landscaper / nursery / florist,avenue Pont Lerouge 12100 Millau,,boyerpaysagiste.com,domain in search result; fetch returned HTTP 500 (site error),medium,no,Site currently erroring; strong hook
+Pouget Paysagiste,landscaper,Millau / Aveyron,06 78 14 92 65,pougetpaysagiste.fr,search result; fetched 200,solo,no,20+ yrs
+Geoffrey Martin Paysagiste,landscaper,Millau,07 61 89 02 97,geoffreymartin.com,search result; fetched 200,solo,no,
+Dafilec,commercial HVAC / refrigeration,Onet-le-Château 12000 (serves Millau),05 65 71 98 53,dafilec-aveyron.fr,search result; fetched 200,small,no,Not Millau-based; low priority
