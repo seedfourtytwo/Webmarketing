@@ -6,6 +6,7 @@ A,16,SCP Larguier-Aimonetti-Blanc-Bringer-Mazars,lawyer,"26 avenue de la Républ
 A,16,Les Falaises,chambres d'hôtes,"Liaucous, 12720 Mostuéjouls",lesfalaises.fr,3,10,B-tech/security,5,46,missing security headers (5/5); no mobile viewport (not responsive); old jQuery 1.9; legacy HTML (font/center/flash),
 A,16,Etoile Service (Mercedes-Benz),car dealership / repairer,160 rue François Arago 12100 Millau,lafon.mercedes.fr,3,10,B-tech/security,3.9,58,missing security headers (5/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO); very thin / placeholder page; HTTP 502,Agréé Mercedes repairer per directory
 A,15,LC2B,accountant,"174 impasse de la Belle Laitière, 12100 Millau",2b-construction-bois.com,4,7,B-tech/security,5,1,missing security headers (5/5); outdated PHP 7.4 exposed; legacy HTML (font/center/flash),Domain unconfirmed
+A,15,Katia Angles Vaissettes (agent immobilier),real estate,Millau 12100,angles-immobilier.com,3,9,site DOWN (confirmed by manual check),4,152,,Details unverified
 A,15,Domaine de la Cardabelle,gîtes/chambres,"5 chemin du roc de Peyrelade, 12640 Rivière-sur-Tarn",domaine-lacardabelle.eu,3,9,C-design,4.8,105,missing security headers (4/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO),
 A,14,Ô Conseils,accountant,"65 boulevard Jean Gabriac, 12100 Millau",oconseils.fr,5,4,C-design,,,missing security headers (5/5); legacy HTML (font/center/flash),"Site lists mostly Hérault offices (Montpellier area); Millau is one office, check local ownership"
 A,14,Conseil et Expertise du Sud,accountant,Millau (address not verified),sec.li,5,4,OK-low-priority,5,1,missing security headers (5/5); outdated PHP 7.4 exposed,May be same entity as another firm listed; verify
@@ -65,7 +66,6 @@ B,10,Le Chien à la Fenêtre,restaurant,"10 rue Peyrollerie, 12100 Millau",,2,6,
 B,10,Stade d'Eaux Vives / Parc AquaVagues,outdoor leisure park,"Parc AquaVagues, 12100 Millau",parc-aquavagues-millau.fr,4,2,C-design,4.8,69,stale copyright 1998,
 B,10,La Maison de la Truffe,visit,"Rue du Château, 12100 Comprégnac",syndicattrufficult.wixsite.com,1,8,B-tech/security,3.9,8,no meta description (SEO); very thin / placeholder page; HTTP 404; large structure: owner/decision maker harder to reach,Wix site; association
 B,10,100 000 Volts,electrician,587 rue Auguste Monjols 12100 Millau,,2,6,no site (confirmed: none on Google),,,,Address conflicts across listings
-B,9,Katia Angles Vaissettes (agent immobilier),real estate,Millau 12100,angles-immobilier.com,3,3,site blocks research server (US IP); live but not auditable here,4,152,,Details unverified
 B,9,Me Aymeric Boyer,lawyer,"avenue de la République, 12100 Millau",consultation.avocat.fr,3,3,OK-low-priority,4,5,missing security headers (4/5); old jQuery 1.10,Generalist
 B,9,Restaurant Umami,restaurant,"7 Place Maréchal Foch, 12100 Millau",,2,5,no own site (instagram.com only),4.8,362,,no own website found
 B,9,Le Mas Rolland,chambres d'hôtes,"Pailhas, 12520 Compeyre",le-mas-rolland.com,3,3,C-design,5,208,missing security headers (4/5); stale copyright 2020,5 épis
@@ -75,7 +75,6 @@ B,9,Carrosserie Artières,body shop,rue de Vinnac 12100 Millau,carrosserie-artie
 B,9,Cadauma,agricultural machinery,avenue des Fialets 12100 Millau,cadauma.net,3,3,C-design,4.3,12,missing security headers (5/5); stale copyright 2016,"Regional dealer, Millau is one site; check it is the same entity"
 B,9,Millau Motoculture,motoculture dealer,avenue des Fialets 12100 Millau,cadauma.net,3,3,C-design,4.3,12,missing security headers (5/5); stale copyright 2016,May be inactive
 B,9,Bouviala SARL,plumber / heating,13 rue Louis Blanc 12100 Millau,sarlbouviala12.fr,3,3,C-design,3.7,3,missing security headers (5/5); stale copyright 2015,"Created 1973, 3-5 staff, 4.9 on Effy, hiring"
-B,9,L'Atelier du Moulinau,joinery / cabinetmaking,Saint-Léons (near Millau),latelierdumoulinau.fr,3,3,site blocks research server (US IP); live but not auditable here,4.9,43,,Retry fetch
 B,9,Andral Menuiseries,joinery,Millau,andral-menuiseries.fr,3,3,site blocks research server (US IP); live but not auditable here,4.8,61,,60 m2 showroom; retry fetch
 B,8,AGC Grand Sud,accountant,"300 rue Etienne Delmas, 12100 Millau",,1,6,no site (confirmed: none on Google),4.8,37,large structure: owner/decision maker harder to reach,Likely AGC network; low priority
 B,8,Consult'g,consulting,"impasse Jean Despradels d'Allaret, 12100 Millau",,2,4,no site (unverified: no Google match),,,,
@@ -102,6 +101,7 @@ B,8,Musée de Millau et des Grands Causses (MuMiG),museum,"Place Foch, 12100 Mil
 B,8,Les Hauts de Souloumiac,chambres d'hôtes,"97 Impasse Les Hauts de Souloumiac, 12100 Millau",leshautsdesouloumiac.fr,3,2,OK-low-priority,4.7,20,missing security headers (5/5); no meta description (SEO),
 B,8,Adim Groupe,electricity / solar / plumbing / HVAC,Millau,adimgroupe.com,2,4,OK-low-priority,4.5,37,missing security headers (5/5); outdated PHP 7.3 exposed,"Qualifelec, QualiPAC; page reported to be ~5 years old"
 B,8,Romero Constructions,construction / mason,Saint-Georges-de-Luzençon,qualiteohabitat.fr,3,2,OK-low-priority,4.3,4,missing security headers (5/5); no meta description (SEO),Neighbouring commune
+B,8,L'Atelier du Moulinau,joinery / cabinetmaking,Saint-Léons (near Millau),latelierdumoulinau.fr,3,2,site live (confirmed manually); blocks research server,4.9,43,,Retry fetch
 B,8,Hernan TP SARL,public works,414 avenue des Fialets 12100 Millau,,1,6,no site (confirmed: none on Google),,,large structure: owner/decision maker harder to reach,
 B,7,Fidexpertise / Fiducial Expertise Millau,accountant,"1 rue du Sacré-Coeur, 12100 Millau",,1,5,no own site (agences.fiducial.fr only),5,1,franchise/chain; large structure: owner/decision maker harder to reach,National network (Fiducial); corporate site not wanted unless locally owned
 B,7,Randstad Millau,hr_temp,"1 rue Alsace Lorraine, 12100 Millau",,1,5,no own site (randstad.fr only),4.3,47,franchise/chain; large structure: owner/decision maker harder to reach,Corporate site not wanted
@@ -171,7 +171,6 @@ C,7,"Léonie, Cuisine Aveyronnaise",restaurant,"80 Bd du Cardinal François Mart
 C,7,Le Sahuc (restaurant + chambres),restaurant/chambres,"Peyrelade, 12640 Rivière-sur-Tarn",lesahuc-restaurant.fr,3,1,OK-low-priority,4.9,353,missing security headers (5/5),
 C,7,Nature et Sensations,"outdoor (via ferrata, climbing)",12100 Millau,naturesensationsmillau.fr,3,1,OK-low-priority,5,64,missing security headers (5/5),
 C,7,Explo Nature Millau Canyoning,outdoor (canyoning),12490 St-Rome-de-Cernon,explonature.fr,3,1,OK-low-priority,5,108,missing security headers (5/5),
-C,7,Vertiguide,outdoor (climbing guide),12100 Millau,vertiguide.fr,2,3,site blocks research server (US IP); live but not auditable here,5,175,,listed domain did not respond to curl; recheck
 C,7,Esprit Nature (Aguessac),"outdoor (canyon, climbing, via ferrata)","Route des Gorges du Tarn, 12520 Aguessac",escapade-espritnature.com,3,1,OK-low-priority,4.9,168,missing security headers (5/5),
 C,7,Causses Émotions,"outdoor (climbing, via ferrata)","Subremur, 12620 St-Beauzély",causses-emotions.com,2,3,C-design,,,stale copyright 2020; no meta description (SEO),outside core radius
 C,7,Emotion Nature,outdoor (climbing),"4066 route des Gorges du Tarn, 12720 Mostuéjouls",emotion-nature.fr,2,3,C-design,4.9,294,missing security headers (5/5); stale copyright 2015,curl timed out in check; unverified
@@ -200,6 +199,7 @@ C,6,Geoffrey Badoux diététicien nutritionniste,dietitian,20 rue de la Liberté
 C,6,Écouter Voir Audition Mutualiste,audioprothésiste,2 place des Halles 12100 Millau,magasins.ecoutervoir.fr,3,0,OK-low-priority,4.4,9,,
 C,6,Bistro Les Arcades,restaurant,"3 Place Foch, 12100 Millau",restaurant-les-arcades.fr,2,2,C-design,4.4,474,stale copyright 2020,
 C,6,Les Bateliers du Viaduc (Evolution 2 canoë),outdoor (canoe),"Place du 19 mars 1962, 12100 Creissels",bateliersduviaduc.com,3,0,OK-low-priority,4.8,874,,
+C,6,Vertiguide,outdoor (climbing guide),12100 Millau,vertiguide.fr,2,2,site live (confirmed manually); blocks research server,5,175,,listed domain did not respond to curl; recheck
 C,6,Le Soleilo,chambres d'hôtes/gîte/spa,"218 Chemin du Valat, 12720 Mostuéjouls",lesoleilo.com,3,0,OK-low-priority,4.9,292,,
 C,6,"La Cachette (cabanes, roulotte)",hébergement insolite,"Boyne, 12640 Rivière-sur-Tarn",gites-cabanes-spa-aveyron.com,2,2,OK-low-priority,4.8,240,missing security headers (5/5); no meta description (SEO),not curl-checked
 C,6,Gîtes de la Martinerie,gîte,"La Martinerie, 12100 Millau",gitelamartinerie.fr,2,2,OK-low-priority,4.8,21,missing security headers (5/5); no meta description (SEO),not curl-checked

@@ -34,6 +34,8 @@ def main():
     aud = {a["domain"]: a for a in csv.DictReader(open("data/audit.csv", encoding="utf-8"))}
     con = {c["domain"]: c for c in csv.DictReader(open("data/site_contacts.csv", encoding="utf-8"))} \
         if os.path.exists("data/site_contacts.csv") else {}
+    chk = {c["domain"]: c for c in csv.DictReader(open("data/manual_checks.csv", encoding="utf-8"))} \
+        if os.path.exists("data/manual_checks.csv") else {}
     out = []
     for r in biz:
         d, src, s = r["domain"], r["site_source"], r["sector"].lower()
@@ -56,6 +58,11 @@ def main():
         else:
             need, status = min(10, int(a["score"])), a["bucket"]
             if a["issues"]: flags.append(a["issues"])
+        ck = chk.get(d, {}).get("state")
+        if ck == "down":
+            need, status = 9, "site DOWN (confirmed by manual check)"
+        elif ck == "live" and a is not None and a["bucket"] == "A-dead-site":
+            need, status = 2, "site live (confirmed manually); blocks research server"
         m = money(r)
         if r["franchise"].strip().lower() in ("yes", "true", "y"):
             m = min(m, 1); flags.append("franchise/chain")
