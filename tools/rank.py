@@ -46,7 +46,7 @@ def main():
             if src.startswith("platform-only"):
                 need, status = 5, "no own site (" + src.split(":", 1)[1] + " only)"
             elif src == "none-on-google":
-                need, status = 6, "no site (confirmed: none on Google)"
+                need, status = 6, "no website link on Google listing (NOT yet verified: check before claiming)"
             else:
                 need, status = 4, "no site (unverified: no Google match)"
             if lodging:
