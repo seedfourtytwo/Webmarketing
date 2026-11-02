@@ -1,0 +1,47 @@
+name,sector,address,phone,domain,evidence,size_hint,franchise,notes
+Centre de santé dentaire mutualiste Millau (Altriane),dentist,"22 rue de l'Ancienne Commune 12100 Millau (another listing: 50 place des Consuls)",05 65 59 26 65,altriane.fr,"118712 listing links to altriane.fr/adresses/centre-de-santé-dentaire-millau; fetched 200",medium,yes (mutualiste network),"Page on regional network site, not an independent site; address conflict between listings"
+Cabinet dentaire Géraud Besombes,dentist,Millau 12100 (street not confirmed),,,"PagesJaunes + justacote listing only",solo,no,"Besombes-Moureau cabinet also listed on lemedecin.fr; no own site seen"
+Cabinet dentaire Benoît Barthélemy,dentist,Millau 12100,,,"lemedecin/118712 listing only",solo,no,
+Cabinet dentaire Bruno Cluzel,dentist,Millau 12100,,,"PagesJaunes listing only",solo,no,
+Cabinet dentaire Florent Assier,dentist,Millau 12100,,,"PagesJaunes listing only",solo,no,
+Cabinet dentaire Laurent Labbé,dentist,Millau 12100,,,"PagesJaunes listing only",solo,no,
+Cabinet dentaire Alina Mihaela Mares,dentist,Millau 12100,,,"PagesJaunes listing only",solo,no,
+Maison de santé de la Capelle / des Ondes,medical group,"Esplanade François Mitterrand 12100 Millau",05 65 61 18 19,,"millau.fr list of maisons de santé; inaugural news on cc-millaugrandscausses.fr; no own site seen",large,no,"Public/communal-linked structure; multi-professional"
+Maison de santé du Stade,medical group,Rond-point des Stades / av. Jean Jaurès area Millau,,,"millau.fr list of maisons de santé",large,no,"Exact address not confirmed"
+Structure pluridisciplinaire 128 avenue de Cales,medical group,"128 avenue de Cales 12100 Millau",,,"millau.fr list (médecins, infirmières, psychologue, diététicienne, orthophonistes, chiropracteur); lemedecin dietitian at same address",medium,no,"Name unconfirmed; verify"
+Cabinet paramédical 64 avenue Charles de Gaulle,physio/osteo/midwife group,"64 avenue Charles de Gaulle 12100 Millau",,,"lemedecin listings: kiné Mathilde Lévêque, ostéo Benjamin Canillac, sage-femme Camille Rigal",medium,no,"Shared address of several practitioners; no own site seen"
+Cabinet 22 rue de l'Ancienne Commune,osteopaths,"22 rue de l'Ancienne Commune 12100 Millau",,,"Ostéo Mathilde Letocart and Estelle Thiebaut listed at this address",small,no,"Same street as mutualist dental centre"
+KAP Santé Millau,paramedical group (podologists),"421 boulevard Georges Brassens 12100 Millau",,,"Maiia listing (2 podologists: Alizée Eudes Flavier, Laurie Alric); osteo M. Gauffre also at this address; Maiia only",small,no,"Only Maiia booking page seen"
+Cabinet d'ostéopathie Michael Gauffre,osteopath,"421 boulevard Georges Brassens 12100 Millau",,,"doqi + lemedecin listings",solo,no,
+Jean-Baptiste Chariot ostéopathe,osteopath,"2 rue Alsace Lorraine 12100 Millau",,,"doqi listing",solo,no,
+Johana Demets ostéopathe,osteopath,"7A avenue Alfred Merle 12100 Millau",,,"directory listing",solo,no,
+Kiné Sport et Périnée,physio,Millau 12100,,,"Maiia cabinet paramédical page",small,no,"Maiia only"
+Cabinet kiné David Ricard,physio,"14 bis rue Mathieu Prévot 12100 Millau",,,"Mappy listing",solo,no,
+Cabinet kiné Arnaud Vayssettes,physio,"15 rue de Roquefort 12100 Millau",,,"Mappy listing",solo,no,
+Cabinet kiné Corp Philippe (Chesse),physio,"70 place des Consuls 12100 Millau",,,"lemedecin listing",small,no,
+Cabinet kiné 6 praticiens (Calmels/Apolit),physio,Millau 12100,,,"appines replacement ad + francetravail ad mention 6-kiné cabinet",medium,no,"Identity of cabinet partly inferred; verify"
+Podologue Christine Guiral,podiatrist,"rue Clausel de Coussergues 12100 Millau",,,"Maiia listing",solo,no,
+Isabelle Caubel Girardi diététicienne,dietitian,"128 avenue de Cales 12100 Millau",,,"lemedecin listing",solo,no,
+Amandine Baptiste diététicienne,dietitian,"16 rue de la Condamine 12100 Millau",,,"lemedecin listing",solo,no,
+Geoffrey Badoux diététicien nutritionniste,dietitian,"20 rue de la Liberté 12100 Millau",,,"lemedecin listing",solo,no,
+Adéline Saillard sage-femme,midwife,"28 boulevard Richard 12100 Millau",,,"Mappy listing",solo,no,"Also listed at 2 rue Roquefort"
+Sophrologues avenue de la République (Jouve / Combettes),sophrology/hypnosis,"20-24 avenue de la République 12100 Millau",,,"PagesJaunes/Doqi listings",solo,no,"Several independents on same avenue"
+Fanny Isolphe sophrologue,sophrology,"2 rue Alsace Lorraine 12100 Millau",,,"Cylex listing",solo,no,
+Optic 2000 Millau,optician,"11 boulevard de Bonald 12100 Millau",,,"au-magasin listing",small,yes (Optic 2000),"Corporate site only (optic2000.com); local owner may be independent franchisee"
+Atol Millau,optician,"1 boulevard Sadi Carnot 12100 Millau",,,"au-magasin listing",small,yes (Atol),"Corporate site only"
+Optical Center Millau,optician/audio,"151 boulevard Georges Brassens 12100 Millau",,,"lemedecin listing",small,yes (Optical Center),"Corporate chain; low priority"
+Point Vision (SARL),optician,"Impasse de la Tassette 12100 Millau",,,"directory listing (multiple opticians + audio)",small,no,"Possibly independent group; verify"
+Krys Audition Millau,audioprothésiste,"Centre commercial La Capelle 12100 Millau",,,"directory listing",small,yes (Krys),"Corporate site krys.com only"
+Amplifon Millau,audioprothésiste,"14 boulevard de l'Ayrolle 12100 Millau",,,"trouver-ouvert listing",small,yes (Amplifon),"Corporate"
+Audilab Millau,audioprothésiste,"115 boulevard Jean Gabriac 12100 Millau",,,"custplace listing",small,yes (Audilab),"Corporate"
+Atelier Auditif Millau,audioprothésiste,"6 place du Mandarous 12100 Millau",,,"directory listing",solo,no,"Possibly independent; good prospect"
+Écouter Voir Audition Mutualiste,audioprothésiste,"2 place des Halles 12100 Millau",,,"directory listing",small,yes (mutualiste),
+Clinique vétérinaire Les Acanthes,veterinarian,Millau 12100,,,"chien.com + francetravail job ad; part of 200+ clinic network",medium,yes (network),"Address not confirmed; no own site seen"
+Clinique vétérinaire des Grands Causses,veterinarian,Millau 12100,,,"chien.com listing",medium,no,"No own site seen"
+Véto d'Oc,veterinarian (small ruminants),Millau 12100,,,"search snippet; linked to AVEM",small,no,
+Clinique mutualiste Saint-Côme,clinic,"251 rue Général Cosse 12100 Millau",0 826 20 77 20,,"directory listing",large,yes (mutualiste),"May now belong to Centre Hospitalier de Millau; unclear"
+Pharmacie du Viaduc,pharmacy,"Place des Martyrs de la Résistance 12100 Millau",05 65 60 09 09,pharmacieduviaduc-millau.elsie-sante.fr,"Listed in search snippet; fetched 200",small,no,"Subdomain on Elsie Santé vendor platform, not own domain"
+Pharmacie de la Tine,pharmacy,"9 avenue Jean Jaurès 12100 Millau",,,"Pharmao listing says has own site but URL not seen",small,no,"Check for own site"
+Pharmacie du Centre,pharmacy,"7 avenue de la République 12100 Millau",05 65 60 03 72,,"sante.fr listing",small,no,
+Pharmacie du Stade,pharmacy,"Rond-point des Stades, av. Jean Jaurès 12100 Millau",,,"Pharmao listing",small,no,
+Pharmacie La Capelle,pharmacy,"Centre commercial La Capelle 12100 Millau",,,"Pharmao listing",small,no,
