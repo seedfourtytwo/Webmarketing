@@ -1,0 +1,330 @@
+name,sector,address,phone,domain,evidence,size_hint,franchise,notes,src
+Roy & Associés,accountant,"26 rue de la Paulèle, 12100 Millau",05 65 60 08 30,royetassocies.com,"Fetched royetassocies.com: title 'Cabinet d'experts-comptables à Millau', footer address matches",small,no,Also named in directory listings,b2b_services.csv
+Brengues Expertise,accountant,"7 place de la Capelle, 12100 Millau",05 65 61 54 00,brenguesexpertise.fr,"Fetched brenguesexpertise.fr: 'Expert-comptable à Millau depuis 1954', footer address matches",medium,no,"Multi-office (Millau, St-Affrique, Montpellier, Le Vigan); HQ-type local firm",b2b_services.csv
+Rubio & Associés,accountant,"12 boulevard Emile Lauret, 12100 Millau",05 65 61 42 00,rubio-associes.fr,Fetched rubio-associes.fr: siège social Millau at this address,small,no,Other offices incl. Meyrueis,b2b_services.csv
+Ô Conseils,accountant,"65 boulevard Jean Gabriac, 12100 Millau",,oconseils.fr,Listed at this address in Indy/Ordre list; fetched oconseils.fr which mentions Millau,medium,no,"Site lists mostly Hérault offices (Montpellier area); Millau is one office, check local ownership",b2b_services.csv
+Fidexpertise / Fiducial Expertise Millau,accountant,"1 rue du Sacré-Coeur, 12100 Millau",,,Directories list address; avis-verifies lists 'FIDUCIAL Expertise Millau'. fidexpertise.fr did not resolve,medium,yes,National network (Fiducial); corporate site not wanted unless locally owned,b2b_services.csv
+AGC Grand Sud,accountant,"300 rue Etienne Delmas, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. Association de gestion/comptabilité,medium,no,Likely AGC network; low priority,b2b_services.csv
+LC2B,accountant,"174 impasse de la Belle Laitière, 12100 Millau",,,Indy list of Millau cabinets; lc2b.fr resolves but no Millau mention so not attributed,small,no,Domain unconfirmed,b2b_services.csv
+Barascud Expertise Comptable,accountant,"90 impasse Boris Vian (Les Hauts du Cres), 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. Compteo says active since 2010,small,no,,b2b_services.csv
+Conseil et Expertise du Sud,accountant,Millau (address not verified),,,Appears in search/job results as Millau firm 'depuis plus de 70 ans'; own site not found,medium,no,May be same entity as another firm listed; verify,b2b_services.csv
+Eve Olivet & Bertrand Faillie architectes,architect,"115 avenue Charles de Gaulle, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. Pappers/keskeces list the partnership,small,no,,b2b_services.csv
+Eric Bertrand architecte,architect,Millau,,,Listed in Obat directory as Millau architect; no site found,solo,no,Address not verified,b2b_services.csv
+Christophe Brugère architecte,architect,Millau,,,Listed in Obat directory as Millau architect; no site found,solo,no,Address not verified,b2b_services.csv
+Alexandre Malaval architecte,architect,Millau,,,Listed in Obat directory as Millau architect; no site found,solo,no,Address not verified,b2b_services.csv
+SCP Fourcadier-Alves / GE Ingénierie,surveyor,"70 rue de la Menuiserie, 12100 Millau",,,"Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. 2 géomètres-experts + 6 salariés per job ad; ge-ingenierie.fr/.com, geingenierie.fr did not resolve",medium,no,,b2b_services.csv
+ACE Jaudon Sébastien (SAS),surveyor,"456 rue de la Rode, 12100 Millau",,,Listed on france-cadastre; no site found,small,no,Founded 2017,b2b_services.csv
+Ingéoc,engineering,"54 rue Glossop, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. bureau d'études bâtiment,small,no,,b2b_services.csv
+Ouallet SARL,engineering,"25 boulevard Jean Gabriac, 12100 Millau",,,Directory only; ouallet.fr exists but unattributed to Millau firm,small,no,Domain unconfirmed,b2b_services.csv
+Consult'g,consulting,"impasse Jean Despradels d'Allaret, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. organisation/management consulting,solo,no,,b2b_services.csv
+Solianz,consulting,"144 avenue Jean Jaurès, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. solianz.fr resolves but no Millau mention so not attributed,small,no,,b2b_services.csv
+Underkult,it_web_comm,"2 boulevard de Bonald, 12100 Millau",05 65 61 81 80,underkult.com,"Fetched underkult.com: 'Agence de communication - Rodez, Millau', contact block matches",small,no,Directory had older address boulevard Capelle; also Rodez office. Competitor (web agency),b2b_services.csv
+Well Comm',it_web_comm,"rue Alsace Lorraine, 12100 Millau",,,"Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. wellcomm.fr is an unconfigured LWS placeholder, not attributed",solo,no,Competitor (web agency),b2b_services.csv
+E2 communication,it_web_comm,"avenue Alfred Merle, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. e2communication.fr did not resolve,solo,no,Competitor,b2b_services.csv
+Rif Informatique,it_web_comm,Millau,06 43 72 52 91,rif-informatique.fr,Fetched rif-informatique.fr: mentions Millau 15 times,solo,no,Address not extracted,b2b_services.csv
+Oui Informatique,it_web_comm,"18 boulevard Capelle, 12100 Millau",,,"Directory only; oui-informatique.fr returned 406 to curl, not attributed",small,no,Domain unconfirmed,b2b_services.csv
+Alliance Informatique Millau,it_web_comm,"19 rue Condatomag, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. listing marked closed when captured,small,no,Status uncertain,b2b_services.csv
+Randstad Millau,hr_temp,"1 rue Alsace Lorraine, 12100 Millau",,,National network,large,yes,Corporate site not wanted,b2b_services.csv
+Jubil Travail Temporaire,hr_temp,"17 avenue Jean Jaurès, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. possibly independent temp agency,small,no,,b2b_services.csv
+Aquila RH Millau,hr_temp,Millau,,,Network agency per search; not verified locally owned,medium,yes,Probably franchise/network,b2b_services.csv
+Arnal Pompes Funèbres,funeral,"122 rue Antoine Lavoisier, 12100 Millau",05 65 60 83 83,pf-arnal-millau.fr,"arnal-pompes-funebres.fr redirects to pf-arnal-millau.fr, address matches",small,no,PitchBook says acquired by Funecap Oct 2024 (group-owned now),b2b_services.csv
+Pompes Funèbres Ginesty,funeral,"4 boulevard Sadi Carnot, 12100 Millau",05 65 60 04 86,,Searched 'Ginesty pompes funèbres Millau site officiel'; no site found,small,no,Also ambulance activity,b2b_services.csv
+Pompes Funèbres Orts,funeral,"12 rue Louis Blanc (or 219 rue Etienne Delmas), 12100 Millau",05 65 61 22 22,,Searched Orts + Millau + site officiel; no site found,small,no,Address conflicts between directories,b2b_services.csv
+Funéraire Service,funeral,"11 rue de la Paulèle, 12100 Millau",06 76 92 07 52,,Listed on acte-deces.fr; no site found,solo,no,,b2b_services.csv
+Selectour Voyages Passion (Selectour Afat),travel,"17 boulevard Sadi Carnot, 12100 Millau",,,Directories list address; no local site checked,small,yes,"Selectour network member agency, likely independently owned; local site unverified",b2b_services.csv
+Promovacances Millau,travel,"Centre commercial La Capelle, place de la Capelle, 12100 Millau",05 67 03 28 89,,Directory listing,small,yes,National brand,b2b_services.csv
+Nouvelles Frontières Millau,travel,"19 boulevard de Bonald, 12100 Millau",,,Directory listing,small,yes,"National brand, may be closed",b2b_services.csv
+Turbo 12 auto-école,driving_school,"15 avenue Jean Jaurès, 12100 Millau",05 65 60 40 65,autoecole-millau-staffrique-turbo12.fr,"turbo12.fr redirects to this site; fetched, Millau agency phone matches",small,no,2021 prefectural order mentioned closure of one establishment; site is live. Also St-Affrique,b2b_services.csv
+École de Conduite Millavoise,driving_school,Millau,,ecoledeconduitemillavoise.fr,"Fetched site; title 'Ecole de Conduite Millavoise', mentions Millau; recruiting per job ad",small,no,Address not extracted,b2b_services.csv
+Ecole de Conduite Eric Colrat,driving_school,"1 rue Alsace Lorraine, 12100 Millau",,,Searched name+Millau+site; no site found,small,no,Hosts ActiRoute point-recovery courses,b2b_services.csv
+Auto-école Cabanes,driving_school,Millau,,,Listed on vroomvroom; no site checked,small,no,,b2b_services.csv
+Ecole de Conduite Florent Viala,driving_school,"boulevard Ayrolle, 12100 Millau",,,Listed on vroomvroom; no site found,solo,no,,b2b_services.csv
+C.E.R Millau,driving_school,"12 avenue Alfred Merle, 12100 Millau",,,"Listed on au-magasin; cer-millau.fr guessed, unconfirmed",small,yes,CER is a driving school network,b2b_services.csv
+Actions Formations,training,"6 boulevard Emile Lauret, 12100 Millau",,,Searched name+Millau+site officiel via WebSearch; no own site found in results (directory listings only); guessed domains did not resolve. PagesJaunes lists as formation continue,small,no,actionsformations.fr guess redirects to an unrelated site,b2b_services.csv
+Millau Enseignement Supérieur (CNAM),training,"Esplanade François Mitterrand, 12100 Millau",,,Public/CNAM delocalised centre,medium,yes,Public body; likely not a target,b2b_services.csv
+Maison Fabre Ganterie,ganterie,"20 boulevard Gambetta, 12100 Millau",+33 5 65 60 58 24,maisonfabre.com,Domain from tourism listing; curl 200 title 'Ganterie haut de gamme Paris Millau',small,no,Founded 1924; also Paris boutique; site live; online sale not confirmed,beauty_retail.csv
+Causse Gantier,ganterie,"5 boulevard des Gantières, 12100 Millau",+33 5 65 60 03 05,causse-gantier.fr,Domain in search result but curl failed (000/no connection) on 2026-11-02,small,no,Factory outlet; website appears down/unreachable - strong redesign lead,beauty_retail.csv
+L'Atelier du Gantier,ganterie,"20 rue Droite, 12100 Millau",+33 5 65 60 81 50,atelierdugantier.fr,Domain in search result; curl 200,small,no,Workshop visits; supplies boutiques FR/EU; site live,beauty_retail.csv
+Julien d'Orcel Millau,jeweller,"5 avenue de la République, 12100 Millau",,,Store page juliendorcel.com/bijouterie/millau-1400M (403 to bots) - chain site,medium,yes,Multi-store jeweller chain; probably skip,beauty_retail.csv
+Dourbie Joaillerie,jeweller,"4 avenue Gambetta, 12100 Millau",,,Directory listing only,solo,no,Listed temporarily closed,beauty_retail.csv
+Or-Aveyron,jeweller,"4 rue Peyrollerie, 12100 Millau",,,Directory listing only,solo,no,Bijoutier créateur; open Wed-Fri and by appointment,beauty_retail.csv
+Philippe Guibbal,jeweller,"4 avenue Gambetta, 12100 Millau",,,Directory listing only,solo,no,Custom jewellery,beauty_retail.csv
+Bijouterie Canac,jeweller,"5 boulevard Sadi Carnot, 12100 Millau",,,Directory listing only,small,no,,beauty_retail.csv
+Bijouterie Landes,jeweller,"3 boulevard de Bonald, 12100 Millau",,,Directory listing only,small,no,,beauty_retail.csv
+La Guilde des Orfèvres,jeweller,"3 boulevard de Bonald, 12100 Millau",,,au-magasin.fr listing,small,unknown,Possibly a chain,beauty_retail.csv
+Excel Coiffure,hairdresser,"Place de la Capelle (centre commercial La Capelle), 12100 Millau",,,Planity and Fresha listing (4.8/670 reviews),medium,unknown,Booking platform only,beauty_retail.csv
+Ô Salon,hairdresser,"13 bis rue Louis Blanc, 12100 Millau",,,Planity listing (5.0/468 reviews),small,no,,beauty_retail.csv
+Divine Hair,hairdresser,"2 rue Peyssière, 12100 Millau",,,Planity listing,small,no,,beauty_retail.csv
+Jean Vallon,hairdresser,"150 impasse du Cap du Crès (Intermarché), 12100 Millau",,,Directory listing,small,unknown,Possibly a chain brand,beauty_retail.csv
+Le Salon de Maya,hairdresser,"33 avenue de la République, 12100 Millau",,,Directory listing,solo,no,,beauty_retail.csv
+Mathias Coiffure,hairdresser/barber,"1 place de la Capelle, 12100 Millau",,,Planity listing; barbershop; third-generation family salon,small,no,,beauty_retail.csv
+L.A. Coiffure,hairdresser,"23 avenue de la République, 12100 Millau",,,Directory listing,small,no,,beauty_retail.csv
+Viviane Coiffure,hairdresser,"40 avenue de la République, 12100 Millau",,,au-magasin.fr listing,solo,no,,beauty_retail.csv
+Coiffure Carrat,hairdresser,"25 boulevard de Bonald, 12100 Millau",,,Directory listing,small,no,,beauty_retail.csv
+Art et Coiffure,hairdresser,"15 boulevard Sadi Carnot, 12100 Millau",,,Planity (4.9/219) and Fresha listing,small,no,,beauty_retail.csv
+L'Arthémia Coiffure,hairdresser,"4 avenue de la République, 12100 Millau",,,Directory mention,small,no,,beauty_retail.csv
+Emilie HairBeauty,hairdresser,Millau 12100,,,118712 listing,solo,no,Address not confirmed,beauty_retail.csv
+Antinella Esthétique et Spa,beauty institute/spa,"513 avenue de Calès, 12100 Millau",,,Booking platform listing (5.0/163 reviews),small,no,,beauty_retail.csv
+Mill'eau Balnéo,spa,"5 rue Jean François Alméras, 12100 Millau",,,Booking platform listing (4.9/60),small,no,,beauty_retail.csv
+Couvent de la Salette & Spa,spa/hotel,"387 avenue de l'Aigoual, 12100 Millau",,,Directory listing,medium,no,Hotel spa; probably has own site (not verified),beauty_retail.csv
+Institut Abelia Beauté,beauty institute,"impasse Jules Merviel, 12100 Millau",,,Booking platform listing (947 reviews),small,no,,beauty_retail.csv
+Institut Au Natur'elles,beauty institute,"40 avenue de la République, 12100 Millau",,,Directory listing,solo,no,Permanent makeup and lash lift,beauty_retail.csv
+Institut Soha,beauty institute,"2 rue Général Sarret, 12100 Millau",,,Booking platform listing,solo,no,,beauty_retail.csv
+L'Instant Beauté Zen,beauty institute,"19 rue du Pont de Fer, 12100 Millau",,,Directory listing,solo,no,,beauty_retail.csv
+Natur'Orient,beauty institute,"24 rue Droite, 12100 Millau",,,Planity listing (5.0/71),small,no,,beauty_retail.csv
+Centre Esthétique Karine,beauty institute,Millau 12100,,,koifaire.com listing,solo,no,Address not confirmed,beauty_retail.csv
+La Tatouagerie,tattoo,"boulevard de l'Ayrolle, 12100 Millau",,,Fresha listing,solo,no,,beauty_retail.csv
+Les Petites Misères,tattoo,"rue de la Fraternité, 12100 Millau",,,Fresha listing,solo,no,,beauty_retail.csv
+Marta art tattoo,tattoo,"rue Ferrer / avenue de Calès (conflicting), 12100 Millau",,,Fresha listing,solo,no,Two addresses in sources,beauty_retail.csv
+Le Chardon / Tata Pik,tattoo,"rue Droite, 12100 Millau",,,Fresha listing,solo,no,,beauty_retail.csv
+Kap Dynamik Millau,gym,"avenue Georges Brassens, 12100 Millau",,,masalledesport.com listing,small,unknown,,beauty_retail.csv
+Lion Fitness Club Millau,gym,"avenue de l'Europe, 12100 Millau",,,masalledesport.com listing,small,unknown,,beauty_retail.csv
+Yoga Millau Ananda,yoga,Millau 12100,,,guide-tarn-aveyron.com listing,solo,no,Address unknown,beauty_retail.csv
+Grenouille Citrouille & Co,yoga,"4 rue Fleurs, 12100 Millau",,,PagesJaunes listing,solo,no,,beauty_retail.csv
+Les Floralies,florist,"14 avenue de la République, 12100 Millau",,,Directory listing,small,unknown,,beauty_retail.csv
+Acanthe Fleurs,florist,"3 rue Ferrer, 12100 Millau",,,Directory listing,small,no,,beauty_retail.csv
+Mimosa'ik,florist/wedding,"5 boulevard de Bonald, 12100 Millau",,,mariages.net listing; no own site found,solo,no,Wedding decor; sells online per listing; good lead,beauty_retail.csv
+A Tout Fleurs,florist,"5 avenue Charles de Gaulle, 12100 Millau",,,Directory listing,small,no,,beauty_retail.csv
+Borie Fleurs,florist,"8 boulevard Sadi Carnot, 12100 Millau",,,Directory listing,small,no,,beauty_retail.csv
+Librairie Syllabes,bookshop,"14 rue du Mandarous, 12100 Millau",,,livreshebdo and millau.fr mentions,small,no,Changed owner (Nicolas Azéma),beauty_retail.csv
+Caumes des Livres,bookshop,"31 avenue de la République, 12100 Millau",,,acceslibre listing,small,no,,beauty_retail.csv
+ATYPIK,clothes boutique,"6 avenue de la République, 12100 Millau",,,pagesmode.com listing,small,unknown,Several addresses in Millau,beauty_retail.csv
+Catherine André,clothes,"20 rue du Rajol, 12100 Millau",,,Petit Futé mention,medium,yes,Knitwear brand with multiple shops,beauty_retail.csv
+Larzac Boul'vard (Le Couteau du Larzac),gifts/cutlery,"place du Mandarous, 12100 Millau",,,Tourism listing,small,no,Craft knives and leather goods,beauty_retail.csv
+La Ferme d'Ambias,charcuterie/cheese,"Place des Halles, 12100 Millau",,,Gault&Millau listing mentions online shop; own domain not seen,small,no,Also shop at La Cavalerie,beauty_retail.csv
+Charcuterie du Viala,charcuterie,"Place des Halles, 12100 Millau",,,Gault&Millau listing,small,no,Award-winning,beauty_retail.csv
+La Côte Millavoise,butcher/charcuterie,"boulevard de Bonald, 12100 Millau",,,118712 listing,small,no,,beauty_retail.csv
+Inter Caves,wine shop,"24 boulevard de la Capelle, 12100 Millau",,,ac-franchise.com listing,small,yes,Franchise,beauty_retail.csv
+Galzin - Les Pains du Larzac,bakery,Millau 12100,,,PagesJaunes text,small,no,Since 1938; tearoom,beauty_retail.csv
+Maison Favey,bakery,Millau 12100,,,Petit Futé 4.6/5,small,no,,beauty_retail.csv
+Studio Martin,photographer,Millau,,,evenementielpourtous listing,solo,no,,beauty_retail.csv
+Shoot'in Factory,photographer,Millau,,,evenementielpourtous listing,solo,no,,beauty_retail.csv
+Lucas Rotard,photographer,Millau,,,evenementielpourtous listing,solo,no,,beauty_retail.csv
+Camara Jamme,photographer,Millau,,,evenementielpourtous listing,solo,no,,beauty_retail.csv
+Ambre et Compagnie,pet grooming,Millau,,,emmenetonchien.com listing,solo,no,,beauty_retail.csv
+Centre de santé dentaire mutualiste Millau (Altriane),dentist,22 rue de l'Ancienne Commune 12100 Millau (another listing: 50 place des Consuls),05 65 59 26 65,altriane.fr,118712 listing links to altriane.fr/adresses/centre-de-santé-dentaire-millau; fetched 200,medium,yes (mutualiste network),"Page on regional network site, not an independent site; address conflict between listings",health.csv
+Cabinet dentaire Géraud Besombes,dentist,Millau 12100 (street not confirmed),,,PagesJaunes + justacote listing only,solo,no,Besombes-Moureau cabinet also listed on lemedecin.fr; no own site seen,health.csv
+Cabinet dentaire Benoît Barthélemy,dentist,Millau 12100,,,lemedecin/118712 listing only,solo,no,,health.csv
+Cabinet dentaire Bruno Cluzel,dentist,Millau 12100,,,PagesJaunes listing only,solo,no,,health.csv
+Cabinet dentaire Florent Assier,dentist,Millau 12100,,,PagesJaunes listing only,solo,no,,health.csv
+Cabinet dentaire Laurent Labbé,dentist,Millau 12100,,,PagesJaunes listing only,solo,no,,health.csv
+Cabinet dentaire Alina Mihaela Mares,dentist,Millau 12100,,,PagesJaunes listing only,solo,no,,health.csv
+Maison de santé de la Capelle / des Ondes,medical group,Esplanade François Mitterrand 12100 Millau,05 65 61 18 19,,millau.fr list of maisons de santé; inaugural news on cc-millaugrandscausses.fr; no own site seen,large,no,Public/communal-linked structure; multi-professional,health.csv
+Maison de santé du Stade,medical group,Rond-point des Stades / av. Jean Jaurès area Millau,,,millau.fr list of maisons de santé,large,no,Exact address not confirmed,health.csv
+Structure pluridisciplinaire 128 avenue de Cales,medical group,128 avenue de Cales 12100 Millau,,,"millau.fr list (médecins, infirmières, psychologue, diététicienne, orthophonistes, chiropracteur); lemedecin dietitian at same address",medium,no,Name unconfirmed; verify,health.csv
+Cabinet paramédical 64 avenue Charles de Gaulle,physio/osteo/midwife group,64 avenue Charles de Gaulle 12100 Millau,,,"lemedecin listings: kiné Mathilde Lévêque, ostéo Benjamin Canillac, sage-femme Camille Rigal",medium,no,Shared address of several practitioners; no own site seen,health.csv
+Cabinet 22 rue de l'Ancienne Commune,osteopaths,22 rue de l'Ancienne Commune 12100 Millau,,,Ostéo Mathilde Letocart and Estelle Thiebaut listed at this address,small,no,Same street as mutualist dental centre,health.csv
+KAP Santé Millau,paramedical group (podologists),421 boulevard Georges Brassens 12100 Millau,,,"Maiia listing (2 podologists: Alizée Eudes Flavier, Laurie Alric); osteo M. Gauffre also at this address; Maiia only",small,no,Only Maiia booking page seen,health.csv
+Cabinet d'ostéopathie Michael Gauffre,osteopath,421 boulevard Georges Brassens 12100 Millau,,,doqi + lemedecin listings,solo,no,,health.csv
+Jean-Baptiste Chariot ostéopathe,osteopath,2 rue Alsace Lorraine 12100 Millau,,,doqi listing,solo,no,,health.csv
+Johana Demets ostéopathe,osteopath,7A avenue Alfred Merle 12100 Millau,,,directory listing,solo,no,,health.csv
+Kiné Sport et Périnée,physio,Millau 12100,,,Maiia cabinet paramédical page,small,no,Maiia only,health.csv
+Cabinet kiné David Ricard,physio,14 bis rue Mathieu Prévot 12100 Millau,,,Mappy listing,solo,no,,health.csv
+Cabinet kiné Arnaud Vayssettes,physio,15 rue de Roquefort 12100 Millau,,,Mappy listing,solo,no,,health.csv
+Cabinet kiné Corp Philippe (Chesse),physio,70 place des Consuls 12100 Millau,,,lemedecin listing,small,no,,health.csv
+Cabinet kiné 6 praticiens (Calmels/Apolit),physio,Millau 12100,,,appines replacement ad + francetravail ad mention 6-kiné cabinet,medium,no,Identity of cabinet partly inferred; verify,health.csv
+Podologue Christine Guiral,podiatrist,rue Clausel de Coussergues 12100 Millau,,,Maiia listing,solo,no,,health.csv
+Isabelle Caubel Girardi diététicienne,dietitian,128 avenue de Cales 12100 Millau,,,lemedecin listing,solo,no,,health.csv
+Amandine Baptiste diététicienne,dietitian,16 rue de la Condamine 12100 Millau,,,lemedecin listing,solo,no,,health.csv
+Geoffrey Badoux diététicien nutritionniste,dietitian,20 rue de la Liberté 12100 Millau,,,lemedecin listing,solo,no,,health.csv
+Adéline Saillard sage-femme,midwife,28 boulevard Richard 12100 Millau,,,Mappy listing,solo,no,Also listed at 2 rue Roquefort,health.csv
+Sophrologues avenue de la République (Jouve / Combettes),sophrology/hypnosis,20-24 avenue de la République 12100 Millau,,,PagesJaunes/Doqi listings,solo,no,Several independents on same avenue,health.csv
+Fanny Isolphe sophrologue,sophrology,2 rue Alsace Lorraine 12100 Millau,,,Cylex listing,solo,no,,health.csv
+Optic 2000 Millau,optician,11 boulevard de Bonald 12100 Millau,,,au-magasin listing,small,yes (Optic 2000),Corporate site only (optic2000.com); local owner may be independent franchisee,health.csv
+Atol Millau,optician,1 boulevard Sadi Carnot 12100 Millau,,,au-magasin listing,small,yes (Atol),Corporate site only,health.csv
+Optical Center Millau,optician/audio,151 boulevard Georges Brassens 12100 Millau,,,lemedecin listing,small,yes (Optical Center),Corporate chain; low priority,health.csv
+Point Vision (SARL),optician,Impasse de la Tassette 12100 Millau,,,directory listing (multiple opticians + audio),small,no,Possibly independent group; verify,health.csv
+Krys Audition Millau,audioprothésiste,Centre commercial La Capelle 12100 Millau,,,directory listing,small,yes (Krys),Corporate site krys.com only,health.csv
+Amplifon Millau,audioprothésiste,14 boulevard de l'Ayrolle 12100 Millau,,,trouver-ouvert listing,small,yes (Amplifon),Corporate,health.csv
+Audilab Millau,audioprothésiste,115 boulevard Jean Gabriac 12100 Millau,,,custplace listing,small,yes (Audilab),Corporate,health.csv
+Atelier Auditif Millau,audioprothésiste,6 place du Mandarous 12100 Millau,,,directory listing,solo,no,Possibly independent; good prospect,health.csv
+Écouter Voir Audition Mutualiste,audioprothésiste,2 place des Halles 12100 Millau,,,directory listing,small,yes (mutualiste),,health.csv
+Clinique vétérinaire Les Acanthes,veterinarian,Millau 12100,,,chien.com + francetravail job ad; part of 200+ clinic network,medium,yes (network),Address not confirmed; no own site seen,health.csv
+Clinique vétérinaire des Grands Causses,veterinarian,Millau 12100,,,chien.com listing,medium,no,No own site seen,health.csv
+Véto d'Oc,veterinarian (small ruminants),Millau 12100,,,search snippet; linked to AVEM,small,no,,health.csv
+Clinique mutualiste Saint-Côme,clinic,251 rue Général Cosse 12100 Millau,0 826 20 77 20,,directory listing,large,yes (mutualiste),May now belong to Centre Hospitalier de Millau; unclear,health.csv
+Pharmacie du Viaduc,pharmacy,Place des Martyrs de la Résistance 12100 Millau,05 65 60 09 09,pharmacieduviaduc-millau.elsie-sante.fr,Listed in search snippet; fetched 200,small,no,"Subdomain on Elsie Santé vendor platform, not own domain",health.csv
+Pharmacie de la Tine,pharmacy,9 avenue Jean Jaurès 12100 Millau,,,Pharmao listing says has own site but URL not seen,small,no,Check for own site,health.csv
+Pharmacie du Centre,pharmacy,7 avenue de la République 12100 Millau,05 65 60 03 72,,sante.fr listing,small,no,,health.csv
+Pharmacie du Stade,pharmacy,"Rond-point des Stades, av. Jean Jaurès 12100 Millau",,,Pharmao listing,small,no,,health.csv
+Pharmacie La Capelle,pharmacy,Centre commercial La Capelle 12100 Millau,,,Pharmao listing,small,no,,health.csv
+Roques Immobilier,real estate,"2 avenue Jean Jaurès (place du Mandarous), 12100 Millau",,roques-immobilier.com,Domain seen in search result and fetched (200); title Agence immobilière Millau / Hérépian / Lodève,medium,no,Regional agency with 3 offices (Millau/Lodève/Hérépian); ~101 reviews on RealAdvisor; HQ phone is Hérault number (04 67 44 22 92),realestate_legal.csv
+Arthurimmo Millau,real estate,"21 boulevard de l'Ayrolle, 12100 Millau",,millau-arthurimmo.com,Domain listed in 118712 via search; fetched (200) and title names Millau agency,small,yes,Arthurimmo.com franchise; 4.9 rating / 337 reviews on PagesJaunes; shares address with Laforêt/JPB listings (directory conflict),realestate_legal.csv
+JMB Immobilier,real estate,"48 place Frédéric Bompaire, 12100 Millau",,jmb-immobilier.com,"Domain in directory listing from search; fetched (200) title ""JMB Immobilier - Agence immobilière à Millau""",small,no,Sales + rental + property management,realestate_legal.csv
+Laforêt Millau,real estate,"21 boulevard de l'Ayrolle, 12100 Millau",,,Listed in 118000 per search; no own local site found (laforet.com national only; no Millau page in results),small,yes,Address conflict with Arthurimmo/JPB at same number; verify existence,realestate_legal.csv
+JPB Immobilier,real estate,"21 boulevard de l'Ayrolle, 12100 Millau",,,Listed on 118000 per search; searched name + Millau: no website found,small,no,Same address as Laforêt/Arthurimmo in directory; may be outdated,realestate_legal.csv
+Agence Immobilière Philippe Daunay,real estate,"avenue Jean Jaurès, 12100 Millau",,,Listed on justacote per search; no own site in results,solo,no,Independent agent,realestate_legal.csv
+Century 21 Foch Immobilier,real estate,Millau 12100,,,Listed in directory per search; no local site found,small,yes,Century 21 franchise; exact address unknown. Former Century 21 Cap'Immo (2 av Jean Jaurès) was struck off May 2022 - not listed,realestate_legal.csv
+Agence Immo des Causses,real estate,Millau 12100,,,Name seen in directory results; no site found,small,no,Details unverified,realestate_legal.csv
+Katia Angles Vaissettes (agent immobilier),real estate,Millau 12100,,,Name seen in directory results; no site found,solo,no,Details unverified,realestate_legal.csv
+Immo de France Sud Massif Central,real estate,Millau 12100,,,Name seen in directory results; no site found,small,yes,Network agency; details unverified,realestate_legal.csv
+SGA Immobilier,real estate,Millau 12100,,,Name seen in directory results; no site found,small,no,Details unverified,realestate_legal.csv
+Cabinet JL Immobilier des Grands Causses,real estate,"boulevard de Bonald, 12100 Millau",,,Listed on justacote; searched name: no website found,small,no,Directories show conflicting addresses (Mostuéjouls 12720 / Massegros 48500),realestate_legal.csv
+Agence Lieure,real estate,"28 avenue du Général de Gaulle, 12230 La Cavalerie (covers Millau)",,,Seen on RealAdvisor; no site confirmed,small,no,Based in La Cavalerie not Millau; ~57 reviews; several agents,realestate_legal.csv
+SCP Reynes et Vergely (Florence Vergely),notary,"8 place du Mandarous, 12100 Millau",,,Seen on notaires.fr and directories; searched for own site: none found,medium,no,Annex office in Saint-Jean-du-Bruel; Catherine Garcia-Lasmayous also listed at same address,realestate_legal.csv
+"Office notarial Clergue, Calmel & Bourdillat",notary,"28 avenue de la République, 12100 Millau",,,Directory listings only; no own site found in searches,medium,no,Another listing places Didier Calmel at 91 route de Prignolles - addresses conflict,realestate_legal.csv
+Calmels et associés (Pierre & Louis Calmels),notary,"10 rue Alfred Guibert, 12100 Millau",,,notaires.fr profiles via search; no own site found,small,no,Possible overlap with other offices; verify,realestate_legal.csv
+AGN Avocats Millau,lawyer,"12 rue Louis Blanc, 12100 Millau",05 65 46 58 20,agn-avocats.fr,Page agn-avocats.fr/agn-avocats-millau/ fetched (200) and is the Millau office page,small,yes,National network (~30 offices); Millau is a page on the national site not a standalone site; fixed-fee model,realestate_legal.csv
+Me Laurent Pardaillé,lawyer,"90 impasse Boris Vian, 12100 Millau",,,Seen on justifit/keskeces; no own site in results,solo,no,Practising since 1996; also referenced as SCP Bismes et Pardaillé (rue du Mandarous),realestate_legal.csv
+Me Aymeric Boyer,lawyer,"avenue de la République, 12100 Millau",,,Seen on keskeces; no own site in results,solo,no,Generalist,realestate_legal.csv
+Me Catherine Blanc,lawyer,Millau 12100,,,Seen on keskeces; no own site in results,solo,no,Possibly in SCP Larguier-Aimonetti-Blanc-Bringer-Mazars,realestate_legal.csv
+SCP Larguier-Aimonetti-Blanc-Bringer-Mazars,lawyer,"26 avenue de la République, 12100 Millau",,,Seen on Mappy per search; no site found,medium,no,Multi-partner SCP,realestate_legal.csv
+Me Alexandre Tournebize,lawyer,"rue de la Fraternité, 12100 Millau",,,Seen on bar list per search; no site found,solo,no,Employment/real estate/business law,realestate_legal.csv
+Lexiance Avocats,lawyer,"3 boulevard de la Capelle, 12100 Millau",,,Single aggregator entry; no site found,small,no,Name may be misspelled/unreliable; verify,realestate_legal.csv
+Gan Assurances Millau - Cros Antoine et Mathieu,insurance,"17 bis boulevard Ayrolle, 12100 Millau",05 65 60 03 73,agence.gan.fr,Page agence.gan.fr/22-gan-assurances-millau-cros-antoine-et-mathieu fetched (200),small,yes,Agent-général under Gan; only a corporate-platform agency page (not own domain); 4.6 / 15 reviews,realestate_legal.csv
+Generali - Aurélie Lemoine,insurance,"90 impasse Boris Vian, 12100 Millau",,generali.fr,Page generali.fr/agence/lemoine-millau fetched (200),solo,yes,Corporate agency page only (EI),realestate_legal.csv
+Allianz Millau - Gautier et Cambon,insurance,"1 boulevard de la Capelle, 12100 Millau",,,Seen in 118000/villepratique; no own site found,small,yes,Names conflict (Wenner vs Cambon); Allianz agent général,realestate_legal.csv
+Allianz Millau (second agency),insurance,"4 avenue Alfred Merle, 12100 Millau",,,Seen in directory search result; no site,small,yes,Details unverified,realestate_legal.csv
+AXA Foulon (Christine Foulon),insurance,"1 avenue Alfred Merle, 12100 Millau",,,Seen in 118000 + job posting; no own site found (agence.axa.fr not confirmed),small,yes,Agency since 2020; was recruiting Apr 2025 ,realestate_legal.csv
+AXA Alain Fangeaud,insurance,"1 avenue Alfred Merle, 12100 Millau",,,Seen in 118000; no own site,small,yes,Same address as Foulon; may be same office,realestate_legal.csv
+BRU Assurances (MMA),insurance,"avenue Gambetta, 12100 Millau",,,Seen via INSEE/search result; no site found,small,yes,MMA agent SARL,realestate_legal.csv
+Aviva - agent général,insurance,"78 boulevard Cardinal François Marty, 12100 Millau",,,Seen in 118000; no site,small,yes,Details unverified,realestate_legal.csv
+BL Courtage Millau,broker,"26 boulevard de l'Ayrolle, 12100 Millau",,,Seen on justacote and Immodvisor (14 reviews 5/5); searched name+Millau: no site found,solo,no,Credit/insurance broker,realestate_legal.csv
+La Centrale de Financement Millau,broker,"14 avenue Jean Jaurès, 12100 Millau",,,Seen in directory; national April SA subsidiary,small,yes,Local office of a Paris-based mortgage broker; no local site checked,realestate_legal.csv
+Hôtel du Commerce,hotel,"8 Place du Mandarous, 12100 Millau",+33565600056,hotelducommerce.fr,tourisme-aveyron.com listing (own contact),small (16 rooms),no,,tourism.csv
+Hôtel des Causses,hotel,"2 rue Mathieu Prévot, 12100 Millau",+33565600319,hoteldescausses.com,tourisme-aveyron.com listing (own contact),small (18 rooms),no,,tourism.csv
+Hôtel Le Patio,hotel,"91 Avenue Jean Jaurès, 12100 Millau",+33565611643,,tourisme-aveyron listing; only a Facebook page (Restaurant LE PATIO) found,small,no,no own website found; facebook only,tourism.csv
+Hôtel La Capelle,hotel,"7 Place de la Capelle, 12100 Millau",+33565601472,hotel-millau-capelle.com,tourisme-aveyron.com listing (own contact),medium (40 rooms),no,,tourism.csv
+Hôtel des Voyageurs,hotel,"110 Avenue Jean Jaurès, 12100 Millau",+33565601034,hotel-voyageurs-millau.com,tourisme-aveyron.com listing (own contact); curl connection fails (000),small,no,listed domain does not respond: dead/expired site = strong lead,tourism.csv
+Cévenol Hôtel - Le Pot d'Etain,hotel+restaurant,"115 Rue du Rajol, 12100 Millau",+33565607444,cevenol-hotel.fr,tourisme-aveyron.com listing (own contact),medium (42 rooms),no,"viaduct view, pool",tourism.csv
+Domaine Saint Estève,hotel/event venue,"Avenue de Millau Plage, 12100 Millau",+33565691212,dsemillau.com,tourisme-aveyron.com listing (own contact); redirects to sejour-seminaire-aveyron.com,"medium (chalets, restaurant, wedding/seminar venue)",no,also restaurant Le Point de Vue; weddings/seminars,tourism.csv
+"Le Point de Vue (restaurant, Domaine Saint Estève)",restaurant,"Avenue de Millau Plage, 12100 Millau",+33565691212,dsemillau.com,tourisme-aveyron.com listing (own contact),small,no,same owner/site as Domaine Saint Estève,tourism.csv
+Château de Creissels,hotel+restaurant,"Place du Prieur, 12100 Creissels",+33565601659,chateau-de-creissels.com,tourisme-aveyron.com listing (own contact),medium,no,"castle hotel, Creissels",tourism.csv
+Bowling Hôtel Millau (Cit'Hôtel),hotel+restaurant+event,"33 chemin de Sallèles, Cap du Crès, 12100 Millau",+33565600555,hotelbowlingdemillau.fr,tourisme-aveyron.com listing (own contact),medium (seats 200 for events),yes,"Cit'Hôtel franchise, local operator; wedding venue",tourism.csv
+Brit Hôtel Essentiel Millau,hotel,"Chemin de Salelles, Cap du Crès, 12100 Millau",+33565608525,millau.brithotel.fr,tourisme-aveyron.com listing (own contact),medium,yes,Brit Hotel franchise on chain subdomain (millau.brithotel.fr) - little site control,tourism.csv
+Hôtel de la Muse et du Rozier,hotel,"La Muse, 12720 Mostuéjouls",+33565626001,hotel-delamuse.com,tourisme-aveyron.com listing (own contact) (hotel-delamuse.fr redirects to .com),medium,no,"Gorges du Tarn, outside core radius",tourism.csv
+Hôtel de la Poste (La Cavalerie),hotel+restaurant,"668 avenue Simone Veil, 12230 La Cavalerie",+33565627066,hotel-larzac.com,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Auberge Le Cévenol (La Cavalerie),hotel+restaurant,"394 avenue du 122e RI, 12230 La Cavalerie",+33565627014,auberge-le-cevenol.com,tourisme-aveyron.com listing (own contact); curl returns 403 (bot block),small,no,,tourism.csv
+Camping Le Millau Plage,camping,"Avenue de Millau Plage, 12100 Millau",+33565721277,campingmillauplage.fr,tourisme-aveyron.com listing (own contact),"large (4 stars, 5 ha)",no,,tourism.csv
+Camping 2 Rivières,camping,"61 Avenue de l'Aigoual, 12100 Millau",+33565600027,camping2rivieresmillau.fr,tourisme-aveyron.com listing (own contact),medium (3 stars),no,also runs Restaurant 2 Rivières,tourism.csv
+Camping Les Erables,camping,"283 Avenue de Millau Plage, 12100 Millau",+33565591513,campingleserables.fr,tourisme-aveyron.com listing (own contact),medium (3 stars),no,,tourism.csv
+Camping Le Saint Lambert,camping,"2050 Avenue de l'Aigoual, 12100 Millau",+33565600048,campingmillau.fr,tourisme-aveyron.com listing (own contact),medium (141 pitches),no,,tourism.csv
+Val Saint Georges (camping chalets + chambres d'hôtes),camping/chambre d'hôtes,"6 Avenue Bernard Pottier, 12100 St-Georges-de-Luzençon",+33565624212,valstgeorges.fr,tourisme-aveyron.com listing (own contact); curl fails (000),medium (21 chalets),no,listed domain does not respond: dead site = strong lead,tourism.csv
+Restaurant 2 Rivières,restaurant,"61 Avenue de l'Aigoual, 12100 Millau",+33565600027,camping2rivieresmillau.fr,tourisme-aveyron.com listing (own contact),small,no,part of Camping 2 Rivières,tourism.csv
+Au Jeu de Paume,restaurant,"4 rue Saint Antoine, 12100 Millau",+33565602512,aujeudepaume-millau.com,tourisme-aveyron.com listing (own contact),small,no,"grill au feu de bois, old town",tourism.csv
+Bistro Les Arcades,restaurant,"3 Place Foch, 12100 Millau",+33565605452,restaurant-les-arcades.fr,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Maison Seed,restaurant,"2 Rue Peyssière, 12100 Millau",+33757638141,maisonseed.fr,"tourisme-aveyron.com listing (own contact); Gault&Millau listed, Google 5/5 (94 reviews per Rankeat)",small,no,"gastronomic, chef Rémi Cazottes",tourism.csv
+Le Phileas Fogg,restaurant,"Avenue de Millau Plage (Camping Millau Plage), 12100 Millau",+33565597699,restaurantphileasfogg.fr,tourisme-aveyron.com listing (own contact); domain redirects to unrelated site geoffreysebille.fr,small,no,listed domain now redirects to an unrelated personal site: lapsed domain = strong lead,tourism.csv
+"Léonie, Cuisine Aveyronnaise",restaurant,"80 Bd du Cardinal François Marty, Rond-point du Crès, 12100 Millau",+33565464646,,tourisme-aveyron listing; Facebook page leonie.millau,medium (150 covers),no,facebook only; Relais Millau Larzac,tourism.csv
+Restaurant du Plaisir des Mets,restaurant,"23 Rue du Pont de Fer, 12100 Millau",+33565770163,,tourisme-aveyron listing; Gault&Millau 11.5/20; no site seen,small (50 seats),no,no own website found,tourism.csv
+Côté Marché,restaurant,"10 Place Foch, 12100 Millau",+33565612107,,tourisme-aveyron listing; Facebook page cotemarche,small,no,facebook only,tourism.csv
+Restaurant Umami,restaurant,"7 Place Maréchal Foch, 12100 Millau",+33565475309,,tourisme-aveyron listing; no site seen,small (30 covers),no,no own website found,tourism.csv
+Le Chien à la Fenêtre,restaurant,"10 rue Peyrollerie, 12100 Millau",+33565604922,,tourisme-aveyron listing; Facebook page,small (44 seats),no,facebook only,tourism.csv
+Il Cafetino,cafe/salon de thé,"4 rue du Mandarous, 12100 Millau",+33565425615,,tourisme-aveyron listing; Facebook page IlCafetino.Millau,solo,no,facebook only,tourism.csv
+Atelier Pizza La Toscane,restaurant,"5 Place Foch, 12100 Millau",+33772437460,,tourisme-aveyron listing; Facebook page pizzerialatoscanemillau,solo,no,facebook only,tourism.csv
+Le Bastringue,bar/restaurant,"1000 Avenue de Millau Plage, 12100 Millau",+33682415007,,tourisme-aveyron listing; Facebook page lebastringueboireetmanger,small,no,facebook only,tourism.csv
+Auberge de Saint-Rome,restaurant,"Place du Terral, 12490 St-Rome-de-Tarn",+33565625307,,tourisme-aveyron listing; no site seen,small,no,no own website found,tourism.csv
+Ferme Auberge La Tindelle,ferme-auberge,"Puech Margue, 12640 La Cresse",+33641334044,,tourisme-aveyron listing; Facebook page,small,no,facebook only; outside core radius,tourism.csv
+Le Sahuc (restaurant + chambres),restaurant/chambres,"Peyrelade, 12640 Rivière-sur-Tarn",+33565691347,lesahuc-restaurant.fr,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Roc et Canyon,"outdoor (canoe, climbing, VTT)","155 Avenue de l'Aigoual, 12100 Millau",+33565611777,roc-et-canyon.com,tourisme-aveyron.com listing (own contact),medium,no,also canoë/SUP base and bike rental,tourism.csv
+Les Bateliers du Viaduc (Evolution 2 canoë),outdoor (canoe),"Place du 19 mars 1962, 12100 Creissels",+33565591241,bateliersduviaduc.com,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Evolution 2 Millau - Parapente,outdoor (paragliding),"Atterrissage du Golf Café, 12100 Millau",+33679331578,evolution2.com,tourisme-aveyron.com listing (own contact) (evolution2.com/millau),small,yes,Evolution 2 is a national network; local franchise page,tourism.csv
+Horizon Millau,"outdoor (paragliding, canyon, via ferrata)","6 place Lucien Grégoire, Place Foch, 12100 Millau",+33565597860,horizon-millau.com,tourisme-aveyron.com listing (own contact),medium,no,school labelled since 1995,tourism.csv
+Antipodes,"outdoor (via ferrata, climbing)","173 bis avenue de Calès, 12100 Millau",+33565607203,antipodes-millau.com,tourisme-aveyron.com listing (own contact); redirects to activites-loisirs-millau.com (shared platform),small,no,site hosted on a shared booking platform template,tourism.csv
+Nature et Sensations,"outdoor (via ferrata, climbing)",12100 Millau,+33771003972,naturesensationsmillau.fr,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Millau Evasion Parapente,outdoor (paragliding),"Giratoire du Confluent, 12100 Millau",+33609144694,millau-evasion.com,tourisme-aveyron.com listing (own contact); curl fails (000),solo,no,listed domain does not respond: dead site = strong lead,tourism.csv
+Airzone Parapente,outdoor (paragliding),"Parking Golf Café, Avenue de Millau Plage, 12100 Millau",+33660847623,airzone-parapente.com,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Acrobi Parapente,outdoor (paragliding),"1226 Avenue de Millau Plage, 12100 Millau",+33673460573,acrobi-parapente.com,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Air Magic Parapente,outdoor (paragliding),"1207 B avenue de l'Aigoual, 12100 Millau",+33664805004,air-magic-parapente.com,tourisme-aveyron.com listing (own contact); curl fails (000),solo,no,listed domain does not respond: dead site = strong lead,tourism.csv
+Fly Millau Parapente,outdoor (paragliding),"1369 Avenue de Millau Plage, 12100 Millau",+33669596822,flymillauparapente.com,tourisme-aveyron.com listing (own contact); curl returns 404 on root,solo,no,site root 404: possibly broken,tourism.csv
+Tête à l'Env'Air,outdoor (paragliding),"Avenue de Millau Plage (Golf Café landing), 12100 Millau",+33671050792,tete-a-lenvair.com,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Explo Nature Millau Canyoning,outdoor (canyoning),12490 St-Rome-de-Cernon,+33614693154,explonature.fr,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Béaba Sport Nature,"outdoor (climbing, canyon)",12100 Millau,+33630246740,sportsnature-millau-gorgesdutarn.com,tourisme-aveyron.com listing (own contact); beaba-sport-nature.com redirects there,solo,no,shared platform template site,tourism.csv
+Millau Activités Nature,"outdoor (climbing, rando-rappel)",12100 Millau,+33673947348,millau-activites-nature.fr,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Vertiguide,outdoor (climbing guide),12100 Millau,+33423500512,vertiguide.fr,tourisme-aveyron.com listing (own contact); curl fails (000),solo,no,listed domain did not respond to curl; recheck,tourism.csv
+Esprit Nature (Aguessac),"outdoor (canyon, climbing, via ferrata)","Route des Gorges du Tarn, 12520 Aguessac",+33565597203,escapade-espritnature.com,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Deltalib,outdoor (paragliding/delta),"59 Avenue des Causses, 12520 Aguessac",+33632800112,deltalib.eu,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Les Arts du Vide,outdoor (climbing guide),12520 Aguessac,+33681063496,lesartsduvide.com,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Causses Émotions,"outdoor (climbing, via ferrata)","Subremur, 12620 St-Beauzély",+33622970267,causses-emotions.com,tourisme-aveyron.com listing (own contact),solo,no,outside core radius,tourism.csv
+La Belle Cordée,"outdoor (climbing, rando-rappel)","5 lot des gorges du Tarn, 12640 Rivière-sur-Tarn",+33695966746,labellecordee.com,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Escal'Adventure,"outdoor (climbing, via ferrata)","Liaucous, 12720 Mostuéjouls",+33643583127,escal-adventure.fr,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Emotion Nature,outdoor (climbing),"4066 route des Gorges du Tarn, 12720 Mostuéjouls",+33675182609,emotion-nature.fr,tourisme-aveyron.com listing (own contact),solo,no,curl timed out in check; unverified,tourism.csv
+Nömad Sport Nature,outdoor (via ferrata),"St-Pal, 12720 Mostuéjouls",+33627554423,nomad-sport-nature.com,tourisme-aveyron.com listing (own contact),solo,no,not curl-checked,tourism.csv
+Bureau des Moniteurs Cévennes,"outdoor (climbing, via ferrata)",12720 Mostuéjouls,+33669065196,bureau-des-moniteurs-cevennes.fr,tourisme-aveyron.com listing (own contact),small,no,not curl-checked,tourism.csv
+Le Goût du Vélo,bike rental / tours,12100 Millau,+33672474606,legoutduvelo.fr,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Sprocket (atelier vélo / location),bike rental,"3 rue Peyssière, 12100 Millau",+33767683885,sprocket.fr,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Duverbike Bikepark,bike park / rental,"403 Avenue de Millau Plage, 12100 Millau",+33623638866,bikepark-vtt-millau.com,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+La Place du Vélo,bike shop / rental,"1B rue du Barry, 12100 Millau",+33565602823,,tourisme-aveyron listing; no site seen,solo,no,no own website found,tourism.csv
+Stade d'Eaux Vives / Parc AquaVagues,outdoor leisure park,"Parc AquaVagues, 12100 Millau",+33630174880,sev-millau.fr,tourisme-aveyron.com listing (own contact),medium,no,,tourism.csv
+Musée de Millau et des Grands Causses (MuMiG),museum,"Place Foch, 12100 Millau",+33565590108,mumig.fr,tourisme-aveyron.com listing (own contact),medium (public),no,municipal; also Graufesenque site,tourism.csv
+Viaduc Expo,visit / exhibition,"Aire du Viaduc de Millau, 12100 Millau",+33565616154,leviaducdemillau.com,tourisme-aveyron.com listing (own contact),large (Eiffage concession),no,corporate-run; low priority,tourism.csv
+La Maison de la Cerise,visit / producer,"Place de l'Escaras, 12520 Paulhe",+33565590098,maisondelacerise.com,tourisme-aveyron.com listing (own contact); curl fails (000),small,no,listed domain does not respond: dead site = strong lead,tourism.csv
+La Maison de la Truffe,visit,"Rue du Château, 12100 Comprégnac",+33671884427,syndicattrufficult.wixsite.com,tourisme-aveyron.com listing (own contact),small,no,Wix site; association,tourism.csv
+Le Mas Rolland,chambres d'hôtes,"Pailhas, 12520 Compeyre",+33682101674,le-mas-rolland.com,tourisme-aveyron.com listing (own contact),small,no,5 épis,tourism.csv
+Les Fréjals,chambres d'hôtes,"Pailhas, 12520 Compeyre",+33626057747,chambresdhotes-gorgesdutarn.com,tourisme-aveyron.com listing (own contact); lesfrejals.com redirects there,small,no,shared-platform site,tourism.csv
+Chambre d'hôtes Chez Marie,chambres d'hôtes/gîte,"216 Camp Redon, 12520 Compeyre",+33684456974,gitechezmarie.com,tourisme-aveyron.com listing (own contact),solo,no,,tourism.csv
+Les Hauts de Souloumiac,chambres d'hôtes,"97 Impasse Les Hauts de Souloumiac, 12100 Millau",+33688755038,leshautsdesouloumiac.fr,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Villa La Pomarède,chambres d'hôtes,"60 Impasse de la Gaité, 12100 Millau",+33677047284,villalapomarede.com,tourisme-aveyron.com listing (own contact); curl fails (000),small (4 rooms),no,listed domain does not respond: dead site = strong lead,tourism.csv
+Le Soleilo,chambres d'hôtes/gîte/spa,"218 Chemin du Valat, 12720 Mostuéjouls",+33622846100,lesoleilo.com,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Les Falaises,chambres d'hôtes,"Liaucous, 12720 Mostuéjouls",+33616703620,lesfalaises.fr,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+Domaine de la Cardabelle,gîtes/chambres,"5 chemin du roc de Peyrelade, 12640 Rivière-sur-Tarn",+33565598578,domaine-lacardabelle.eu,tourisme-aveyron.com listing (own contact),small,no,,tourism.csv
+"La Cachette (cabanes, roulotte)",hébergement insolite,"Boyne, 12640 Rivière-sur-Tarn",+33565626106,gites-cabanes-spa-aveyron.com,tourisme-aveyron.com listing (own contact),small,no,not curl-checked,tourism.csv
+La Ferme aux Ânes - Domaine des Combes,gîte,"Les Combes Hautes, 12100 Creissels",+33607163379,domainedescombeslafermeauxanes.ellohaweb.com,tourisme-aveyron.com listing (own contact),solo,no,site on a subdomain of a builder (ellohaweb),tourism.csv
+Gîtes de la Martinerie,gîte,"La Martinerie, 12100 Millau",+33681047246,gitelamartinerie.fr,tourisme-aveyron.com listing (own contact),solo,no,not curl-checked,tourism.csv
+Gîte La Maison Vieille,gîte,"Soulobres, 12100 Millau",+33783831834,,tourisme-aveyron listing; no site seen,solo,no,no own website found,tourism.csv
+La Brasserie du Larzac,brasserie / producer,"La Blaquière, 12100 Millau",+33781126901,,tourisme-aveyron listing; Facebook page brasserie.larzac,solo,no,facebook only,tourism.csv
+Peugeot Maurel Aveyron Millau,car dealership,85 avenue Jean Jaurès 12100 Millau,,peugeot-millau.maurelauto.fr,"domain in directory entry; fetched 200, ~1100 Millau mentions",large,no,"Regional group (SAS, 50-99 staff); site is a subdomain of group site maurelauto.fr, so decision-maker likely at group level",trades_auto.csv
+Citroën Ets André Bousquet et Fils Millau,car dealership,avenue de Calès 12100 Millau,05 65 61 47 00,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,medium,no,Family-named group also in Saint-Affrique; no site found,trades_auto.csv
+Etoile Service (Mercedes-Benz),car dealership / repairer,160 rue François Arago 12100 Millau,05 65 60 11 07,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,Agréé Mercedes repairer per directory,trades_auto.csv
+"Renault Millau (Groupe Bony, ex-Fabre/Cano)",car dealership,boulevard Jean Gabriac 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results; trade press: Fabre Renault sites sold to Bony in 2025,large,yes (Renault network),"Multi-site group; ownership changed 2025, low priority",trades_auto.csv
+"Volkswagen / Skoda Millau (Autostrade, Groupe Fabre)",car dealership,boulevard Jean Gabriac 12100 Millau,05 65 60 00 60,volkswagen-millau.autotransac.fr,"search result; fetched 200, Millau-specific",medium,yes (VW network),Site is on Autotransac vendor platform; group Fabre mobilite (fabre-mobilite.com) is multi-site; low fit,trades_auto.csv
+Suzuki Millau - Car's Services,car dealership,boulevard Jean Gabriac 12100 Millau,05 65 60 41 44,suzuki-millau.autotransac.fr,search result; fetched 200,small,yes (Suzuki network),Same Autotransac platform; directory attributes it to Centre Auto Tarnais,trades_auto.csv
+Aveyron Automobiles,garage / dealer / body shop,rue Croix de Gaven 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,"Agréé assurances, carrosserie, self-garage per 118712",trades_auto.csv
+AR Cars Automobiles (Garage AD BMW),garage / body shop,3 avenue Jean Monnet 12100 Creissels,05 65 61 26 02,ar-cars-automobiles.fr,"search result; fetched 200, 160+ Millau mentions",small,yes (AD network),Creissels (adjacent to Millau),trades_auto.csv
+Garage Champion Guillaume,garage / Renault-Dacia agent,Creissels 12100,,,Office du Commerce Millau member profile only (directory); no own site seen,small,yes (Renault agent),Creissels,trades_auto.csv
+GGM 12 (Autofit),garage,"rue Jean Cottereau Viala, Millau",07 87 15 37 13,,"autofit network page only (garage-autofit.com is the network, not own site)",small,yes (Autofit),Mechanics + carrosserie,trades_auto.csv
+Carrosserie Centrale Millau,body shop,impasse Boris Vian 12100 Millau,,,"directory listings (mygarages, my-procar); carrosserie-centrale.fr is an unrelated national directory, rejected",small,possible (franchise mentioned in reviews),Mixed reviews,trades_auto.csv
+Carrosserie Artières,body shop,rue de Vinnac 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,,trades_auto.csv
+Szoldra Carrosserie,body shop,rue François Arago 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,,trades_auto.csv
+Garage Puech,garage,116 avenue Jean Jaurès 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,,trades_auto.csv
+Garage MD12 Auto,garage,61 avenue Jean Jaurès 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results (mappy lists Daouadji Mounir at same address),solo,no,"Vidange, freinage, pneus",trades_auto.csv
+Millau Pneus,tyre centre,50 avenue Jean Jaurès 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,,trades_auto.csv
+Pneus 2000 (Siligom),tyre centre / dépannage,8 avenue Edouard Alfred Martel 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,possible,Check if Pneus 2000 is a network,trades_auto.csv
+Lassale Pneus (First Stop),tyre centre,275 rue Etienne Delmas 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,yes (First Stop),,trades_auto.csv
+Centre Motoculture Aveyronnais (CMC) Millau,agri/garden machinery dealer,"ZAC du Cap du Crès, bd Georges Brassens 12100 Millau",05 65 60 30 40,c-m-c.fr,domain in search result; fetched 200 but only 6 Millau mentions (multi-site group),medium,no,"Parent in Rodez, ~31 staff, 28 MEUR revenue (Xerfi); group-level site",trades_auto.csv
+Aigouy Motoculture,motoculture dealer,5 avenue Jean Monnet 12100 Creissels,05 65 61 16 85,motoculture-millau.fr,"search result; fetched 200 (title Aigouy Motoculture, 52 Millau mentions)",small,no,"Domain differs from other URL seen (aigouy-motoculture-mp.fr, unreachable)",trades_auto.csv
+Cadauma,agricultural machinery,avenue des Fialets 12100 Millau,,cadauma.net,directory lists Cadauma matériel agricole Millau; cadauma.fr redirected to cadauma.net which brands Aveyron/Lozère/Tarn,medium,no,"Regional dealer, Millau is one site; check it is the same entity",trades_auto.csv
+Millau Motoculture,motoculture dealer,avenue des Fialets 12100 Millau,05 65 60 42 55,,magasinsenfrance listing only,small,no,May be inactive,trades_auto.csv
+Sud Aveyron Chauffage (Michel Verdier),plumbing / heating / HVAC,300 rue Etienne Delmas 12100 Millau,05 65 59 18 00,sudaveyronchauffage-millau.site-solocal.com,site listed in directory; fetched 200 (Solocal template site); sud-aveyron-chauffage.com listed but unreachable,medium,no,"10-19 staff, since 2000, Daikin partner, Qualibat; Solocal-hosted site is likely generic template, good target",trades_auto.csv
+Plomberie Treillet (Nicolas Treillet),plumber / heating,avenue Alfred Martel 12100 Millau,05 65 59 11 81,plombierchauffagistemillau.fr,"search result; fetched 200, 34 Millau mentions",solo,no,Since 2011; Qualibat/QualiPAC,trades_auto.csv
+Bouviala SARL,plumber / heating,13 rue Louis Blanc 12100 Millau,,,directories/job offers only; no own site seen,small,no,"Created 1973, 3-5 staff, 4.9 on Effy, hiring",trades_auto.csv
+Thermi Sud,plumber / heating / zinguerie,Millau,,,obat/kompass listings only,small,no,No address or site found,trades_auto.csv
+Dépann'Express,plumbing / electricity / locksmith,7 avenue Alfred Merle 12100 Millau,06 61 22 01 96,depannexpress12.fr,search result; fetched 200,small,no,,trades_auto.csv
+Adim Groupe,electricity / solar / plumbing / HVAC,Millau,05 65 59 48 13,adimgroupe.com,search result; fetched 200,small,no,"Qualifelec, QualiPAC; page reported to be ~5 years old",trades_auto.csv
+Menu Michaël SARL (Menu Électricité),electrician,Millau / Saint-Beauzely area,05 65 60 62 29,electricien-millau.fr,"fetched 200; legal footer 'Menu Michaël SARL', 11 collaborators",medium,no,"Created 2003; also AC, alarms, PV; Facebook page also exists",trades_auto.csv
+Equinoxe Energies SARL,solar / heat pumps / renovation,ZAC de Vergonhac 12100 Saint-Georges-de-Luzençon,05 65 62 34 81,equinoxe-energies.fr,search result; fetched 200 (legal footer),small,no,"RGE; only 2 Millau mentions, based in neighbouring commune",trades_auto.csv
+2AE Aveyron Aménagement Electricité,electrician,819 rue des Hauts du Vivier 12100 Millau,,,Legrand 'Electriciens Certifiés' directory and obat only,small,possible (Legrand network member),Same address as Aveyron Couverture,trades_auto.csv
+100 000 Volts,electrician,587 rue Auguste Monjols 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,solo,no,Address conflicts across listings,trades_auto.csv
+Malaval André Électricité,electrician,Allée de la Sérénité 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,solo,no,,trades_auto.csv
+Ets Merlette,electrician,10 rue de Strasbourg 12100 Millau,,,directory listings only (118712/idgarages/obat etc); no own site seen in search results,small,no,,trades_auto.csv
+Aveyron Couverture,roofer,819 rue des Hauts du Vivier 12100 Millau,,aveyron-couverture.fr,domain in directory entry; fetched 200 ('Pose fenêtres de toit Velux Millau'),small,no,,trades_auto.csv
+CMT 12,roofer / mason,avenue du Languedoc 12100 Millau,05 65 59 47 20,cmt-12.fr,search result; fetched 200,small,no,,trades_auto.csv
+Omont Couverture,roofer,Millau,06 17 95 57 53,omont-couverture.fr,"search result; fetched 200, 117 Millau mentions",solo,no,Title/content look SEO-template; possibly a lead-gen style site,trades_auto.csv
+DB Couverture,roofer / zinguerie,550 rue de la Rode 12100 Millau,05 65 59 50 00,couvreur-db.fr,search result; fetched 200,small,no,Service pages repetitive (SEO-style),trades_auto.csv
+Austruy Charpentes,carpenter / timber frame,"P.A. Millau-Viaduc, 148 bd de Roullens 12100 Millau",,austruy-charpentes.fr,"guessed domain, fetched 200, title 'Austruy Charpentes à Millau'; pappers confirms SARL",small,no,Pappers: negative equity -572K EUR 2024; financial risk,trades_auto.csv
+Servant Constructions,construction / mason,rue Alfred Guibert 12100 Millau,05 65 60 39 48,servant-constructions.fr,search result; fetched 200,medium,no,,trades_auto.csv
+Sud Aveyron Construction,construction / mason,431 chemin de Salelles 12100 Millau,05 65 62 85 36,maconnerie-millau.fr,"search result; fetched 200, phone matches directory",medium,no,"Neuf, rénovation, bâtiments agricoles/industriels",trades_auto.csv
+Romero Constructions,construction / mason,Saint-Georges-de-Luzençon,,romeroconstructions.fr,search result; fetched 200,small,no,Neighbouring commune,trades_auto.csv
+Socorebat (Millau),construction / renovation,Millau area,,socorebat-12.fr,"search result; fetched 200, only 7 Millau mentions",small,yes (Socorebat network),"Network site, local agency",trades_auto.csv
+Façadim,facade / ITE,Millau,06 83 41 61 20,facadim.fr,search result; fetched 200,small,no,"Since 2007, RGE",trades_auto.csv
+Entreprise Masson et Fils,painter,Millau,05 65 59 74 63,millaupeinture.com,"search result; fetched 200, 646 Millau mentions",small,no,Family firm 15+ yrs,trades_auto.csv
+Luizo Peinture,painter,Millau area,,luizo-peinture.com,domain in search result; fetch failed (timeout/000) from here,small,no,Retry fetch before outreach,trades_auto.csv
+Sud Aveyron Habitat,painter,169A impasse Marcel Fontaneilles 12100 Millau,,,mappy listing only,small,no,Since 2010,trades_auto.csv
+Menuiseries Alu Aveyron (Grégory Mazet),joinery alu/PVC,Millau,,menuiseries-alu-aveyron.fr,search result; fetched 200,solo,no,"Since 2018, RGE",trades_auto.csv
+L'Atelier du Moulinau,joinery / cabinetmaking,Saint-Léons (near Millau),,latelierdumoulinau.fr,domain in search result; fetch failed (000),small,no,Retry fetch,trades_auto.csv
+Ets Brahic Menuiseries,joinery,avenue Jean Jaurès 12100 Millau,,stores-fenetres-aveyron.com,domain in search result; fetch failed (000),small,no,Since 2005; RGE Qualibat; retry fetch,trades_auto.csv
+Andral Menuiseries,joinery,Millau,,andral-menuiseries.fr,domain in search result; fetch failed (000),small,no,60 m2 showroom; retry fetch,trades_auto.csv
+Rénov 12,kitchen & bathroom installer,Millau,06 45 70 15 88,renov12.fr,"search result; fetched 200, 39 Millau mentions",small,no,,trades_auto.csv
+Eric Verdonck - carreleur,tiler / bathrooms,Millau,06 11 91 94 89,carreleur-millau.fr,search result; fetched 200,solo,no,,trades_auto.csv
+Nexus Construction Millau,construction / renovation,Millau,,nexus-construction.fr,search result; fetched 200 (/millau/ page),small,yes (Nexus network),Franchise agency page,trades_auto.csv
+Ladet TP et Transports,public works / earthworks,1250 avenue de l'Aigoual 12100 Millau,05 65 59 47 32,ladet.fr,"search result; fetched 200, address in footer",medium,no,Since 1992; TP plus transport,trades_auto.csv
+Agussol TP,earthworks / sanitation,La Cavalerie 12230 (near Millau),,agussol-tp.com,"search result; fetched 200, 48 Millau mentions",small,no,"La Cavalerie, 15 km",trades_auto.csv
+Christophe Viala Travaux Publics,earthworks / sanitation,Millau,,,directory/pro page only,solo,no,,trades_auto.csv
+Hernan TP SARL,public works,414 avenue des Fialets 12100 Millau,,,mappy listing only,small,no,,trades_auto.csv
+Vidal Concept (Piscines Desjoyaux Millau),pool builder,Millau area,,vidal-concept.fr,search result; fetched 200,small,yes (Desjoyaux licensee),Network site template,trades_auto.csv
+Belliteau Pisciniste,pool builder,Millau,,,listed on constructeurs-piscine-pro.fr (directory); no own site seen,small,no,,trades_auto.csv
+Paysage Marc,landscaper / nursery,Route de Cahors 12100 Millau,05 65 60 18 69,paysagemarc-millau.fr,search result; fetched 200,medium,no,"30+ yrs, 10,000 m2 nursery",trades_auto.csv
+Boyer Paysagiste (GAEC Boyer),landscaper / nursery / florist,avenue Pont Lerouge 12100 Millau,,boyerpaysagiste.com,domain in search result; fetch returned HTTP 500 (site error),medium,no,Site currently erroring; strong hook,trades_auto.csv
+Pouget Paysagiste,landscaper,Millau / Aveyron,06 78 14 92 65,pougetpaysagiste.fr,search result; fetched 200,solo,no,20+ yrs,trades_auto.csv
+Geoffrey Martin Paysagiste,landscaper,Millau,07 61 89 02 97,geoffreymartin.com,search result; fetched 200,solo,no,,trades_auto.csv
+Dafilec,commercial HVAC / refrigeration,Onet-le-Château 12000 (serves Millau),05 65 71 98 53,dafilec-aveyron.fr,search result; fetched 200,small,no,Not Millau-based; low priority,trades_auto.csv

@@ -40,7 +40,8 @@ def audit(domain):
     elif r.get("cert_ok") and r["cert_days_left"] < 15:
         r["issues"].append("TLS cert expires soon"); r["score"] += 1
     resp = None
-    for url in (f"https://{host}", f"http://{host}"):
+    bare = re.sub(r"^www\.", "", host)
+    for url in (f"https://{host}", f"https://www.{bare}", f"https://{bare}", f"http://{host}", f"http://www.{bare}"):
         try:
             t = time.time()
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=15, allow_redirects=True,
