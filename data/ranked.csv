@@ -1,23 +1,16 @@
 tier,priority,name,sector,address,domain,money,need,status,rating,reviews,issues,notes
-A,18,Brengues Expertise,accountant,"7 place de la Capelle, 12100 Millau",b-e.fr,5,8,site unreachable (verify manually),5,19,,"Multi-office (Millau, St-Affrique, Montpellier, Le Vigan); HQ-type local firm"
 A,18,Boyer Paysagiste (GAEC Boyer),landscaper / nursery / florist,avenue Pont Lerouge 12100 Millau,boyerpaysagiste.com,4,10,B-tech/security,4.6,24,missing security headers (5/5); outdated PHP 5.6 exposed; no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 500,Site currently erroring; strong hook
-A,16,Barascud Expertise Comptable,accountant,"90 impasse Boris Vian (Les Hauts du Cres), 12100 Millau",barascud-expert.fr,4,8,site unreachable (verify manually),5,2,,
 A,16,SCP Reynes et Vergely (Florence Vergely),notary,"8 place du Mandarous, 12100 Millau",,5,6,no site (confirmed: none on Google),3.9,11,,Annex office in Saint-Jean-du-Bruel; Catherine Garcia-Lasmayous also listed at same address
 A,16,"Office notarial Clergue, Calmel & Bourdillat",notary,"28 avenue de la République, 12100 Millau",,5,6,no site (confirmed: none on Google),4,3,,Another listing places Didier Calmel at 91 route de Prignolles - addresses conflict
 A,16,SCP Larguier-Aimonetti-Blanc-Bringer-Mazars,lawyer,"26 avenue de la République, 12100 Millau",,5,6,no site (confirmed: none on Google),,,,Multi-partner SCP
-A,16,Hôtel des Voyageurs,hotel,"110 Avenue Jean Jaurès, 12100 Millau",hotel-voyageurs-millau.com,4,8,site unreachable (verify manually),3.5,350,,listed domain does not respond: dead/expired site = strong lead
 A,16,Les Falaises,chambres d'hôtes,"Liaucous, 12720 Mostuéjouls",lesfalaises.fr,3,10,B-tech/security,5,46,missing security headers (5/5); no mobile viewport (not responsive); old jQuery 1.9; legacy HTML (font/center/flash),
 A,16,Etoile Service (Mercedes-Benz),car dealership / repairer,160 rue François Arago 12100 Millau,lafon.mercedes.fr,3,10,B-tech/security,3.9,58,missing security headers (5/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO); very thin / placeholder page; HTTP 502,Agréé Mercedes repairer per directory
 A,15,LC2B,accountant,"174 impasse de la Belle Laitière, 12100 Millau",2b-construction-bois.com,4,7,B-tech/security,5,1,missing security headers (5/5); outdated PHP 7.4 exposed; legacy HTML (font/center/flash),Domain unconfirmed
 A,15,Domaine de la Cardabelle,gîtes/chambres,"5 chemin du roc de Peyrelade, 12640 Rivière-sur-Tarn",domaine-lacardabelle.eu,3,9,C-design,4.8,105,missing security headers (4/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO),
 A,14,Ô Conseils,accountant,"65 boulevard Jean Gabriac, 12100 Millau",oconseils.fr,5,4,C-design,,,missing security headers (5/5); legacy HTML (font/center/flash),"Site lists mostly Hérault offices (Montpellier area); Millau is one office, check local ownership"
 A,14,Conseil et Expertise du Sud,accountant,Millau (address not verified),sec.li,5,4,OK-low-priority,5,1,missing security headers (5/5); outdated PHP 7.4 exposed,May be same entity as another firm listed; verify
-A,14,Katia Angles Vaissettes (agent immobilier),real estate,Millau 12100,angles-immobilier.com,3,8,site unreachable (verify manually),4,152,,Details unverified
 A,14,Calmels et associés (Pierre & Louis Calmels),notary,"10 rue Alfred Guibert, 12100 Millau",,4,6,no site (confirmed: none on Google),4,3,,Possible overlap with other offices; verify
 A,14,Cévenol Hôtel - Le Pot d'Etain,hotel+restaurant,"115 Rue du Rajol, 12100 Millau",cevenol-hotel.fr,5,4,OK-low-priority,,,missing security headers (5/5); outdated PHP 8.0 exposed,"viaduct view, pool"
-A,14,Aveyron Automobiles,garage / dealer / body shop,rue Croix de Gaven 12100 Millau,aveyron-automobiles-millau.reparateurs-toyota.fr,3,8,site unreachable (verify manually),4.8,204,,"Agréé assurances, carrosserie, self-garage per 118712"
-A,14,L'Atelier du Moulinau,joinery / cabinetmaking,Saint-Léons (near Millau),latelierdumoulinau.fr,3,8,site unreachable (verify manually),4.9,43,,Retry fetch
-A,14,Andral Menuiseries,joinery,Millau,andral-menuiseries.fr,3,8,site unreachable (verify manually),4.8,61,,60 m2 showroom; retry fetch
 A,13,Cabinet dentaire Florent Assier,dentist,Millau 12100,dr-assier-florent.chirurgiens-dentistes.fr,3,7,B-tech/security,4.9,13,missing security headers (5/5); outdated PHP 8.0 exposed; stale copyright 2015; no meta description (SEO),
 A,13,Auberge Le Cévenol (La Cavalerie),hotel+restaurant,"394 avenue du 122e RI, 12230 La Cavalerie",auberge-le-cevenol.com,4,5,B-tech/security,4.3,203,no meta description (SEO); HTTP 403,
 A,12,Roy & Associés,accountant,"26 rue de la Paulèle, 12100 Millau",royetassocies.com,4,4,OK-low-priority,2.3,3,missing security headers (5/5); outdated PHP 7.4 exposed,Also named in directory listings
@@ -46,43 +39,44 @@ A,10,2AE Aveyron Aménagement Electricité,electrician,819 rue des Hauts du Vivi
 A,10,Aveyron Couverture,roofer,819 rue des Hauts du Vivier 12100 Millau,aveyron-couverture.fr,3,4,C-design,4.7,3,old jQuery 1.12; stale copyright 2015,
 A,10,Agussol TP,earthworks / sanitation,La Cavalerie 12230 (near Millau),agussol-tp.com,3,4,OK-low-priority,4.9,24,missing security headers (5/5); outdated PHP 5.6 exposed,"La Cavalerie, 15 km"
 B,14,Garage MD12 Auto,garage,61 avenue Jean Jaurès 12100 Millau,md12auto.myautoconseil.com,2,10,B-tech/security,4.6,143,missing security headers (5/5); no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 403,"Vidange, freinage, pneus"
+B,13,Brengues Expertise,accountant,"7 place de la Capelle, 12100 Millau",b-e.fr,5,3,site blocks research server (US IP); live but not auditable here,5,19,,"Multi-office (Millau, St-Affrique, Montpellier, Le Vigan); HQ-type local firm"
 B,13,Eric Bertrand architecte,architect,Millau,ebarchi.fr,2,9,C-design,5,4,missing security headers (5/5); no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page,Address not verified
-B,12,Funéraire Service,funeral,"11 rue de la Paulèle, 12100 Millau",pf-arnal-millau.fr,2,8,site unreachable (verify manually),4.9,48,,
 B,12,Allianz Millau - Gautier et Cambon,insurance,"1 boulevard de la Capelle, 12100 Millau",agence.allianz.fr,1,10,B-tech/security,4.9,101,missing security headers (5/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO); very thin / placeholder page; HTTP 404; franchise/chain,Names conflict (Wenner vs Cambon); Allianz agent général
 B,12,Allianz Millau (second agency),insurance,"4 avenue Alfred Merle, 12100 Millau",agence.allianz.fr,1,10,B-tech/security,4.6,33,missing security headers (5/5); no mobile viewport (not responsive); legacy HTML (font/center/flash); no meta description (SEO); very thin / placeholder page; HTTP 404; franchise/chain,Details unverified
-B,12,Vertiguide,outdoor (climbing guide),12100 Millau,vertiguide.fr,2,8,site unreachable (verify manually),5,175,,listed domain did not respond to curl; recheck
 B,12,Luizo Peinture,painter,Millau area,couleursetdeco-millau.fr,1,10,B-tech/security,5,1,no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 404,Retry fetch before outreach
 B,12,Sud Aveyron Habitat,painter,169A impasse Marcel Fontaneilles 12100 Millau,sud-aveyron-habitat.fr,1,10,B-tech/security,5,1,no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page; HTTP 404,Since 2010
-B,12,Christophe Viala Travaux Publics,earthworks / sanitation,Millau,assainissement-terrassement-millau.fr,2,8,site unreachable (verify manually),,,,
+B,11,Barascud Expertise Comptable,accountant,"90 impasse Boris Vian (Les Hauts du Cres), 12100 Millau",barascud-expert.fr,4,3,site blocks research server (US IP); live but not auditable here,5,2,,
 B,11,Larzac Boul'vard (Le Couteau du Larzac),gifts/cutlery,"place du Mandarous, 12100 Millau",couteau-du-larzac.com,1,9,C-design,4.5,42,missing security headers (5/5); no mobile viewport (not responsive); no meta description (SEO); very thin / placeholder page,Craft knives and leather goods
 B,11,Agence Immo des Causses,real estate,Millau 12100,millau-arthurimmo.com,4,3,OK-low-priority,4.8,107,outdated PHP 8.0 exposed,Details unverified
+B,11,Hôtel des Voyageurs,hotel,"110 Avenue Jean Jaurès, 12100 Millau",hotel-voyageurs-millau.com,4,3,site blocks research server (US IP); live but not auditable here,3.5,350,,listed domain does not respond: dead/expired site = strong lead
 B,11,Hôtel de la Poste (La Cavalerie),hotel+restaurant,"668 avenue Simone Veil, 12230 La Cavalerie",hotel-larzac.fr,4,3,C-design,4.3,548,missing security headers (4/5); stale copyright 2020,
 B,11,Servant Constructions,construction / mason,rue Alfred Guibert 12100 Millau,servant-constructions.fr,4,3,C-design,,,legacy HTML (font/center/flash),
 B,10,Christophe Brugère architecte,architect,Millau,,2,6,no site (confirmed: none on Google),,,,Address not verified
 B,10,SCP Fourcadier-Alves / GE Ingénierie,surveyor,"70 rue de la Menuiserie, 12100 Millau",geometre-expert-ingenierie-aveyron.fr,4,2,OK-low-priority,3.8,10,missing security headers (4/5); no meta description (SEO),
-B,10,Arnal Pompes Funèbres,funeral,"122 rue Antoine Lavoisier, 12100 Millau",arnal-pompes-funebres.fr,1,8,site unreachable (verify manually),,,risk flag in notes; large structure: owner/decision maker harder to reach,PitchBook says acquired by Funecap Oct 2024 (group-owned now)
 B,10,Ecole de Conduite Florent Viala,driving_school,"boulevard Ayrolle, 12100 Millau",,2,6,no site (confirmed: none on Google),5,2,,
 B,10,Kiné Sport et Périnée,physio,Millau 12100,,2,6,no site (confirmed: none on Google),4.8,32,,Maiia only
 B,10,Cabinet kiné Corp Philippe (Chesse),physio,70 place des Consuls 12100 Millau,,2,6,no site (confirmed: none on Google),4.4,7,,
-B,10,Fanny Isolphe sophrologue,sophrology,2 rue Alsace Lorraine 12100 Millau,sophrologue-isolphe-millau.fr,1,8,site unreachable (verify manually),5,13,temporarily closed,
 B,10,Pharmacie du Centre,pharmacy,7 avenue de la République 12100 Millau,,2,6,no site (confirmed: none on Google),4.3,24,,
 B,10,Pharmacie du Stade,pharmacy,"Rond-point des Stades, av. Jean Jaurès 12100 Millau",,2,6,no site (confirmed: none on Google),3.9,46,,
 B,10,SGA Immobilier,real estate,Millau 12100,sga-immobilier.com,4,2,OK-low-priority,3.3,46,missing security headers (4/5); no meta description (SEO),Details unverified
 B,10,Hôtel Le Patio,hotel,"91 Avenue Jean Jaurès, 12100 Millau",,4,2,no site (confirmed: none on Google),4.2,231,lodging w/o site: likely Booking-dependent by choice,no own website found; facebook only
-B,10,Le Phileas Fogg,restaurant,"Avenue de Millau Plage (Camping Millau Plage), 12100 Millau",restaurantphileasfogg.fr,1,8,site unreachable (verify manually),4.2,147,risk flag in notes,listed domain now redirects to an unrelated personal site: lapsed domain = strong lead
 B,10,Restaurant du Plaisir des Mets,restaurant,"23 Rue du Pont de Fer, 12100 Millau",,2,6,no site (confirmed: none on Google),4.7,146,,no own website found
 B,10,Le Chien à la Fenêtre,restaurant,"10 rue Peyrollerie, 12100 Millau",,2,6,no site (confirmed: none on Google),4.6,209,,facebook only
 B,10,Stade d'Eaux Vives / Parc AquaVagues,outdoor leisure park,"Parc AquaVagues, 12100 Millau",parc-aquavagues-millau.fr,4,2,C-design,4.8,69,stale copyright 1998,
 B,10,La Maison de la Truffe,visit,"Rue du Château, 12100 Comprégnac",syndicattrufficult.wixsite.com,1,8,B-tech/security,3.9,8,no meta description (SEO); very thin / placeholder page; HTTP 404; large structure: owner/decision maker harder to reach,Wix site; association
 B,10,100 000 Volts,electrician,587 rue Auguste Monjols 12100 Millau,,2,6,no site (confirmed: none on Google),,,,Address conflicts across listings
+B,9,Katia Angles Vaissettes (agent immobilier),real estate,Millau 12100,angles-immobilier.com,3,3,site blocks research server (US IP); live but not auditable here,4,152,,Details unverified
 B,9,Me Aymeric Boyer,lawyer,"avenue de la République, 12100 Millau",consultation.avocat.fr,3,3,OK-low-priority,4,5,missing security headers (4/5); old jQuery 1.10,Generalist
 B,9,Restaurant Umami,restaurant,"7 Place Maréchal Foch, 12100 Millau",,2,5,no own site (instagram.com only),4.8,362,,no own website found
 B,9,Le Mas Rolland,chambres d'hôtes,"Pailhas, 12520 Compeyre",le-mas-rolland.com,3,3,C-design,5,208,missing security headers (4/5); stale copyright 2020,5 épis
+B,9,Aveyron Automobiles,garage / dealer / body shop,rue Croix de Gaven 12100 Millau,aveyron-automobiles-millau.reparateurs-toyota.fr,3,3,site blocks research server (US IP); live but not auditable here,4.8,204,,"Agréé assurances, carrosserie, self-garage per 118712"
 B,9,AR Cars Automobiles (Garage AD BMW),garage / body shop,3 avenue Jean Monnet 12100 Creissels,ar-cars-automobiles.fr,3,3,C-design,4.2,68,missing security headers (5/5); stale copyright 2018,Creissels (adjacent to Millau)
 B,9,Carrosserie Artières,body shop,rue de Vinnac 12100 Millau,carrosserie-artieres.com,3,3,C-design,4.9,30,missing security headers (4/5); stale copyright 2017,
 B,9,Cadauma,agricultural machinery,avenue des Fialets 12100 Millau,cadauma.net,3,3,C-design,4.3,12,missing security headers (5/5); stale copyright 2016,"Regional dealer, Millau is one site; check it is the same entity"
 B,9,Millau Motoculture,motoculture dealer,avenue des Fialets 12100 Millau,cadauma.net,3,3,C-design,4.3,12,missing security headers (5/5); stale copyright 2016,May be inactive
 B,9,Bouviala SARL,plumber / heating,13 rue Louis Blanc 12100 Millau,sarlbouviala12.fr,3,3,C-design,3.7,3,missing security headers (5/5); stale copyright 2015,"Created 1973, 3-5 staff, 4.9 on Effy, hiring"
+B,9,L'Atelier du Moulinau,joinery / cabinetmaking,Saint-Léons (near Millau),latelierdumoulinau.fr,3,3,site blocks research server (US IP); live but not auditable here,4.9,43,,Retry fetch
+B,9,Andral Menuiseries,joinery,Millau,andral-menuiseries.fr,3,3,site blocks research server (US IP); live but not auditable here,4.8,61,,60 m2 showroom; retry fetch
 B,8,AGC Grand Sud,accountant,"300 rue Etienne Delmas, 12100 Millau",,1,6,no site (confirmed: none on Google),4.8,37,large structure: owner/decision maker harder to reach,Likely AGC network; low priority
 B,8,Consult'g,consulting,"impasse Jean Despradels d'Allaret, 12100 Millau",,2,4,no site (unverified: no Google match),,,,
 B,8,Solianz,consulting,"144 avenue Jean Jaurès, 12100 Millau",conseil-pilotage-entreprise.fr,3,2,OK-low-priority,5,1,missing security headers (4/5); no meta description (SEO),
@@ -167,6 +161,7 @@ C,7,Underkult,it_web_comm,"2 boulevard de Bonald, 12100 Millau",underkult.com,3,
 C,7,Oui Informatique,it_web_comm,"18 boulevard Capelle, 12100 Millau",oui-informatique.fr,3,1,OK-low-priority,4.2,24,missing security headers (5/5),Domain unconfirmed
 C,7,Pompes Funèbres Ginesty,funeral,"4 boulevard Sadi Carnot, 12100 Millau",pf-ginesty.fr,3,1,OK-low-priority,4.8,50,missing security headers (5/5),Also ambulance activity
 C,7,Pompes Funèbres Orts,funeral,"12 rue Louis Blanc (or 219 rue Etienne Delmas), 12100 Millau",pompes-funebres-millau.fr,3,1,OK-low-priority,4.6,20,missing security headers (4/5),Address conflicts between directories
+C,7,Funéraire Service,funeral,"11 rue de la Paulèle, 12100 Millau",pf-arnal-millau.fr,2,3,site blocks research server (US IP); live but not auditable here,4.9,48,,
 C,7,Turbo 12 auto-école,driving_school,"15 avenue Jean Jaurès, 12100 Millau",autoecole-millau-staffrique-turbo12.fr,3,1,OK-low-priority,4.4,27,missing security headers (4/5),2021 prefectural order mentioned closure of one establishment; site is live. Also St-Affrique
 C,7,Ecole de Conduite Eric Colrat,driving_school,"1 rue Alsace Lorraine, 12100 Millau",ericcolrat.fr,3,1,OK-low-priority,4.6,38,missing security headers (4/5),Hosts ActiRoute point-recovery courses
 C,7,Mill'eau Balnéo,spa,"5 rue Jean François Alméras, 12100 Millau",massage-millau.fr,3,1,OK-low-priority,5,122,missing security headers (5/5),
@@ -176,6 +171,7 @@ C,7,"Léonie, Cuisine Aveyronnaise",restaurant,"80 Bd du Cardinal François Mart
 C,7,Le Sahuc (restaurant + chambres),restaurant/chambres,"Peyrelade, 12640 Rivière-sur-Tarn",lesahuc-restaurant.fr,3,1,OK-low-priority,4.9,353,missing security headers (5/5),
 C,7,Nature et Sensations,"outdoor (via ferrata, climbing)",12100 Millau,naturesensationsmillau.fr,3,1,OK-low-priority,5,64,missing security headers (5/5),
 C,7,Explo Nature Millau Canyoning,outdoor (canyoning),12490 St-Rome-de-Cernon,explonature.fr,3,1,OK-low-priority,5,108,missing security headers (5/5),
+C,7,Vertiguide,outdoor (climbing guide),12100 Millau,vertiguide.fr,2,3,site blocks research server (US IP); live but not auditable here,5,175,,listed domain did not respond to curl; recheck
 C,7,Esprit Nature (Aguessac),"outdoor (canyon, climbing, via ferrata)","Route des Gorges du Tarn, 12520 Aguessac",escapade-espritnature.com,3,1,OK-low-priority,4.9,168,missing security headers (5/5),
 C,7,Causses Émotions,"outdoor (climbing, via ferrata)","Subremur, 12620 St-Beauzély",causses-emotions.com,2,3,C-design,,,stale copyright 2020; no meta description (SEO),outside core radius
 C,7,Emotion Nature,outdoor (climbing),"4066 route des Gorges du Tarn, 12720 Mostuéjouls",emotion-nature.fr,2,3,C-design,4.9,294,missing security headers (5/5); stale copyright 2015,curl timed out in check; unverified
@@ -189,6 +185,7 @@ C,7,Sud Aveyron Chauffage (Michel Verdier),plumbing / heating / HVAC,300 rue Eti
 C,7,Ets Merlette,electrician,10 rue de Strasbourg 12100 Millau,electricien-a-millau.fr,3,1,OK-low-priority,5,6,missing security headers (5/5),
 C,7,Ets Brahic Menuiseries,joinery,avenue Jean Jaurès 12100 Millau,batiman.fr,3,1,OK-low-priority,4.7,38,missing security headers (4/5),Since 2005; RGE Qualibat; retry fetch
 C,7,Nexus Construction Millau,construction / renovation,Millau,nexus-construction.fr,3,1,OK-low-priority,,,no meta description (SEO),Franchise agency page
+C,7,Christophe Viala Travaux Publics,earthworks / sanitation,Millau,assainissement-terrassement-millau.fr,2,3,site blocks research server (US IP); live but not auditable here,,,,
 C,6,Ingéoc,engineering,"54 rue Glossop, 12100 Millau",ingeoc.com,3,0,OK-low-priority,5,5,,
 C,6,Ouallet SARL,engineering,"25 boulevard Jean Gabriac, 12100 Millau",sarlouallet.com,3,0,OK-low-priority,5,8,,Domain unconfirmed
 C,6,École de Conduite Millavoise,driving_school,Millau,ecoledeconduitemillavoise.fr,3,0,OK-low-priority,5,13,,Address not extracted
@@ -213,17 +210,20 @@ C,5,Alexandre Malaval architecte,architect,Millau,electricitemillau.fr,2,1,OK-lo
 C,5,Well Comm',it_web_comm,"rue Alsace Lorraine, 12100 Millau",wellcomm-millau.fr,2,1,OK-low-priority,5,2,missing security headers (4/5),Competitor (web agency)
 C,5,Rif Informatique,it_web_comm,Millau,rif-informatique.fr,2,1,OK-low-priority,4.7,13,missing security headers (5/5),Address not extracted
 C,5,Aquila RH Millau,hr_temp,Millau,aquila-rh.com,1,3,OK-low-priority,4.9,90,missing security headers (5/5); old jQuery 1.10; franchise/chain; large structure: owner/decision maker harder to reach,Probably franchise/network
+C,5,Arnal Pompes Funèbres,funeral,"122 rue Antoine Lavoisier, 12100 Millau",arnal-pompes-funebres.fr,1,3,site blocks research server (US IP); live but not auditable here,,,risk flag in notes; large structure: owner/decision maker harder to reach,PitchBook says acquired by Funecap Oct 2024 (group-owned now)
 C,5,Maison Fabre Ganterie,ganterie,"20 boulevard Gambetta, 12100 Millau",maisonfabre.com,1,3,C-design,4.5,102,missing security headers (5/5); stale copyright 2021,Founded 1924; also Paris boutique; site live; online sale not confirmed
 C,5,Institut Au Natur'elles,beauty institute,"40 avenue de la République, 12100 Millau",,0,5,no own site (planity.com only),4.9,67,,Permanent makeup and lash lift
 C,5,Les Petites Misères,tattoo,"rue de la Fraternité, 12100 Millau",,0,5,no own site (instagram.com only),5,52,,
 C,5,Marta art tattoo,tattoo,"rue Ferrer / avenue de Calès (conflicting), 12100 Millau",,0,5,no own site (m.facebook.com only),4.8,41,,Two addresses in sources
 C,5,Mimosa'ik,florist/wedding,"5 boulevard de Bonald, 12100 Millau",,0,5,no own site (fleuristes-et-fleurs.com only),4.7,31,,Wedding decor; sells online per listing; good lead
+C,5,Fanny Isolphe sophrologue,sophrology,2 rue Alsace Lorraine 12100 Millau,sophrologue-isolphe-millau.fr,1,3,site blocks research server (US IP); live but not auditable here,5,13,temporarily closed,
 C,5,Atelier Auditif Millau,audioprothésiste,6 place du Mandarous 12100 Millau,atelier-auditif.fr,2,1,OK-low-priority,5,61,missing security headers (4/5),Possibly independent; good prospect
 C,5,Arthurimmo Millau,real estate,"21 boulevard de l'Ayrolle, 12100 Millau",millau-arthurimmo.com,1,3,OK-low-priority,4.8,107,outdated PHP 8.0 exposed; franchise/chain,Arthurimmo.com franchise; 4.9 rating / 337 reviews on PagesJaunes; shares address with Laforêt/JPB listings (directory conflict)
 C,5,Laforêt Millau,real estate,"21 boulevard de l'Ayrolle, 12100 Millau",millau-arthurimmo.com,1,3,OK-low-priority,4.8,107,outdated PHP 8.0 exposed; franchise/chain,Address conflict with Arthurimmo/JPB at same number; verify existence
 C,5,BL Courtage Millau,broker,"26 boulevard de l'Ayrolle, 12100 Millau",millau.blcourtage.fr,2,1,OK-low-priority,5,83,missing security headers (5/5),Credit/insurance broker
 C,5,Au Jeu de Paume,restaurant,"4 rue Saint Antoine, 12100 Millau",aujeudepaume-millau.com,2,1,OK-low-priority,4.6,1640,missing security headers (5/5),"grill au feu de bois, old town"
 C,5,Maison Seed,restaurant,"2 Rue Peyssière, 12100 Millau",maisonseed.fr,2,1,OK-low-priority,5,133,missing security headers (5/5),"gastronomic, chef Rémi Cazottes"
+C,5,Le Phileas Fogg,restaurant,"Avenue de Millau Plage (Camping Millau Plage), 12100 Millau",restaurantphileasfogg.fr,1,3,site blocks research server (US IP); live but not auditable here,4.2,147,risk flag in notes,listed domain now redirects to an unrelated personal site: lapsed domain = strong lead
 C,5,Ferme Auberge La Tindelle,ferme-auberge,"Puech Margue, 12640 La Cresse",ferme-auberge-la-tindelle.frenchtravelescape.top,2,1,OK-low-priority,4.3,94,missing security headers (5/5),facebook only; outside core radius
 C,5,Millau Evasion Parapente,outdoor (paragliding),"Giratoire du Confluent, 12100 Millau",millau-evasion.com,2,1,OK-low-priority,5,272,missing security headers (5/5),listed domain does not respond: dead site = strong lead
 C,5,Airzone Parapente,outdoor (paragliding),"Parking Golf Café, Avenue de Millau Plage, 12100 Millau",airzone-parapente.com,2,1,OK-low-priority,4.9,229,missing security headers (5/5),

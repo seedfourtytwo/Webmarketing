@@ -52,7 +52,7 @@ def main():
         elif a is None:
             need, status = 3, "site not audited"
         elif a["bucket"] == "A-dead-site":
-            need, status = 8, "site unreachable (verify manually)"
+            need, status = 3, "site blocks research server (US IP); live but not auditable here"
         else:
             need, status = min(10, int(a["score"])), a["bucket"]
             if a["issues"]: flags.append(a["issues"])
