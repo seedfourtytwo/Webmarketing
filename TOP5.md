@@ -1,6 +1,6 @@
 # Practice shortlist: top 5 (Millau area)
 
-Selection rules: owner-reachable small business, not agency-built, real pain visible on the site (or no working site), and a job that pays back quickly. Evidence comes from phone/desktop screenshots, measured signals, Google Places data and manual checks. Contact details live in the gitignored `data/contacts_private.csv`.
+Selection rules: owner-reachable small business, real pain visible on the site (or no working site), and a job that pays back quickly. Agency involvement is only a note: an agency-built site that is old or broken is still a valid lead; only modern, polished agency work is a weak target. Evidence comes from phone/desktop screenshots, measured signals, Google Places data and manual checks. Contact details live in the gitignored `data/contacts_private.csv`.
 
 Quick price frame (to be tested, not a promise): one-page or 4-5 page rebuild 200-400 EUR, optional hosting/maintenance 10-20 EUR/month. Rebuilds are cheap for us; the value is in a fast, visible before/after.
 
@@ -33,6 +33,9 @@ Quick price frame (to be tested, not a promise): one-page or 4-5 page rebuild 20
 - **LC2B** (timber-frame builder, La Cavalerie): decent site but garbled hero text, no phone above the fold, 11 s load. Pitch is speed + conversion, not a rebuild. Sector was mislabeled "accountant" in earlier data.
 - **Caumes des Livres** (bookshop, 210 reviews, large Facebook following, no own site) and **Institut Abelia Beauté** (64 reviews, Planity only): cheap wins, small budgets.
 - **Hôtel des Voyageurs** (350 reviews): listed domain no longer resolves, but lodging likely relies on Booking by choice.
+
+- **Older agency-style sites (still valid leads, rebuild score 3):** Roy & Associés (accountant, 2016-2018 template, outdated PHP, cookie banner cut off on phones), Conseil et Expertise du Sud (accountant, 2016-2018 template, 86 images without alt text), ACE Jaudon (surveyor, grey hero text with poor contrast, no phone above the fold), 2AE Aveyron Aménagement Electricité (truncated hero on phones, no phone above the fold).
+- **Weak targets (modern, polished, agency credited):** Cévenol Hôtel (built by Go EASY, 2022-2024 look) and Ô Conseils (built by KEEP Connected, mostly a Montpellier firm).
 
 ## Checks for you before outreach (my sandbox cannot do these)
 1. Open Boyer Paysagiste's site and angles-immobilier.com on a phone: confirm both really fail.
