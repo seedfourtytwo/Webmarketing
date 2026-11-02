@@ -1,0 +1,61 @@
+name,sector,address,phone,domain,evidence,size_hint,franchise,notes
+Maison Fabre Ganterie,ganterie,"20 boulevard Gambetta, 12100 Millau",+33 5 65 60 58 24,maisonfabre.com,Domain from tourism listing; curl 200 title 'Ganterie haut de gamme Paris Millau',small,no,Founded 1924; also Paris boutique; site live; online sale not confirmed
+Causse Gantier,ganterie,"5 boulevard des Gantières, 12100 Millau",+33 5 65 60 03 05,causse-gantier.fr,Domain in search result but curl failed (000/no connection) on 2026-11-02,small,no,Factory outlet; website appears down/unreachable - strong redesign lead
+L'Atelier du Gantier,ganterie,"20 rue Droite, 12100 Millau",+33 5 65 60 81 50,atelierdugantier.fr,Domain in search result; curl 200,small,no,Workshop visits; supplies boutiques FR/EU; site live
+Julien d'Orcel Millau,jeweller,"5 avenue de la République, 12100 Millau",,,Store page juliendorcel.com/bijouterie/millau-1400M (403 to bots) - chain site,medium,yes,Multi-store jeweller chain; probably skip
+Dourbie Joaillerie,jeweller,"4 avenue Gambetta, 12100 Millau",,,Directory listing only,solo,no,Listed temporarily closed
+Or-Aveyron,jeweller,"4 rue Peyrollerie, 12100 Millau",,,Directory listing only,solo,no,Bijoutier créateur; open Wed-Fri and by appointment
+Philippe Guibbal,jeweller,"4 avenue Gambetta, 12100 Millau",,,Directory listing only,solo,no,Custom jewellery
+Bijouterie Canac,jeweller,"5 boulevard Sadi Carnot, 12100 Millau",,,Directory listing only,small,no,
+Bijouterie Landes,jeweller,"3 boulevard de Bonald, 12100 Millau",,,Directory listing only,small,no,
+La Guilde des Orfèvres,jeweller,"3 boulevard de Bonald, 12100 Millau",,,au-magasin.fr listing,small,unknown,Possibly a chain
+Excel Coiffure,hairdresser,"Place de la Capelle (centre commercial La Capelle), 12100 Millau",,,Planity and Fresha listing (4.8/670 reviews),medium,unknown,Booking platform only
+Ô Salon,hairdresser,"13 bis rue Louis Blanc, 12100 Millau",,,Planity listing (5.0/468 reviews),small,no,
+Divine Hair,hairdresser,"2 rue Peyssière, 12100 Millau",,,Planity listing,small,no,
+Jean Vallon,hairdresser,"150 impasse du Cap du Crès (Intermarché), 12100 Millau",,,Directory listing,small,unknown,Possibly a chain brand
+Le Salon de Maya,hairdresser,"33 avenue de la République, 12100 Millau",,,Directory listing,solo,no,
+Mathias Coiffure,hairdresser/barber,"1 place de la Capelle, 12100 Millau",,,Planity listing; barbershop; third-generation family salon,small,no,
+L.A. Coiffure,hairdresser,"23 avenue de la République, 12100 Millau",,,Directory listing,small,no,
+Viviane Coiffure,hairdresser,"40 avenue de la République, 12100 Millau",,,au-magasin.fr listing,solo,no,
+Coiffure Carrat,hairdresser,"25 boulevard de Bonald, 12100 Millau",,,Directory listing,small,no,
+Art et Coiffure,hairdresser,"15 boulevard Sadi Carnot, 12100 Millau",,,Planity (4.9/219) and Fresha listing,small,no,
+L'Arthémia Coiffure,hairdresser,"4 avenue de la République, 12100 Millau",,,Directory mention,small,no,
+Emilie HairBeauty,hairdresser,"Millau 12100",,,118712 listing,solo,no,Address not confirmed
+Antinella Esthétique et Spa,beauty institute/spa,"513 avenue de Calès, 12100 Millau",,,Booking platform listing (5.0/163 reviews),small,no,
+Mill'eau Balnéo,spa,"5 rue Jean François Alméras, 12100 Millau",,,Booking platform listing (4.9/60),small,no,
+Couvent de la Salette & Spa,spa/hotel,"387 avenue de l'Aigoual, 12100 Millau",,,Directory listing,medium,no,Hotel spa; probably has own site (not verified)
+Institut Abelia Beauté,beauty institute,"impasse Jules Merviel, 12100 Millau",,,Booking platform listing (947 reviews),small,no,
+Institut Au Natur'elles,beauty institute,"40 avenue de la République, 12100 Millau",,,Directory listing,solo,no,Permanent makeup and lash lift
+Institut Soha,beauty institute,"2 rue Général Sarret, 12100 Millau",,,Booking platform listing,solo,no,
+L'Instant Beauté Zen,beauty institute,"19 rue du Pont de Fer, 12100 Millau",,,Directory listing,solo,no,
+Natur'Orient,beauty institute,"24 rue Droite, 12100 Millau",,,Planity listing (5.0/71),small,no,
+Centre Esthétique Karine,beauty institute,"Millau 12100",,,koifaire.com listing,solo,no,Address not confirmed
+La Tatouagerie,tattoo,"boulevard de l'Ayrolle, 12100 Millau",,,Fresha listing,solo,no,
+Les Petites Misères,tattoo,"rue de la Fraternité, 12100 Millau",,,Fresha listing,solo,no,
+Marta art tattoo,tattoo,"rue Ferrer / avenue de Calès (conflicting), 12100 Millau",,,Fresha listing,solo,no,Two addresses in sources
+Le Chardon / Tata Pik,tattoo,"rue Droite, 12100 Millau",,,Fresha listing,solo,no,
+Kap Dynamik Millau,gym,"avenue Georges Brassens, 12100 Millau",,,masalledesport.com listing,small,unknown,
+Lion Fitness Club Millau,gym,"avenue de l'Europe, 12100 Millau",,,masalledesport.com listing,small,unknown,
+Yoga Millau Ananda,yoga,"Millau 12100",,,guide-tarn-aveyron.com listing,solo,no,Address unknown
+Grenouille Citrouille & Co,yoga,"4 rue Fleurs, 12100 Millau",,,PagesJaunes listing,solo,no,
+Les Floralies,florist,"14 avenue de la République, 12100 Millau",,,Directory listing,small,unknown,
+Acanthe Fleurs,florist,"3 rue Ferrer, 12100 Millau",,,Directory listing,small,no,
+Mimosa'ik,florist/wedding,"5 boulevard de Bonald, 12100 Millau",,,mariages.net listing; no own site found,solo,no,Wedding decor; sells online per listing; good lead
+A Tout Fleurs,florist,"5 avenue Charles de Gaulle, 12100 Millau",,,Directory listing,small,no,
+Borie Fleurs,florist,"8 boulevard Sadi Carnot, 12100 Millau",,,Directory listing,small,no,
+Librairie Syllabes,bookshop,"14 rue du Mandarous, 12100 Millau",,,livreshebdo and millau.fr mentions,small,no,Changed owner (Nicolas Azéma)
+Caumes des Livres,bookshop,"31 avenue de la République, 12100 Millau",,,acceslibre listing,small,no,
+ATYPIK,clothes boutique,"6 avenue de la République, 12100 Millau",,,pagesmode.com listing,small,unknown,Several addresses in Millau
+Catherine André,clothes,"20 rue du Rajol, 12100 Millau",,,Petit Futé mention,medium,yes,Knitwear brand with multiple shops
+Larzac Boul'vard (Le Couteau du Larzac),gifts/cutlery,"place du Mandarous, 12100 Millau",,,Tourism listing,small,no,Craft knives and leather goods
+La Ferme d'Ambias,charcuterie/cheese,"Place des Halles, 12100 Millau",,,Gault&Millau listing mentions online shop; own domain not seen,small,no,Also shop at La Cavalerie
+Charcuterie du Viala,charcuterie,"Place des Halles, 12100 Millau",,,Gault&Millau listing,small,no,Award-winning
+La Côte Millavoise,butcher/charcuterie,"boulevard de Bonald, 12100 Millau",,,118712 listing,small,no,
+Inter Caves,wine shop,"24 boulevard de la Capelle, 12100 Millau",,,ac-franchise.com listing,small,yes,Franchise
+Galzin - Les Pains du Larzac,bakery,"Millau 12100",,,PagesJaunes text,small,no,Since 1938; tearoom
+Maison Favey,bakery,"Millau 12100",,,Petit Futé 4.6/5,small,no,
+Studio Martin,photographer,"Millau",,,evenementielpourtous listing,solo,no,
+Shoot'in Factory,photographer,"Millau",,,evenementielpourtous listing,solo,no,
+Lucas Rotard,photographer,"Millau",,,evenementielpourtous listing,solo,no,
+Camara Jamme,photographer,"Millau",,,evenementielpourtous listing,solo,no,
+Ambre et Compagnie,pet grooming,"Millau",,,emmenetonchien.com listing,solo,no,

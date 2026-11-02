@@ -1,0 +1,34 @@
+name,sector,address,phone,domain,evidence,size_hint,franchise,notes
+Roques Immobilier,real estate,"2 avenue Jean Jaurès (place du Mandarous), 12100 Millau",,roques-immobilier.com,Domain seen in search result and fetched (200); title "Agence immobilière Millau, Hérépian & Lodève",medium,no,Regional agency with 3 offices (Millau/Lodève/Hérépian); ~101 reviews on RealAdvisor; HQ phone is Hérault number (04 67 44 22 92)
+Arthurimmo Millau,real estate,"21 boulevard de l'Ayrolle, 12100 Millau",,millau-arthurimmo.com,Domain listed in 118712 via search; fetched (200) and title names Millau agency,small,yes,Arthurimmo.com franchise; 4.9 rating / 337 reviews on PagesJaunes; shares address with Laforêt/JPB listings (directory conflict)
+JMB Immobilier,real estate,"48 place Frédéric Bompaire, 12100 Millau",,jmb-immobilier.com,Domain in directory listing from search; fetched (200) title "JMB Immobilier - Agence immobilière à Millau",small,no,Sales + rental + property management
+Laforêt Millau,real estate,"21 boulevard de l'Ayrolle, 12100 Millau",,,Listed in 118000 per search; no own local site found (laforet.com national only; no Millau page in results),small,yes,Address conflict with Arthurimmo/JPB at same number; verify existence
+JPB Immobilier,real estate,"21 boulevard de l'Ayrolle, 12100 Millau",,,Listed on 118000 per search; searched name + Millau: no website found,small,no,Same address as Laforêt/Arthurimmo in directory; may be outdated
+Agence Immobilière Philippe Daunay,real estate,"avenue Jean Jaurès, 12100 Millau",,,Listed on justacote per search; no own site in results,solo,no,Independent agent
+Century 21 Foch Immobilier,real estate,Millau 12100,,,Listed in directory per search; no local site found,small,yes,Century 21 franchise; exact address unknown. Former Century 21 Cap'Immo (2 av Jean Jaurès) was struck off May 2022 - not listed
+Agence Immo des Causses,real estate,Millau 12100,,,Name seen in directory results; no site found,small,no,Details unverified
+Katia Angles Vaissettes (agent immobilier),real estate,Millau 12100,,,Name seen in directory results; no site found,solo,no,Details unverified
+Immo de France Sud Massif Central,real estate,Millau 12100,,,Name seen in directory results; no site found,small,yes,Network agency; details unverified
+SGA Immobilier,real estate,Millau 12100,,,Name seen in directory results; no site found,small,no,Details unverified
+Cabinet JL Immobilier des Grands Causses,real estate,"boulevard de Bonald, 12100 Millau",,,Listed on justacote; searched name: no website found,small,no,Directories show conflicting addresses (Mostuéjouls 12720 / Massegros 48500)
+Agence Lieure,real estate,"28 avenue du Général de Gaulle, 12230 La Cavalerie (covers Millau)",,,Seen on RealAdvisor; no site confirmed,small,no,Based in La Cavalerie not Millau; ~57 reviews; several agents
+SCP Reynes et Vergely (Florence Vergely),notary,"8 place du Mandarous, 12100 Millau",,,Seen on notaires.fr and directories; searched for own site: none found,medium,no,Annex office in Saint-Jean-du-Bruel; Catherine Garcia-Lasmayous also listed at same address
+"Office notarial Clergue, Calmel & Bourdillat",notary,"28 avenue de la République, 12100 Millau",,,Directory listings only; no own site found in searches,medium,no,Another listing places Didier Calmel at 91 route de Prignolles - addresses conflict
+Calmels et associés (Pierre & Louis Calmels),notary,"10 rue Alfred Guibert, 12100 Millau",,,notaires.fr profiles via search; no own site found,small,no,Possible overlap with other offices; verify
+AGN Avocats Millau,lawyer,"12 rue Louis Blanc, 12100 Millau",05 65 46 58 20,agn-avocats.fr,Page agn-avocats.fr/agn-avocats-millau/ fetched (200) and is the Millau office page,small,yes,National network (~30 offices); Millau is a page on the national site not a standalone site; fixed-fee model
+Me Laurent Pardaillé,lawyer,"90 impasse Boris Vian, 12100 Millau",,,Seen on justifit/keskeces; no own site in results,solo,no,Practising since 1996; also referenced as SCP Bismes et Pardaillé (rue du Mandarous)
+Me Aymeric Boyer,lawyer,"avenue de la République, 12100 Millau",,,Seen on keskeces; no own site in results,solo,no,Generalist
+Me Catherine Blanc,lawyer,Millau 12100,,,Seen on keskeces; no own site in results,solo,no,Possibly in SCP Larguier-Aimonetti-Blanc-Bringer-Mazars
+SCP Larguier-Aimonetti-Blanc-Bringer-Mazars,lawyer,"26 avenue de la République, 12100 Millau",,,Seen on Mappy per search; no site found,medium,no,Multi-partner SCP
+Me Alexandre Tournebize,lawyer,"rue de la Fraternité, 12100 Millau",,,Seen on bar list per search; no site found,solo,no,Employment/real estate/business law
+Lexiance Avocats,lawyer,"3 boulevard de la Capelle, 12100 Millau",,,Single aggregator entry; no site found,small,no,Name may be misspelled/unreliable; verify
+Gan Assurances Millau - Cros Antoine et Mathieu,insurance,"17 bis boulevard Ayrolle, 12100 Millau",05 65 60 03 73,agence.gan.fr,Page agence.gan.fr/22-gan-assurances-millau-cros-antoine-et-mathieu fetched (200),small,yes,Agent-général under Gan; only a corporate-platform agency page (not own domain); 4.6 / 15 reviews
+Generali - Aurélie Lemoine,insurance,"90 impasse Boris Vian, 12100 Millau",,generali.fr,Page generali.fr/agence/lemoine-millau fetched (200),solo,yes,Corporate agency page only (EI)
+Allianz Millau - Gautier et Cambon,insurance,"1 boulevard de la Capelle, 12100 Millau",,,Seen in 118000/villepratique; no own site found,small,yes,Names conflict (Wenner vs Cambon); Allianz agent général
+Allianz Millau (second agency),insurance,"4 avenue Alfred Merle, 12100 Millau",,,Seen in directory search result; no site,small,yes,Details unverified
+AXA Foulon (Christine Foulon),insurance,"1 avenue Alfred Merle, 12100 Millau",,,Seen in 118000 + job posting; no own site found (agence.axa.fr not confirmed),small,yes,Agency since 2020; was recruiting Apr 2025 
+AXA Alain Fangeaud,insurance,"1 avenue Alfred Merle, 12100 Millau",,,Seen in 118000; no own site,small,yes,Same address as Foulon; may be same office
+BRU Assurances (MMA),insurance,"avenue Gambetta, 12100 Millau",,,Seen via INSEE/search result; no site found,small,yes,MMA agent SARL
+Aviva - agent général,insurance,"78 boulevard Cardinal François Marty, 12100 Millau",,,Seen in 118000; no site,small,yes,Details unverified
+BL Courtage Millau,broker,"26 boulevard de l'Ayrolle, 12100 Millau",,,Seen on justacote and Immodvisor (14 reviews 5/5); searched name+Millau: no site found,solo,no,Credit/insurance broker
+La Centrale de Financement Millau,broker,"14 avenue Jean Jaurès, 12100 Millau",,,Seen in directory; national April SA subsidiary,small,yes,Local office of a Paris-based mortgage broker; no local site checked
